@@ -17,6 +17,12 @@
 }
 
 @font-face {
+    font-family: "DMMono-Medium";
+    src: url("../fonts/DMMono-Medium.ttf") format('truetype');
+    font-display: swap;
+}
+
+@font-face {
     font-family: "DMSans-Medium";
     src: url("../fonts/DMSans-Medium.ttf") format('truetype');
     font-display: swap;
@@ -37,6 +43,11 @@
 
 }
 
+.font-mono-medium{
+    font-family: "DMMono-Medium";
+
+}
+
 .font-regular{
     font-family: "DMSans-Regular";
 
@@ -44,7 +55,7 @@
 
 body{
     font-family: "DMSans-Regular",sans-serif;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 
@@ -67,9 +78,21 @@ body{
     font-size: 24px;
 }
 
-h1{
-    font-size: 3rem;
+.title-h2{
+    font-size: 4rem !important;
 }
+
+
+.section-title{
+    font-size: 2.5rem !important;
+}
+
+
+.join-title{
+    font-size: 3rem !important;
+}
+
+
 
 
 .color-primary{
@@ -100,10 +123,31 @@ h1{
 
 
 .btn-wb-primary{
+    color: #fff !important;
     background-color: var(--color-primary) !important;
 }
 
 .btn-wb-primary:hover{
+    color: #000 !important;
     background-color: var(--color-secondary) !important;
 }
 
+
+.join-box{
+    height: 150px;
+width: 200px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+background-color: var(--color-primary);
+color: #fff !important;
+display: flex;
+align-items: flex-end;
+padding: 0.5rem 1.5rem;
+
+}
+
+
+.join-box p {
+    font-size: 1rem !important;
+}
