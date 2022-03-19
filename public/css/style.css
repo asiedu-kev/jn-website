@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+:root{
+    --color-primary: #CE3200;
+    --color-secondary:#FFECE5;
+    --color-tertiary : #F4C7B8;
+    --dm-sans-bold : "DMSans-Bold" , sans-serif;
+    --dm-sans-medium : "DMSans-Medium" , sans-serif;
+    --dm-sans-regular : "DMSans-Regular" , sans-serif;
+
+}
+
+@font-face {
+    font-family: "DMSans-Bold";
+    src: url("../fonts/DMSans-Bold.ttf") format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DMSans-Medium";
+    src: url("../fonts/DMSans-Medium.ttf") format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DMSans-Regular";
+    src: url("../fonts/DMSans-Regular.ttf") format('truetype');
+    font-display: swap;
+}
+
+.font-bold{
+    font-family: "DMSans-Bold";
+}
+
+.font-light{
+    font-family: "DMSans-Medium";
+
+}
+
+.font-regular{
+    font-family: "DMSans-Regular";
+
+}
+
+body{
+    font-family: "DMSans-Regular",sans-serif;
+    font-size: 14px;
+}
+
+
+.fs-12 {
+    font-size: 12px;
+}
+.fs-14 {
+    font-size: 16px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-22 {
+    font-size: 22px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+
+.color-primary{
+    color: var(--color-primary) !important;
+}
+
+.color-secondary{
+    color: var(--color-secondary) !important;
+}
+
+.color-tertiary{
+    color: var(--color-tertiary) !important
+    ;
+}
+
+
+.bg-wb-primary{
+ background-color: var(--color-primary) !important;
+}
+
+.bg-wb-secondary{
+    background-color: var(--color-secondary) !important;
+}
+
+.bg-wb-tertiary{
+    background-color: var(--color-tertiary) !important;
+}
+
+
+.btn-wb-primary{
+    background-color: var(--color-primary) !important;
+}
+
+.btn-wb-primary:hover{
+    background-color: var(--color-secondary) !important;
+}
+
