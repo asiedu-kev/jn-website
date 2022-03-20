@@ -151,3 +151,11 @@ padding: 0.5rem 1.5rem;
 .join-box p {
     font-size: 1rem !important;
 }
+
+.icone-menu{
+    height:16px
+}
+
+.btn-icone-menu:focus{
+    box-shadow: 0 0 0 0.25rem #fff;
+}
