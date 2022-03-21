@@ -336,3 +336,7 @@ height: 0vh;
     right: 1.2rem;
     height: 20px;
   }
+
+  .menu-overlay-link.active{
+      color: var(--color-primary);
+  }

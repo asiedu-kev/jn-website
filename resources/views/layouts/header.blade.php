@@ -11,10 +11,10 @@
 
     <div class="container menu-overlay-content">
     <div> <nav class="nav flex-column">
-        <a href="{{ route('home')}}" class="nav-link menu-overlay-link color-primary">Home</a>
-        <a href="{{ route('get_started')}}" class="nav-link menu-overlay-link">Getting Started</a>
-        <a href="{{ route('training')}}" class="nav-link menu-overlay-link" >Trainings</a>
-        <a href="{{ route('ressources')}}" class="nav-link menu-overlay-link">Ressources</a>
+        <a href="{{ route('home')}}" class="nav-link menu-overlay-link   @if (Request::routeIs('home')) active @endif">Home</a>
+        <a href="{{ route('get_started')}}" class="nav-link menu-overlay-link @if (Request::routeIs('get_started')) active @endif">Getting Started</a>
+        <a href="{{ route('training')}}" class="nav-link menu-overlay-link @if (Request::routeIs('training')) active @endif" >Trainings</a>
+        <a href="{{ route('ressources')}}" class="nav-link menu-overlay-link @if (Request::routeIs('ressources')) active @endif">Ressources</a>
 
     </nav></div>
 
