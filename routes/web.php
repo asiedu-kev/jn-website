@@ -18,5 +18,5 @@ use App\Http\Controllers\HomeController;
 Route::get('/', [HomeController::class,'homeView'] )->name('home');
 Route::get('/getting-started', [HomeController::class,'get_startedView'] )->name('get_started');
 Route::get('/trainings', [HomeController::class,'trainingView'] )->name('training');
-Route::get('/ressources', [HomeController::class,'resourceView'] )->name('ressources');
+Route::get('/ressources', [HomeController::class,'resourcesView'] )->name('ressources');
 Route::redirect('/accueil', '/', 301);
