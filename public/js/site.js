@@ -27,7 +27,7 @@ $(function(){
                 items:1
             },
             600:{
-                items:2
+                items:1
             },
             1000:{
                 items:2
@@ -68,6 +68,20 @@ $(function(){
     $('.owlHistoryPrev').click(function() {
         history.trigger('prev.owl.carousel');
     });
+
+
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        effect:"fade",
+        // Navigation arrows
+        navigation: {
+          nextEl: '.owl-History-Next',
+          prevEl: '.owl-History-Prev',
+        },
+
+      });
 
 
   });

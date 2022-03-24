@@ -7,7 +7,7 @@
             <img src="{{ asset('icons/medium-black-circle.svg') }}" alt="" class="title-medium-circle">
             <img src="{{ asset('icons/medium-black-circle.svg') }}" alt="" class="title-small-circle">
 
-            <div class="col-6 text-center py-5 d-flex align-items-center">
+            <div class="col-md-6 col-sm-12 text-center py-5 d-flex align-items-center">
                 <div class="col text-start">
                     <h1 class=" font-bold">Coaching entrepreneuriat et e-commerce</h1>
                     <p>Passe un nouveau cap ta vie et dans tes business</p>
@@ -16,7 +16,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col d-none d-md-block">
                     <img src="" alt="" class="taining-hero-img">
                 </div>
 
@@ -33,7 +33,7 @@
                     dans
                     <br> leur business en ligne 💥
                 </h2>
-                <div class="col-4 mt-4">
+                <div class="col-md-4 col-sm-12 mt-4">
                     <p>La différence entre ceux qui ont réalisé des millions d'euros en entrepreneuriat et ceux qui stagnent
                         n'a
                         absolument rien à voir avec les compétences qu'ils possèdent.</p>
@@ -45,8 +45,8 @@
 
     <section>
         <div class="container-wb py-5">
-            <div class="d-flex justify-content-center">
-                <div class="col-5 p-4">
+            <div class="d-flex justify-content-center flex-column align-items-center flex-md-row">
+                <div class="col-md-5 col-sm-12 p-2 p-md-4">
                     <p class="text-justify"> C'est vrai, les compétences et le savoir faire, c'est important. Mais ce qui
                         te fait réussir, c'est la vitesse à laquelle tu arrives à trouver des solutions aux difficultés qle
                         tu vas rencontrer.
@@ -60,7 +60,7 @@
 
                 </div>
 
-                <div class="col-5 p-4">
+                <div class="col-md-5 col-sm-12 p-2 p-md-4">
                     <p class="text-justify"> C'est ce que les gourous et coachs sur les réseaux sociaux ne te diront
                         malheureusement jamais.
                     </p>
@@ -82,13 +82,13 @@
 
     <section>
         <div class="container-fluid bg-black">
-            <div class="container-wb p-5  text-white">
+            <div class="container-wb p-2 py-3 p-md-5  text-white">
                 <div class="row">
-                    <div class="col-6 text-start">
+                    <div class="col-sm-12 mb-3 col-md-6 text-start">
                         <h5>Malheureusement, <br> voici ce qu'il se passe <br> très souvent</h5>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-sm-12 mb-3 col-md-6">
                         <p class="text-justify">❌ <br>
                             Ça te prend beaucoup de temps pour trouver des solutions. Pendant que tu perds du temps, ceux
                             qui font le même business que toi évoluent rapidement et obtiennent de gros résultats.</p>
@@ -107,15 +107,15 @@
 
     <section>
         <div class="container-wb py-5">
-            <h2 class="color-primary text-center font-bold">Qui suis-je et comment je sais <br> celà ?</h2>
-            <div class="row mt-5">
-                <div class="col-6 container-img-ressource-about">
+            <h2 class="color-primary text-center font-bold">Qui suis-je et comment je sais  celà ?</h2>
+            <div class="d-flex justify-content-center flex-column flex-md-row align-items-center mt-5">
+                <div class="col-12 mb-2 col-md-6 container-img-ressource-about">
                     <img src="{{ asset('img/profile.png') }}" alt="img-started-about" class="img-started-about">
                 </div>
 
 
-                <div class="col-6 d-flex justify-content-center align-items-center p-ressource-about">
-                    <div class="col-10 fs-22">
+                <div class="col-12 mb-2 col-md-6 d-flex justify-content-md-center align-items-center p-ressource-about-2">
+                    <div class="col-12 fs-22">
                         <p class="text-justify line-height-2">Devenir financièrement indépendant avec les business en ligne,
                             c'est possible et j'en suis la preuve.</p>
                         <p class="text-justify line-height-2">Je m'appelle Junior Natabou, et du haut de mes <span
@@ -131,9 +131,9 @@
     </section>
 
     <section>
-        <div class="container-wb">
-            <div class="d-flex justify-content-center">
-                <div class="col-5 p-4">
+        <div class="container-wb px-md-5">
+            <div class="d-flex justify-content-center  align-items-center flex-column flex-md-row">
+                <div class="col-12 mb-3 col-md-6 p-2 p-md-4">
                     <p class="text-justify"> Pourtant, depuis 2019, comme tous les entrepreneurs, j'ai eu à faire face à
                         de nombreux problèmes dans mes différents business.
 
@@ -146,7 +146,7 @@
 
                 </div>
 
-                <div class="col-5 p-4">
+                <div class="col-12 mb-3 col-md-6 p-2 p-md-4">
 
 
                     <p class="text-justify"> Honnêtement, j'étais totalement découragé et j'ai même frôlé la dépression.
@@ -168,11 +168,11 @@
         <div class="container-fluid bg-black text-white">
             <div class="container-wb py-5">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6 col-sm-12 mb-3">
                         <h2 class="text-start">Le coaching/ <br> accompagnement te <br> fait gagner du temps…</h2>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-md-6 col-md-12 mb-3">
                         <p class="text-justify">90% des entrepreneurs réussissent tout simplement parce qu'ils se sont
                             fait accompagner. En te faisant accompagner tu auras un soutien de poids pour résoudre
                             rapidement toutes les difficultés que tu vas rencontrer :</p>
@@ -194,16 +194,16 @@
         <div class="container-fluid bg-wb-secondary py-5">
             <div class="container-wb">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-12 col-md-4">
                         <h2 class="font-bold">Plus de 3 ans <br> d'expérience dans <br> l'accompagnement</h2>
                     </div>
-                    <div class="col-8">
+                    <div class="col-12 col-md-8">
                         <div class="row">
-                            <div class="col-6   ">
+                            <div class="col-12 col-md-6 mb-3   ">
                                 <p class="mb-0">Cela fait quelques années que j'accompagne les jeunes du monde
                                     entier à obtenir des résultats stratosphériques dans leur vie.</p>
                             </div>
-                            <div class="col-6 d-flex justify-content-end">
+                            <div class="col-12 col-md-6 d-flex justify-content-md-end">
                                 <button class="btn btn-wb-light owlVideosPrev me-4"> <i class="fas fa-chevron-left"></i>
                                 </button>
                                 <button class="btn btn-wb-light owlVideosNext"> <i class="fas fa-chevron-right"></i>
@@ -273,7 +273,7 @@
     <section>
         <div class="container-wb py-5">
             <div class="d-flex justify-content-center flex-column align-items-center py-5">
-                <div class="col-5 mb-3 fs-18">
+                <div class="col-md-5 col-sm-12 mb-3 fs-18">
                     <p class="text-center">Ces résultats peuvent être les tiens. Gagne du temps et augmente tes chances
                         de réussite à 99% en te faisant accompagner aujourd'hui.</p>
                 </div>
@@ -286,7 +286,7 @@
         <div class="container-wb py-5">
             <h2 class="join-title color-primary font-bold">Je vais être ton coach 🔥</h2>
             <div class="row mt-3 py-4">
-                <div class="col">
+                <div class="col-sm-12 col-md-4  mb-2">
                     <h5 class="fw-bold  mb-4">Je mets à ta disposition 3 programmes d'accompagnement disponibles à des
                         tarifs forfaitaires.</h5>
 
@@ -296,7 +296,7 @@
                     <p class="text-justify">✅ Quel que soit la nature de ton business ou de ton entreprise</p>
                     <p class="text-justify">✅ Quels que soient tes objectifs</p>
                 </div>
-                <div class="col">
+                <div class="col-sm-12 col-md-4  mb-2">
                     <h5 class="fw-bold mb-4">Je te donnerai les solutions à tout ce qui te bloque dans ton parcours vers
                         la réussite. Ne t'inquiète pas :</h5>
 
@@ -307,7 +307,7 @@
                     <p class="text-justify">❌ Pas besoin d'avoir un grand diplôme.</p>
                 </div>
 
-                <div class="col">
+                <div class="col-sm-12 col-md-4  mb-2">
                     <h5 class="fw-bold  mb-4">Je t'accompagne, je t'aide à atteindre tes objectifs et je te donne des
                         solutions clés en mains en 4 étapes.</h5>
 
@@ -328,7 +328,7 @@
         <div class="container-wb py-5">
             <h2 class="text-center join-title font-bold text-uppercase">FAQ</h2>
             <div class="d-flex justify-content-center py-5">
-                <div class="col-10">
+                <div class="col-12 col-md-10">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -337,7 +337,7 @@
                                     Comment se déroulent les programmes d'accompagnement ?
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     Les programmes se déroulent en ligne à 100%. Pour ce qui est des séances de 1h,

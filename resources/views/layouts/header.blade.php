@@ -10,7 +10,7 @@
 
 
 <div class="menu-overlay" id="menu-overlay">
-    <span class="closebtn cursor-pointer" id="close-menu"> &times;</i> </span>
+    <span class="closebtn cursor-pointer" id="close-menu"> &times;</span>
     <p class="menu-overlay-title text-uppercase">JUnior Natabou</p>
 
     <div class="container menu-overlay-content">

@@ -7,9 +7,9 @@
             <img src="{{ asset('icons/medium-black-circle.svg') }}" alt="" class="title-medium-circle">
             <img src="{{ asset('icons/medium-black-circle.svg') }}" alt="" class="title-small-circle">
 
-            <div class="col-5 text-center py-5">
+            <div class="col-12 col-md-5 text-center py-5">
                 <h1 class=" font-bold">Tout ce dont tu as <br> besoin pour réussir <br> sur Internet</h1>
-                <div class="mt-4 px-4">
+                <div class="mt-4 px-md-4">
                     <p class="font-mono-medium text-center">Trois ressources complètes pour <br> démarrer ton parcours dans
                         <br> les business en ligne
                     </p>
@@ -21,7 +21,7 @@
 
     <section>
         <div class="container-wb py-5">
-            <div class="row">
+            <div class="row p-2 ">
                 <div class="card card-price bg-wb-primary text-white">
                     <div class="card-price-header">
                         <h3 class="font-bold">1 Million d’Euros</h3>
@@ -65,20 +65,20 @@
         <div class="container-wb py-5">
             <h2 class="color-primary font-bold title-h2">A propos</h2>
             <div class="row mt-5">
-                <div class="col pe-4">
+                <div class="col-12 col-md-4 mb-2 pe-md-4">
                     <p class="text-justify line-height-1">Construire un empire sur Internet et commencer à gagner de
                         l'argent est possible lorsque l'on suit scrupuleusement toutes les étapes qui mènent vers le succès.
                         Et la première étape, c'est de se former.</p>
                     <p class="text-justify line-height-1">Malheureusement la plupart des formations accessibles en ligne ne
                         prennent pas en compte les réalités des africains.</p>
                 </div>
-                <div class="col pe-4">
+                <div class="col-12 col-md-4 mb-2 pe-md-4">
                     <p class="text-justify line-height-1">Je m'appelle Junior Natabou et j'ai généré près de 3 millions
-                        d'euros de chiffre d'affaires sur Internet. Depuis trois ans je collabore avec des experts du monde
+                        d'euros de chiffre d'affaires sur Internet. Depuis trois ans je col-12 col-md-4 mb-2labore avec des experts du monde
                         entier pour développer des ressources pour leur permettre aux jeunes africains de se lancer
                         rapidement et efficacement sur Internet.</p>
                 </div>
-                <div class="col container-img-started-about">
+                <div class="col-12 col-md-4 mb-2 container-img-started-about">
                     <img src="{{ asset('img/profile.png') }}" alt="img-started-about" class="img-started-about">
                 </div>
 
@@ -92,11 +92,11 @@
         <div class="container-fluid bg-wb-secondary py-5">
             <div class="container-wb">
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-12 col-md-7">
                         <h2 class="font-bold">Rejoins plus de 50 jeunes qui ont déjà profité des ressources pour
                             transformer leur vie.</h2>
                     </div>
-                    <div class="col-5 d-flex justify-content-end">
+                    <div class="col-12 col-md-5 d-flex justify-content-md-end">
 
                         <button class="btn btn-wb-light owlVideosPrev me-4"> <i class="fas fa-chevron-left"></i>
                         </button>
@@ -167,11 +167,11 @@
     <section>
         <div class="container-wb py-5">
             <div class="row align-items-center">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <h2 class="text-dark font-bold join-title ">C'est le moment <br> de te lancer!</h2>
                     <p>Choisis la ressource adaptée <br> selon tes objectifs.</p>
                 </div>
-                <div class="col-6 d-flex justify-content-center">
+                <div class="col-12 col-md-6 d-flex justify-content-md-center">
                     <a href="" class="text-decoration-none">
                         <div class="join-box mb-3">
                             <span><i class="fas fa-arrow-up"></i></span>
