@@ -895,3 +895,8 @@ body {
     z-index: 0;
     transform: rotate(6deg);
 } */
+
+
+.break-word{
+    word-break: break-all;
+}

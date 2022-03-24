@@ -157,7 +157,7 @@
                     <div class="col-12 col-md-2">
                         <div><span class="step-circle font-bold">3</span></div>
                         <div class="mt-2 font-bold">
-                            <h3 class="fs-20 color-primary">Accompagnement</h3>
+                            <h3 class="fs-20 color-primary break-word">Accompagnement</h3>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 d-flex justify-content-center">
