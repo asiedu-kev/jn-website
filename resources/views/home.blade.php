@@ -87,14 +87,14 @@
             <h2 class="color-primary font-bold title-h2">A propos</h2>
             <div class="my-4">
                 <div class="row justify-content-md-center ">
-                    <div class="col-12 col-4 mb-3 ">
+                    <div class="col-12 col-md-4 mb-3 ">
                         <p class=" mb-0 text-justify "> Il y a 3 ans, j'ai démarré mon aventure sur internet. Cela a été la
                             meilleure décision de ma vie, car grâce à la réussite dans mes business, je peux désormais
                             voyager partout dans le monde.
                         </p>
                     </div>
 
-                    <div class="col-12 col-4 mb-3 ">
+                    <div class="col-12 col-md-4 mb-3 ">
                         <p class="text-justify"> Dès le début de mon aventure, j'ai compris que le numérique était un
                             véritable levier d'autonomisation pour les jeunes africains. C'est pourquoi, en Juillet  2019,
                             au cours d'une conférence TEDx, j'ai exprimé mon engagement à aider un maximum de jeunes à
@@ -102,7 +102,7 @@
                         </p>
                     </div>
 
-                    <div class="col-12 col-4 mb-3 ">
+                    <div class="col-12 col-md-4 mb-3 ">
                         <p class="text-justify">
                             En deux ans, j'ai donné de nombreuses conférences gratuites, développé des ressources librement
                             accessibles et des programmes d'accompagnement pour aider ceux qui souhaitent apprendre des
