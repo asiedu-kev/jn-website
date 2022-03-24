@@ -114,7 +114,7 @@
                 </div>
 
 
-                <div class="col-12 mb-2 col-md-6 d-flex justify-content-md-center align-items-center p-ressource-about-2">
+                <div class="col-12 mb-2 col-md-6 d-flex justify-content-md-center align-items-center p-ressource-about p-ressource-about-2">
                     <div class="col-12 fs-22">
                         <p class="text-justify line-height-2">Devenir financièrement indépendant avec les business en ligne,
                             c'est possible et j'en suis la preuve.</p>
@@ -172,7 +172,7 @@
                         <h2 class="text-start">Le coaching/ <br> accompagnement te <br> fait gagner du temps…</h2>
                     </div>
 
-                    <div class="col-md-6 col-md-12 mb-3">
+                    <div class="col-md-6 col-sm-12 mb-3">
                         <p class="text-justify">90% des entrepreneurs réussissent tout simplement parce qu'ils se sont
                             fait accompagner. En te faisant accompagner tu auras un soutien de poids pour résoudre
                             rapidement toutes les difficultés que tu vas rencontrer :</p>
@@ -193,7 +193,7 @@
     <section>
         <div class="container-fluid bg-wb-secondary py-5">
             <div class="container-wb">
-                <div class="row">
+                <div class="row align-items-md-center">
                     <div class="col-12 col-md-4">
                         <h2 class="font-bold">Plus de 3 ans <br> d'expérience dans <br> l'accompagnement</h2>
                     </div>
