@@ -615,7 +615,6 @@ body {
     background-color: #fff;
 }
 
-
 .bg-step-1 {
     background-color: #fafafa;
 }
@@ -693,7 +692,7 @@ body {
     }
 
     .title-medium-circle {
-       display: none;
+        display: none;
     }
 
     .title-big-circle {
@@ -708,7 +707,7 @@ body {
         height: 45px !important;
     }
 
-    .container-title{
+    .container-title {
         overflow: hidden !important;
     }
 
@@ -720,7 +719,6 @@ body {
     .card-price {
         width: 100%;
         margin-bottom: 1.5rem;
-
     }
 
     .p-ressource-about-2 {
@@ -735,7 +733,8 @@ body {
         padding: 1rem;
     }
 
-    .img-join-1, .img-join-2 {
+    .img-join-1,
+    .img-join-2 {
         width: 185px;
         height: 185px;
         object-fit: cover;
@@ -747,12 +746,12 @@ body {
         right: 6rem;
     }
 
-    .m-join-ecom{
-        margin-bottom: 5rem;
+    .m-join-ecom {
+        margin-bottom: 10rem;
     }
 
     .container-custom {
-        padding:1rem;
+        padding: 1rem;
     }
 
     .img-news {
@@ -764,16 +763,16 @@ body {
 
     .news-small-circle {
         top: 5rem;
-        left:5rem;
+        left: 5rem;
         height: 30px;
     }
 
-    .hero-image-container{
+    .hero-image-container {
         width: 100%;
         height: 525px;
     }
 
-    .hero-image{
+    .hero-image {
         height: 100%;
         width: 100%;
         object-fit: cover;
@@ -786,70 +785,113 @@ body {
     }
 
     .hero-see-more {
-        padding: 1rem ;
+        padding: 1rem;
         padding-top: 8rem;
     }
 
-    .btn-wb-primary{
+    .btn-wb-primary {
         padding-top: 0.7rem !important;
         padding-bottom: 0.7rem !important;
-
     }
 
+    .hero-small-circle {
+        bottom: 5rem;
+        right: 1rem;
+        height: 30px;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 680px !important;
+    }
+
+    .card-history-img{
+        height: 200px !important;
+        width: 200px !important;
+        position: relative;
+        z-index: 1;
+    }
 
 }
 
-
-@media screen and (max-width:376px) {
+@media screen and (max-width: 376px) {
     .img-join-2 {
         position: absolute;
         bottom: -5rem;
         right: 2rem;
     }
-
 }
 
-@media screen and (max-width:321px) {
+@media screen and (max-width: 321px) {
     .img-join-2 {
         position: absolute;
         bottom: -5rem;
         right: 0rem;
     }
-
 }
-
 
 .card-history{
-    height:300px;
-    width:300px;
-    position:relative;
-
+    background-color: #000;
+    color: #fff;
 }
 
-.card-history-container{
-    height:300px;
-    width:300px;
-    overflow:hidden;
+.card-history-img{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    z-index: 1;
+}
 
+.card-history-img img {
+    width: 100%;
+    height: 100%;
+    z-index: 1000 !important;
+    position: relative;
+}
+
+.card-history-img::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    border: 1px solid #fff;
+    z-index: 0;
+    transform: rotate(6deg);
+}
+
+
+/*
+.card-history {
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.card-history-container {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
 }
 
 .card-history-container img {
-    width:100%;
-    height:100%;
-    z-index:1000 !important;
-    position:relative;
-
+    width: 100%;
+    height: 100%;
+    z-index: 1000 !important;
+    position: relative;
 }
 
-.card-history::before{
-    content:'';
-    display:block;
-    position:absolute;
-    top:0rem;
-    left:0rem;
-    right:0rem;
-    bottom:0rem;
-    border:1px solid #fff;
-    z-index:0;
-    transform:rotate(6deg);
-}
+.card-history::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    border: 1px solid #fff;
+    z-index: 0;
+    transform: rotate(6deg);
+} */

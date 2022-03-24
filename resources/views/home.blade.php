@@ -73,10 +73,10 @@
             <img src="{{ asset('icons/medium-white-circle.svg') }}" alt="" class="news-medium-circle">
             <img src="{{ asset('icons/small-white-circle.svg') }}" alt="" class="news-small-circle">
             <div class="container d-flex flex-column flex-md-row justify-content-center align-items-center">
-                <img src="{{ asset('img/forbes.png') }}" alt="" class="img-news">
-                <img src="{{ asset('img/ted.png') }}" alt="" class="img-news">
-                <img src="{{ asset('img/startup.png') }}" alt="" class="img-news">
-                <img src="{{ asset('img/circle.png') }}" alt="" class="img-news">
+                <img src="{{ asset('img/logo/forbes.svg') }}" alt="" class="img-news">
+                <img src="{{ asset('img/logo/ted.svg') }}" alt="" class="img-news">
+                <img src="{{ asset('img/logo/startup.svg') }}" alt="" class="img-news">
+                <img src="{{ asset('img/logo/surf.svg') }}" alt="" class="img-news">
 
             </div>
         </div>
@@ -245,18 +245,17 @@
                         <div class="swiper-slide">
                             <div class="card card-history">
                                 <div class="row py-5">
-                                    <div class="col-6">
-                                        <div class="col-10">
+                                    <div class="col-md-6 col-sm-12 mb-4">
+                                        <div class="col-12 col-md-10">
                                             <p class="text-justify">
-                                                Laravel is a web application framework with expressive, elegant syntax. A
-                                                web framework provides a structure and starting point for creating your
-                                                application, allowing you to focus on creating something amazing while we
-                                                sweat the details.
+                                                Je suis né le 12 Juillet à Cotonou en République du Bénin, d'une famille modeste. Mon père est décédé seulement 3 mois avant ma naissance. Ma mère m'a alors élevée seule dans un petit quartier de Bohicon, au Sud du pays.
 
-                                                Laravel strives to provide an amazing developer experience while providing
-                                                powerful features such as thorough dependency injection, an expressive
-                                                database abstraction layer, queues and scheduled jobs, unit and integration
-                                                testing, and more.
+
+
+                                            </p>
+                                            <p class="text-justify">
+                                                Malgré ses maigres revenus, ma mère m'a inculqué une très bonne éducation dès le début, insistant sur la nécessité d'étudier et travailler dur pour réussir. C'est pourquoi, j'ai pris très tôt mes études au sérieux, étant régulièrement parmi les meilleurs élèves de ma promotion.
+
                                             </p>
 
                                             <a href="" class="color-primary">Voir ma conference TEd</a>
@@ -266,7 +265,7 @@
 
                                     </div>
 
-                                    <div class="col-6 d-flex justify-content-center">
+                                    <div class="col-md-6 col-sm-12  d-flex justify-content-center">
                                         <div class="card-history-img">
                                             <img src="{{ asset('img/young.png') }}" alt="" class="">
                                         </div>
@@ -279,26 +278,24 @@
                         <div class="swiper-slide">
                             <div class="card card-history">
                                 <div class="row py-5">
-                                    <div class="col-6">
-                                        <div class="col-10">
+                                    <div class="col-md-6 col-sm-12 mb-4">
+                                        <div class="col-12 col-md-10">
                                             <p class="text-justify">
-                                                We like to call Laravel a "progressive" framework. By that, we mean that
-                                                Laravel grows with you. If you're just taking your first steps into web
-                                                development, Laravel's vast library of documentation, guides, and video
-                                                tutorials will help you learn the ropes without becoming overwhelmed.
+                                                Quelques années plus tard, j'ai eu mon Brevet d'études du premier cycle en étant parmi les meilleurs élèves du Bénin.
 
-                                                If you're a senior developer, Laravel gives you robust tools for dependency
-                                                injection, unit testing, queues, real-time events, and more. Laravel is
-                                                fine-tuned for building professional web applications and ready to handle
-                                                enterprise work loads.
+
                                             </p>
+                                            <p class="text-justify">
+                                                À cet âge, j'étais déjà un enfant très curieux. Je lisais beaucoup et je regardais des vidéos à la télé ou en ligne. C'est comme ça que j'ai découvert la robotique, un sous-domaine des sciences technologiques qui concerne la fabrication des robots et leur mise au service de l'industrie. J'en étais tombé éperdument amoureux.
+                                            </p>
+
 
 
                                         </div>
 
                                     </div>
 
-                                    <div class="col-6 d-flex justify-content-center">
+                                    <div class="col-md-6 col-sm-12  d-flex justify-content-center">
                                         <div class="card-history-img">
                                             <img src="{{ asset('img/young-2.jpg') }}" alt="" class="">
                                         </div>
@@ -311,29 +308,29 @@
                         <div class="swiper-slide">
                             <div class="card card-history">
                                 <div class="row py-5">
-                                    <div class="col-6">
-                                        <div class="col-10">
+                                    <div class="col-md-6 col-sm-12 mb-4">
+                                        <div class="col-12 col-md-10">
                                             <p class="text-justify">
-                                                Docker is a tool for running applications and services in small,
-                                                light-weight "containers" which do not interfere with your local computer's
-                                                installed software or configuration. This means you don't have to worry
-                                                about configuring or setting up complicated development tools such as web
-                                                servers and databases on your personal computer. To get started, you only
-                                                need to install Docker Desktop.
+                                                J'étais tellement passionné par les robots que quelques mois plus tard j'ai décidé de passer un concours international, le Google Science Fair, avec mon ami Junior Hounkpe. Nous avions développé un prototype de robot agricole, et nous nous sommes mis à chercher les ressources pour concrétiser le projet.
 
-                                                Laravel Sail is a light-weight command-line interface for interacting with
-                                                Laravel's default Docker configuration. Sail provides a great starting point
-                                                for building a Laravel application using PHP, MySQL, and Redis without
-                                                requiring prior Docker experience.
+
                                             </p>
+                                            <p class="text-justify">
+                                                Comme on pouvait s'y attendre, cela a été très difficile au début. Nous avons essuyé plusieurs refus de la part de nombreuses organisations de la place. Mais notre projet a fini par attirer l'attention du Président de la République de notre pays, son Excellence Patrice Athanase Talon.
+                                            </p>
+
+
+
+
+
 
 
                                         </div>
 
                                     </div>
 
-                                    <div class="col-6 d-flex justify-content-center">
-                                        <div class="card card-history-img">
+                                    <div class="col-md-6 col-sm-12  d-flex justify-content-center">
+                                        <div class="card-history-img">
                                             <img src="{{ asset('img/young-3.jpg') }}" alt="" class="">
                                         </div>
                                     </div>
