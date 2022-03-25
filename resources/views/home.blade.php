@@ -11,7 +11,7 @@
 
                 <div class="container hero-title-block">
                     <div>
-                        <h1 class="text-white font-bold">Hello, je suis <br>
+                        <h1 class="text-white font-bold text-xs-center">Hello, je suis <br>
                             <span class="color-primary">Junior Natabou.</span>
                         </h1>
                     </div>
@@ -87,14 +87,14 @@
             <h2 class="color-primary font-bold title-h2">A propos</h2>
             <div class="my-4">
                 <div class="row justify-content-md-center ">
-                    <div class="col-12 col-md-4 mb-3 ">
+                    <div class="col-12 col-md-4 mb-3 pe-md-5 ">
                         <p class=" mb-0 text-justify "> Il y a 3 ans, j'ai démarré mon aventure sur internet. Cela a été la
                             meilleure décision de ma vie, car grâce à la réussite dans mes business, je peux désormais
                             voyager partout dans le monde.
                         </p>
                     </div>
 
-                    <div class="col-12 col-md-4 mb-3 ">
+                    <div class="col-12 col-md-4 mb-3 pe-md-5">
                         <p class="text-justify"> Dès le début de mon aventure, j'ai compris que le numérique était un
                             véritable levier d'autonomisation pour les jeunes africains. C'est pourquoi, en Juillet  2019,
                             au cours d'une conférence TEDx, j'ai exprimé mon engagement à aider un maximum de jeunes à
@@ -102,7 +102,7 @@
                         </p>
                     </div>
 
-                    <div class="col-12 col-md-4 mb-3 ">
+                    <div class="col-12 col-md-4 mb-3 pe-md-5">
                         <p class="text-justify">
                             En deux ans, j'ai donné de nombreuses conférences gratuites, développé des ressources librement
                             accessibles et des programmes d'accompagnement pour aider ceux qui souhaitent apprendre des
@@ -345,7 +345,7 @@
             </div>
 
             <div class="container-wb py-5">
-                <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex justify-content-center justify-content-md-between align-items-center">
                     <div class="col-6 d-flex justify-content-start">
                         <button class="btn btn-wb-dark owl-History-Prev me-4"> <i class="fas fa-chevron-left"></i>
                         </button>
@@ -353,7 +353,7 @@
 
                     </div>
 
-                    <div class="col-6 d-flex justify-content-end">
+                    <div class="col-6 d-flex justify-content-end d-none d-md-block">
                         <h4 class="text-muted">1/20</h4>
                     </div>
                 </div>
@@ -367,23 +367,23 @@
         <div class="container container-join-me">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <h2 class="text-dark font-bold join-title ">Rejoins-moi <br> maintenant et <br> écrivons le reste <br>
+                    <h2 class="text-dark font-bold join-title join-title-home ">Rejoins-moi <br> maintenant et <br> écrivons le reste <br>
                         de l'histoire <br> ensemble.</h2>
 
 
                 </div>
 
-                <div class="col-12 col-md-6 d-flex justify-content-md-end align-items-md-center flex-column">
+                <div class="col-12 col-md-6 d-flex justify-content-end align-items-center flex-column">
                     <a href="" class="text-decoration-none">
                         <div class="join-box mb-3">
                             <span><i class="fas fa-arrow-right rotate-icone"></i></span>
-                            <p class=" text-justify  font-mono-medium">Se faire accompagner</p>
+                            <p class=" text-start  font-mono-medium">Se faire accompagner</p>
                         </div>
                     </a>
                     <a href="" class="text-decoration-none">
                         <div class="join-box">
                             <span><i class="fas fa-arrow-right rotate-icone"></i></span>
-                            <p class=" text-justify  font-mono-medium">Rejoindre mon réseau</p>
+                            <p class=" text-start  font-mono-medium">Rejoindre mon réseau</p>
                         </div>
                     </a>
                 </div>

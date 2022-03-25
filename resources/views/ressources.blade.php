@@ -2,7 +2,7 @@
 
 @section('content')
     <section>
-        <div class="p-5 container-title d-flex justify-content-center align-items-center">
+        <div class="p-5 p-wb-4 container-title d-flex justify-content-center align-items-center">
             <img src="{{ asset('icons/big-black-circle.svg') }}" alt="" class="title-big-circle">
             <img src="{{ asset('icons/medium-black-circle.svg') }}" alt="" class="title-medium-circle">
             <img src="{{ asset('icons/medium-black-circle.svg') }}" alt="" class="title-small-circle">
@@ -11,7 +11,7 @@
                 <h1 class=" font-bold">La méthode simple <br> en 3 étapes pour <br> percer dans les <br> business en
                     ligne</h1>
                 <div class="mt-4 px-4">
-                    <button class="btn rounded-pill btn-wb-primary px-3">Démarrer maintenant</button>
+                    <button class="btn rounded-pill btn-wb-primary d-block d-md-inline  px-2 px-md-3 w-100">Démarrer maintenant</button>
                 </div>
 
             </div>
@@ -28,9 +28,9 @@
 
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center p-ressource-about">
                     <div class="col-12 col-md-10 fs-22">
-                        <p class="text-justify line-height-2">Devenir financièrement indépendant avec les business en ligne,
+                        <p class="line-height-2">Devenir financièrement indépendant avec les business en ligne,
                             c'est possible et j'en suis la preuve.</p>
-                        <p class="text-justify line-height-2">Je m'appelle Junior Natabou, et du haut de mes <span
+                        <p class=" line-height-2">Je m'appelle Junior Natabou, et du haut de mes <span
                                 class="font-bold">18 ans</span> j'ai réussi à générer plus de <span
                                 class="font-bold">2,5 millions</span> d'euros de chiffre d'affaires sur Internet.</p>
 
@@ -83,7 +83,7 @@
                             <h3 class="fs-20 color-primary">Découverte</h3>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-12 col-md-6 d-flex justify-content-center order-2 order-md-1">
                         <div class=" col-12 col-md-8">
                             <p class="text-justify">Avant de te lancer tu dois maîtriser ce que sont les business en
                                 ligne, les avantages, limites, et tout ce que tu dois savoir pour régulariser ton activité
@@ -91,10 +91,10 @@
                             <p class="text-justify">Tu trouveras de nombreux articles à ce sujet sur internet. Mais si tu
                                 veux gagner du temps, je te conseille de suivre les formations ENTIÈREMENT GRATUITES que
                                 j'ai préparé sur le sujet.</p>
-                            <a href="" class="color-primary font-bold fs-16">Je profite des Formations Gratuites</a>
+                            <a href="" class="color-primary font-bold fs-16 fs-m-16">Je profite des Formations Gratuites</a>
                         </div>
                     </div>
-                    <div class="col-12 mt-4 col-md-4 d-flex justify-content-md-end">
+                    <div class="col-12 mt-4 col-md-4 d-flex justify-content-md-end mb-3 order-1 order-md-2">
                         <div class=" container-img-ressource-methods">
                             <img src="{{ asset('img/hall.png') }}" alt="img-started-about" class="img-started-about">
 
@@ -117,7 +117,7 @@
                             <h3 class="fs-20 color-primary">Formation</h3>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-12 col-md-6 d-flex justify-content-center order-2 order-md-1">
                         <div class="col-12 col-md-8">
                             <p class="text-justify">Maintenant que tu es dans le bain, c'est le moment de te lancer. Cela
                                 passe par la formation. Tu dois apprendre des compétences que tu vas utiliser pour
@@ -136,7 +136,7 @@
                             <a href="" class="color-primary font-bold fs-16">Je rejoins NETCAMP</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mt-4 d-flex justify-content-md-end">
+                    <div class="col-12 col-md-4 mb-4 d-flex justify-content-md-end order-1 order-md-2">
                         <div class=" container-img-ressource-methods">
                             <img src="{{ asset('img/hall.png') }}" alt="img-started-about" class="img-started-about">
 
@@ -160,7 +160,7 @@
                             <h3 class="fs-20 color-primary break-word">Accompagnement</h3>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <div class="col-12 col-md-6 d-flex justify-content-center order-2 order-md-1">
                         <div class="col-sm-12 col-md-8">
 
                             <p class="text-justify"> Se former ne suffit pas toujours pour produire des résultats. Pour ma
@@ -175,7 +175,7 @@
                             <a href="" class="color-primary font-bold fs-16">Je me fais accompagner</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 d-flex mt-3 justify-content-md-end">
+                    <div class="col-12 col-md-4 d-flex mb-3 justify-content-md-end order-1 order-md-2">
                         <div class=" container-img-ressource-methods">
                             <img src="{{ asset('img/hall.png') }}" alt="img-started-about" class="img-started-about">
 

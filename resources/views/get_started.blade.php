@@ -28,8 +28,17 @@
                     </div>
 
                     <div class="card-price-footer  ">
-                        <h4 class="font-bold text-uppercase opacity-60">ECOM ELITE</h4>
-                        <div class="fs-16 font-regular">La formation e-commerce <br> exclusivement dédiée à l'Afrique</div>
+
+                            <h4 class="font-bold text-uppercase opacity-60">ECOM ELITE</h4>
+                            <div class="fs-16 font-regular">La formation e-commerce <br> exclusivement dédiée à l'Afrique</div>
+                            <div class="card-price-footer-link py-4"><a href="" class="d-block text-decoration-none text-white font-medium">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>En savoir plus</div>
+                                    <div><i class="fas fa-arrow-right"></i></div>
+                                </div>
+                            </a></div>
+
+
                     </div>
                 </div>
                 <div class="card card-price bg-wb-tertiary color-primary">
@@ -41,6 +50,12 @@
                         <h4 class="font-bold text-uppercase opacity-60">NETCAMP</h4>
                         <div class="fs-16 font-regular">L'application qui te forme pour gagner <br> tes premiers milliers
                             d'euros.</div>
+                        <div class="card-price-footer-link py-4"><a href="" class="d-block text-decoration-none color-primary font-medium">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>En savoir plus</div>
+                                <div><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                        </a></div>
                     </div>
                 </div>
                 <div class="card card-price bg-wb-secondary">
@@ -52,12 +67,18 @@
                         <h4 class="font-bold text-uppercase opacity-60">QUICK STARTS</h4>
                         <div class="fs-16 font-regular">Un ensemble de formations en ligne <br> gratuites pour démarrer dans
                             les <br> business en ligne.</div>
+                            <div class="card-price-footer-link py-4"><a href="" class="d-block text-decoration-none text-dark font-medium">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>En savoir plus</div>
+                                    <div><i class="fas fa-arrow-right"></i></div>
+                                </div>
+                            </a></div>
                     </div>
                 </div>
             </div>
 
 
-            <div class="mt-5 border-bottom"></div>
+            <div class="mt-5 d-none d-md-block border-bottom"></div>
         </div>
     </section>
 
@@ -74,7 +95,7 @@
                 </div>
                 <div class="col-12 col-md-4 mb-2 pe-md-4">
                     <p class="text-justify line-height-1">Je m'appelle Junior Natabou et j'ai généré près de 3 millions
-                        d'euros de chiffre d'affaires sur Internet. Depuis trois ans je col-12 col-md-4 mb-2labore avec des experts du monde
+                        d'euros de chiffre d'affaires sur Internet. Depuis trois ans jelabore avec des experts du monde
                         entier pour développer des ressources pour leur permettre aux jeunes africains de se lancer
                         rapidement et efficacement sur Internet.</p>
                 </div>
@@ -171,7 +192,7 @@
                     <h2 class="text-dark font-bold join-title ">C'est le moment <br> de te lancer!</h2>
                     <p>Choisis la ressource adaptée <br> selon tes objectifs.</p>
                 </div>
-                <div class="col-12 col-md-6 d-flex justify-content-md-center">
+                <div class="col-12 col-md-6 d-flex justify-content-center">
                     <a href="" class="text-decoration-none">
                         <div class="join-box mb-3">
                             <span><i class="fas fa-arrow-up"></i></span>

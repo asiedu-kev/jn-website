@@ -2,7 +2,7 @@
 
 @section('content')
     <section>
-        <div class="p-5 container-title d-flex justify-content-center align-items-center">
+        <div class="p-wb-4 p-5 container-title d-flex justify-content-center align-items-center">
             <img src="{{ asset('icons/big-black-circle.svg') }}" alt="" class="title-big-circle">
             <img src="{{ asset('icons/medium-black-circle.svg') }}" alt="" class="title-medium-circle">
             <img src="{{ asset('icons/medium-black-circle.svg') }}" alt="" class="title-small-circle">
@@ -12,7 +12,7 @@
                     <h1 class=" font-bold">Coaching entrepreneuriat et e-commerce</h1>
                     <p>Passe un nouveau cap ta vie et dans tes business</p>
                     <div class="mt-4">
-                        <button class="btn rounded-pill btn-wb-primary px-3">Se faire accompagner</button>
+                        <button class="btn rounded-pill btn-wb-primary d-block d-md-inline text-xs-start px-2 px-md-3 w-100">Se faire accompagner</button>
                     </div>
                 </div>
 
@@ -23,6 +23,11 @@
 
 
             </div>
+        </div>
+
+
+        <div class="co-12 mt-3 d-md-none">
+            <img src="" alt="" class="taining-hero-img">
         </div>
     </section>
 
@@ -116,9 +121,9 @@
 
                 <div class="col-12 mb-2 col-md-6 d-flex justify-content-md-center align-items-center p-ressource-about p-ressource-about-2">
                     <div class="col-12 fs-22">
-                        <p class="text-justify line-height-2">Devenir financièrement indépendant avec les business en ligne,
+                        <p class=" line-height-2">Devenir financièrement indépendant avec les business en ligne,
                             c'est possible et j'en suis la preuve.</p>
-                        <p class="text-justify line-height-2">Je m'appelle Junior Natabou, et du haut de mes <span
+                        <p class=" line-height-2">Je m'appelle Junior Natabou, et du haut de mes <span
                                 class="font-bold">18 ans</span> j'ai réussi à générer plus de <span
                                 class="font-bold">2,5 millions</span> d'euros de chiffre d'affaires sur Internet.</p>
 
