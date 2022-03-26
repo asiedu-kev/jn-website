@@ -20,7 +20,7 @@
                         <button class="btn text-white">
                             <div>
                                 <span class="d-block ">See more</span>
-                                <span class="d-block"><i class="fas fa-chevron-down"></i></span>
+                                <span class="d-block py-3"><i class="fas fa-chevron-down fa-animate-chevron"></i></span>
 
                             </div>
 
@@ -87,14 +87,16 @@
             <h2 class="color-primary font-bold title-h2">A propos</h2>
             <div class="my-4">
                 <div class="row justify-content-md-center ">
-                    <div class="col-12 col-md-4 mb-3 pe-md-5 ">
+                    <div class="col-12 col-md-4 mb-3 pe-md-5 aos-init aos-animate" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back" data-aos-delay="900">
                         <p class=" mb-0 text-justify "> Il y a 3 ans, j'ai démarré mon aventure sur internet. Cela a été la
                             meilleure décision de ma vie, car grâce à la réussite dans mes business, je peux désormais
                             voyager partout dans le monde.
                         </p>
                     </div>
 
-                    <div class="col-12 col-md-4 mb-3 pe-md-5">
+                    <div class="col-12 col-md-4 mb-3 pe-md-5 aos-init aos-animate" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back" data-aos-delay="1300">
                         <p class="text-justify"> Dès le début de mon aventure, j'ai compris que le numérique était un
                             véritable levier d'autonomisation pour les jeunes africains. C'est pourquoi, en Juillet  2019,
                             au cours d'une conférence TEDx, j'ai exprimé mon engagement à aider un maximum de jeunes à
@@ -102,7 +104,8 @@
                         </p>
                     </div>
 
-                    <div class="col-12 col-md-4 mb-3 pe-md-5">
+                    <div class="col-12 col-md-4 mb-3 pe-md-5 aos-init aos-animate" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back" data-aos-delay="1600">
                         <p class="text-justify">
                             En deux ans, j'ai donné de nombreuses conférences gratuites, développé des ressources librement
                             accessibles et des programmes d'accompagnement pour aider ceux qui souhaitent apprendre des
@@ -204,13 +207,13 @@
                     <h2 class="color-primary font-bold section-title">Rejoins la <br> révolution e- <br> commerce</h2>
 
                     <div class="col-12 col-md-9">
-                        <p class="fs-14 ">Pour moi, le e-commerce est une énorme opportunité à saisir pour la
+                        <p class="fs-14 aos-init aos-animate"data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600" >Pour moi, le e-commerce est une énorme opportunité à saisir pour la
                             jeunesse africaine. Les jeunes
                             africains peuvent obtenir les mêmes résultats que tous ceux que j'ai accompagnés en Europe et
                             partout dans le monde.</p>
 
 
-                        <p class="fs-14 ">C'est pourquoi, conscient des difficultés que les jeunes africains
+                        <p class="fs-14 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="900">C'est pourquoi, conscient des difficultés que les jeunes africains
                             éprouvent à obtenir des résultats,
                             j'ai développé ECOM ELITE le premier programme E-commerce 100% adapté pour l'Afrique
                             francophone.
@@ -218,7 +221,7 @@
                     </div>
 
 
-                    <a href="" class="btn px-5 btn-wb-primary font-mono-medium rounded-pill">Rejoindre ECOM ELITE</a>
+                    <a href="" class="btn px-5 btn-wb-primary font-mono-medium rounded-pill aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1200">Rejoindre ECOM ELITE</a>
 
                 </div>
 

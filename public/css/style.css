@@ -677,7 +677,7 @@ body {
 
 @media screen and (max-width: 427px) {
     .card-price{
-        height: 450px !important;
+        height: 520px !important;
     }
     .card-price-footer-link {
         display: block !important;
@@ -855,6 +855,15 @@ body {
     .fs-m-16{
         font-size: 14px !important;
     }
+
+    .w-wb-100{
+        width: 100% !important;
+    }
+
+    .iframe-videos {
+        width: 100%;
+        height: 260px !important;
+    }
 }
 
 @media screen and (max-width: 376px) {
@@ -946,3 +955,16 @@ body {
 .text-justify{
     text-align: justify !important;
 }
+
+
+.fa-animate-chevron{
+    animation-name: fa-animate-chevron;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+/* @keyframes fa-animate-chevron {
+    0%   {padding-bottom: 4px;}
+    50%  {padding-bottom: 6px;}
+    100% {padding-bottom: 4px;}
+  } */

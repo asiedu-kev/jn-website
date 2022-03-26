@@ -11,7 +11,7 @@
                 <h1 class=" font-bold">La méthode simple <br> en 3 étapes pour <br> percer dans les <br> business en
                     ligne</h1>
                 <div class="mt-4 px-4">
-                    <button class="btn rounded-pill btn-wb-primary d-block d-md-inline  px-2 px-md-3 w-100">Démarrer maintenant</button>
+                    <button class="btn rounded-pill btn-wb-primary d-block d-md-inline  px-2 px-md-3 w-wb-100">Démarrer maintenant</button>
                 </div>
 
             </div>
@@ -28,9 +28,9 @@
 
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center p-ressource-about">
                     <div class="col-12 col-md-10 fs-22">
-                        <p class="line-height-2">Devenir financièrement indépendant avec les business en ligne,
+                        <p class="line-height-2 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600">Devenir financièrement indépendant avec les business en ligne,
                             c'est possible et j'en suis la preuve.</p>
-                        <p class=" line-height-2">Je m'appelle Junior Natabou, et du haut de mes <span
+                        <p class=" line-height-2 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000">Je m'appelle Junior Natabou, et du haut de mes <span
                                 class="font-bold">18 ans</span> j'ai réussi à générer plus de <span
                                 class="font-bold">2,5 millions</span> d'euros de chiffre d'affaires sur Internet.</p>
 
@@ -47,13 +47,13 @@
             <div class="container-wb py-5 ">
                 <div class="d-flex justify-content-center flex-column flex-md-row text-white">
                     <div class="col-12 col-md-4 p-2 p-md-4 me-md-4">
-                        <p class="text-justify">Je sais que beaucoup de jeunes (toi aussi peut être) souhaitent s'inspirer
+                        <p class="text-justify aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400">Je sais que beaucoup de jeunes (toi aussi peut être) souhaitent s'inspirer
                             de mon parcours pour s'autonomiser car je reçois chaque jour des centaines de messages à ce
                             sujet sur mes réseaux sociaux.</p>
                     </div>
 
                     <div class="col-12 col-md-4 p-2 p-md-4">
-                        <p class="text-justify">C'est pourquoi, en me basant sur ma propre expérience et celle de nombreux
+                        <p class="text-justify aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600">C'est pourquoi, en me basant sur ma propre expérience et celle de nombreux
                             entrepreneurs qui ont réussi sur le web, j'ai élaboré cette méthode en trois (03) étapes qui va
                             t'aider à grimper les échelons.</p>
                     </div>
@@ -83,7 +83,7 @@
                             <h3 class="fs-20 color-primary">Découverte</h3>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 d-flex justify-content-center order-2 order-md-1">
+                    <div class="col-12 col-md-6 d-flex justify-content-center order-2 order-md-1 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600">
                         <div class=" col-12 col-md-8">
                             <p class="text-justify">Avant de te lancer tu dois maîtriser ce que sont les business en
                                 ligne, les avantages, limites, et tout ce que tu dois savoir pour régulariser ton activité
@@ -94,7 +94,7 @@
                             <a href="" class="color-primary font-bold fs-16 fs-m-16">Je profite des Formations Gratuites</a>
                         </div>
                     </div>
-                    <div class="col-12 mt-4 col-md-4 d-flex justify-content-md-end mb-3 order-1 order-md-2">
+                    <div class="col-12 mt-4 mt-md-0 col-md-4 d-flex justify-content-md-end align-items-md-center mb-3 order-1 order-md-2 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000">
                         <div class=" container-img-ressource-methods">
                             <img src="{{ asset('img/hall.png') }}" alt="img-started-about" class="img-started-about">
 
@@ -117,7 +117,7 @@
                             <h3 class="fs-20 color-primary">Formation</h3>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 d-flex justify-content-center order-2 order-md-1">
+                    <div class="col-12 col-md-6 d-flex justify-content-center order-2 order-md-1 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600">
                         <div class="col-12 col-md-8">
                             <p class="text-justify">Maintenant que tu es dans le bain, c'est le moment de te lancer. Cela
                                 passe par la formation. Tu dois apprendre des compétences que tu vas utiliser pour
@@ -136,7 +136,7 @@
                             <a href="" class="color-primary font-bold fs-16">Je rejoins NETCAMP</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 mb-4 d-flex justify-content-md-end order-1 order-md-2">
+                    <div class="col-12 col-md-4 mb-4 d-flex justify-content-md-end order-1 order-md-2 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000">
                         <div class=" container-img-ressource-methods">
                             <img src="{{ asset('img/hall.png') }}" alt="img-started-about" class="img-started-about">
 
@@ -160,7 +160,7 @@
                             <h3 class="fs-20 color-primary break-word">Accompagnement</h3>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 d-flex justify-content-center order-2 order-md-1">
+                    <div class="col-12 col-md-6 d-flex justify-content-center order-2 order-md-1 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600">
                         <div class="col-sm-12 col-md-8">
 
                             <p class="text-justify"> Se former ne suffit pas toujours pour produire des résultats. Pour ma
@@ -175,7 +175,7 @@
                             <a href="" class="color-primary font-bold fs-16">Je me fais accompagner</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 d-flex mb-3 justify-content-md-end order-1 order-md-2">
+                    <div class="col-12 col-md-4 d-flex mb-3 justify-content-md-end order-1 order-md-2 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000">
                         <div class=" container-img-ressource-methods">
                             <img src="{{ asset('img/hall.png') }}" alt="img-started-about" class="img-started-about">
 

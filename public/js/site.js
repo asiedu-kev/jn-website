@@ -1,6 +1,10 @@
 $(function(){
 
     "use strict";
+
+    AOS.init();
+
+    
     var menu = $('#menu-overlay')
 
     $('#btn-menu').click(function(e){

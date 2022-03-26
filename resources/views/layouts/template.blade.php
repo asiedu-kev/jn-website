@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 
-<body>
+<body data-aos-easing="ease-in-out">
 
 
     <header>

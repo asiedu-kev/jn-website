@@ -26,7 +26,7 @@
         </div>
 
 
-        <div class="co-12 mt-3 d-md-none">
+        <div class="co-12 d-flex justify-content-center py-3 mt-3 d-md-none">
             <img src="" alt="" class="taining-hero-img">
         </div>
     </section>
@@ -50,8 +50,8 @@
 
     <section>
         <div class="container-wb py-5">
-            <div class="d-flex justify-content-center flex-column align-items-center flex-md-row">
-                <div class="col-md-5 col-sm-12 p-2 p-md-4">
+            <div class="d-flex justify-content-center flex-column align-items-start flex-md-row">
+                <div class="col-md-5 col-sm-12 p-2 p-md-4 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600">
                     <p class="text-justify"> C'est vrai, les compétences et le savoir faire, c'est important. Mais ce qui
                         te fait réussir, c'est la vitesse à laquelle tu arrives à trouver des solutions aux difficultés qle
                         tu vas rencontrer.
@@ -65,7 +65,7 @@
 
                 </div>
 
-                <div class="col-md-5 col-sm-12 p-2 p-md-4">
+                <div class="col-md-5 col-sm-12 p-2 p-md-4 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000">
                     <p class="text-justify"> C'est ce que les gourous et coachs sur les réseaux sociaux ne te diront
                         malheureusement jamais.
                     </p>
@@ -93,14 +93,14 @@
                         <h5>Malheureusement, <br> voici ce qu'il se passe <br> très souvent</h5>
                     </div>
 
-                    <div class="col-sm-12 mb-3 col-md-6">
-                        <p class="text-justify">❌ <br>
+                    <div class="col-sm-12 mb-3 col-md-6 p-2 p-md-5">
+                        <p class="text-justify aos-init aos-animate mb-2 mb-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600">❌ <br>
                             Ça te prend beaucoup de temps pour trouver des solutions. Pendant que tu perds du temps, ceux
                             qui font le même business que toi évoluent rapidement et obtiennent de gros résultats.</p>
-                        <p class="text-justify">❌ <br>
+                        <p class="text-justify aos-init aos-animate mb-2 mb-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="900">❌ <br>
                             Tu finis par te décourager car les difficultés s'enchaînent. Tu deviens dépressif et tu as envie
                             de tout laisser tomber.</p>
-                        <p class="text-justify">❌ <br>
+                        <p class="text-justify aos-init aos-animate mb-2 mb-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1200">❌ <br>
                             Tu prends beaucoup de mauvaises décisions, perds beaucoup d'argent et tu stagnes.</p>
 
                     </div>
@@ -137,8 +137,8 @@
 
     <section>
         <div class="container-wb px-md-5">
-            <div class="d-flex justify-content-center  align-items-center flex-column flex-md-row">
-                <div class="col-12 mb-3 col-md-6 p-2 p-md-4">
+            <div class="d-flex justify-content-center  align-items-start flex-column flex-md-row">
+                <div class="col-12 mb-3 col-md-6 p-2 p-md-4 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600">
                     <p class="text-justify"> Pourtant, depuis 2019, comme tous les entrepreneurs, j'ai eu à faire face à
                         de nombreux problèmes dans mes différents business.
 
@@ -151,7 +151,7 @@
 
                 </div>
 
-                <div class="col-12 mb-3 col-md-6 p-2 p-md-4">
+                <div class="col-12 mb-3 col-md-6 p-2 p-md-4 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000">
 
 
                     <p class="text-justify"> Honnêtement, j'étais totalement découragé et j'ai même frôlé la dépression.
@@ -177,17 +177,17 @@
                         <h2 class="text-start">Le coaching/ <br> accompagnement te <br> fait gagner du temps…</h2>
                     </div>
 
-                    <div class="col-md-6 col-sm-12 mb-3">
-                        <p class="text-justify">90% des entrepreneurs réussissent tout simplement parce qu'ils se sont
+                    <div class="col-md-6 col-sm-12 mb-3 p-2 p-md-4">
+                        <p class="text-justify aos-animate mb-2 mb-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600">90% des entrepreneurs réussissent tout simplement parce qu'ils se sont
                             fait accompagner. En te faisant accompagner tu auras un soutien de poids pour résoudre
                             rapidement toutes les difficultés que tu vas rencontrer :</p>
-                        <p class="text-justify">✅ Dans ton parcours vers la réussite <br>
+                        <p class="text-justify aos-animate mb-2 mb-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="900">✅ Dans ton parcours vers la réussite <br>
                             ✅ Sur ton business <br>
                             ✅ Dans ta carrière.</p>
-                        <p class="text-justify">Malheureusement, se faire accompagner, ce n'est pas simple. La plupart des
+                        <p class="text-justify aos-animate mb-2 mb-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1200">Malheureusement, se faire accompagner, ce n'est pas simple. La plupart des
                             programmes de coaching de qualité coûtent très cher ( en moyenne de 2000€). Mais ils constituent
                             une garantie sûr pour obtenir des résultats et atteindre tes objectifs.</p>
-                        <p class="text-justify font-bold">Ce que je te propose : Un accompagnement accessible et adapté à
+                        <p class="text-justify font-bold aos-animate mb-2 mb-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1500">Ce que je te propose : Un accompagnement accessible et adapté à
                             tes besoins.</p>
                     </div>
                 </div>
@@ -291,7 +291,7 @@
         <div class="container-wb py-5">
             <h2 class="join-title color-primary font-bold">Je vais être ton coach 🔥</h2>
             <div class="row mt-3 py-4">
-                <div class="col-sm-12 col-md-4  mb-2">
+                <div class="col-sm-12 col-md-4  mb-2 aos-animate " data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600">
                     <h5 class="fw-bold  mb-4">Je mets à ta disposition 3 programmes d'accompagnement disponibles à des
                         tarifs forfaitaires.</h5>
 
@@ -301,7 +301,7 @@
                     <p class="text-justify">✅ Quel que soit la nature de ton business ou de ton entreprise</p>
                     <p class="text-justify">✅ Quels que soient tes objectifs</p>
                 </div>
-                <div class="col-sm-12 col-md-4  mb-2">
+                <div class="col-sm-12 col-md-4  mb-2 aos-animate " data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="900">
                     <h5 class="fw-bold mb-4">Je te donnerai les solutions à tout ce qui te bloque dans ton parcours vers
                         la réussite. Ne t'inquiète pas :</h5>
 
@@ -312,7 +312,7 @@
                     <p class="text-justify">❌ Pas besoin d'avoir un grand diplôme.</p>
                 </div>
 
-                <div class="col-sm-12 col-md-4  mb-2">
+                <div class="col-sm-12 col-md-4  mb-2 aos-animate " data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1200">
                     <h5 class="fw-bold  mb-4">Je t'accompagne, je t'aide à atteindre tes objectifs et je te donne des
                         solutions clés en mains en 4 étapes.</h5>
 

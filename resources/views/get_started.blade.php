@@ -87,14 +87,14 @@
             <h2 class="color-primary font-bold title-h2">A propos</h2>
             <div class="row mt-5">
                 <div class="col-12 col-md-4 mb-2 pe-md-4">
-                    <p class="text-justify line-height-1">Construire un empire sur Internet et commencer à gagner de
+                    <p class="text-justify line-height-1 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1000">Construire un empire sur Internet et commencer à gagner de
                         l'argent est possible lorsque l'on suit scrupuleusement toutes les étapes qui mènent vers le succès.
                         Et la première étape, c'est de se former.</p>
-                    <p class="text-justify line-height-1">Malheureusement la plupart des formations accessibles en ligne ne
+                    <p class="text-justify line-height-1 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="2000">Malheureusement la plupart des formations accessibles en ligne ne
                         prennent pas en compte les réalités des africains.</p>
                 </div>
                 <div class="col-12 col-md-4 mb-2 pe-md-4">
-                    <p class="text-justify line-height-1">Je m'appelle Junior Natabou et j'ai généré près de 3 millions
+                    <p class="text-justify line-height-1 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="3000">Je m'appelle Junior Natabou et j'ai généré près de 3 millions
                         d'euros de chiffre d'affaires sur Internet. Depuis trois ans jelabore avec des experts du monde
                         entier pour développer des ressources pour leur permettre aux jeunes africains de se lancer
                         rapidement et efficacement sur Internet.</p>

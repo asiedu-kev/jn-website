@@ -17,14 +17,14 @@
         <div>
             <nav class="nav flex-column">
                 <a href="{{ route('home') }}"
-                    class="nav-link menu-overlay-link   @if (Request::routeIs('home')) active @endif">Home</a>
+                    class="nav-link menu-overlay-link   @if (Request::routeIs('home')) active @endif aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-delay="400">Home</a>
                 <a href="{{ route('get_started') }}"
-                    class="nav-link menu-overlay-link @if (Request::routeIs('get_started')) active @endif">Getting
+                    class="nav-link menu-overlay-link @if (Request::routeIs('get_started')) active @endif aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-delay="600">Getting
                     Started</a>
                 <a href="{{ route('training') }}"
-                    class="nav-link menu-overlay-link @if (Request::routeIs('training')) active @endif">Trainings</a>
+                    class="nav-link menu-overlay-link @if (Request::routeIs('training')) active @endif aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-delay="800">Trainings</a>
                 <a href="{{ route('ressources') }}"
-                    class="nav-link menu-overlay-link @if (Request::routeIs('ressources')) active @endif">Ressources</a>
+                    class="nav-link menu-overlay-link @if (Request::routeIs('ressources')) active @endif aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-delay="1000">Ressources</a>
 
             </nav>
         </div>
