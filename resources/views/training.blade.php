@@ -226,46 +226,61 @@
             <div class="container-wb py-5">
                 <div class="owl-carousel owl-videos owl-theme">
                     <div class="item">
-                        <div class="col-12">
+                        <div class="col-12 d-flex justify-content-center">
                             <div class="card card-videos">
-                                <iframe class="iframe-videos" src="https://www.youtube.com/embed/i_AiuO96cVI?controls=0"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                <img src="{{asset('img/videos_youtube/yt-1.png')}}" alt="">
+                                <div class="inset-videos"></div>
+                                <div class="popup-trigger" id="popup-trigger" data-yt="https://www.youtube.com/embed/i_AiuO96cVI" >
+                                    <div class="popup-img">
+                                        <img src="{{ asset('icons/play-icone.svg') }}" alt="play icone">
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
 
                     <div class="item">
-                        <div class="col-12">
+                        <div class="col-12 d-flex justify-content-center">
                             <div class="card card-videos">
-                                <iframe class="iframe-videos" src="https://www.youtube.com/embed/B5dfX6hVCwA"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                <img src="{{asset('img/videos_youtube/yt-2.png')}}" alt="">
+                                <div class="inset-videos"></div>
+                                <div class="popup-trigger" id="popup-trigger" data-yt="https://www.youtube.com/embed/B5dfX6hVCwA" >
+                                    <div class="popup-img">
+                                        <img src="{{ asset('icons/play-icone.svg') }}" alt="play icone">
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
 
                     <div class="item">
-                        <div class="col-12">
+                        <div class="col-12 d-flex justify-content-center">
                             <div class="card card-videos">
-                                <iframe class="iframe-videos" src="https://www.youtube.com/embed/YqSC37sSE0Y"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                <img src="{{asset('img/videos_youtube/yt-3.png')}}" alt="">
+                                <div class="inset-videos"></div>
+                                <div class="popup-trigger" id="popup-trigger" data-yt="https://www.youtube.com/embed/YqSC37sSE0Y" >
+                                    <div class="popup-img">
+                                        <img src="{{ asset('icons/play-icone.svg') }}" alt="play icone">
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
 
-
                     <div class="item">
-                        <div class="col-12">
+                        <div class="col-12 d-flex justify-content-center">
                             <div class="card card-videos">
-                                <iframe class="iframe-videos" src="https://www.youtube.com/embed/YbpJY2fz7jk"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                <img src="{{asset('img/videos_youtube/yt-4.png')}}" alt="">
+                                <div class="inset-videos"></div>
+                                <div class="popup-trigger" id="popup-trigger" data-yt="https://www.youtube.com/embed/YbpJY2fz7jk" >
+                                    <div class="popup-img">
+                                        <img src="{{ asset('icons/play-icone.svg') }}" alt="play icone">
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -406,4 +421,10 @@
 
 
     </section>
+    <div class="popup" id="popup">
+        <span class="popup-close" id="close-popup">&times;</span>
+        <div class="popup-content">
+            <iframe id="iframe-video" class="popup-iframe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
 @endsection

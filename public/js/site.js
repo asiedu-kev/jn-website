@@ -4,7 +4,7 @@ $(function(){
 
     AOS.init();
 
-    
+
     var menu = $('#menu-overlay')
 
     $('#btn-menu').click(function(e){
@@ -49,8 +49,19 @@ $(function(){
 
 
 
+/*open popup videos */
+$('.owl-carousel').on('click', '.owl-item .popup-trigger', function (e) {
+    $('#iframe-video').attr('src', '');
+     var youtubelink = $(this).attr('data-yt');
+
+        $('#iframe-video').attr('src', youtubelink);
+        $("#popup").css('height','100vh');
+})
 
 
+$("#close-popup").click(function(e){
+    $("#popup").css('height','0vh');
+});
 
   /* history carousel */
 
@@ -86,6 +97,10 @@ $(function(){
         },
 
       });
+
+
+
+
 
 
   });

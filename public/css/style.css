@@ -409,6 +409,10 @@ body {
         width: 380px;
         height: 200px;
     }
+
+    .popup-img{
+        height: 3rem;
+    }
 }
 @media (min-width: 1200px) {
     .container-wb {
@@ -419,6 +423,9 @@ body {
         width: 400px;
         height: 280px;
     }
+    .popup-img{
+        height: 5rem;
+    }
 }
 @media (min-width: 1400px) {
     .container-wb {
@@ -427,7 +434,11 @@ body {
 
     .card-videos {
         width: 500px;
-        height: 380px;
+        height: 300px;
+    }
+
+    .popup-img{
+        height: 5rem;
     }
 }
 
@@ -484,21 +495,37 @@ body {
     .container-title {
         max-width: 675px;
     }
+    .popup-content{
+        position: relative;
+        width: 500px !important;
+        height: 250px !important;}
 }
 @media (min-width: 992px) {
     .container-title {
         max-width: 915px;
     }
+    .popup-content{
+        position: relative;
+        width: 500px !important;
+        height: 300px !important;}
 }
 @media (min-width: 1200px) {
     .container-title {
         max-width: 1095px;
     }
+    .popup-content{
+        position: relative;
+        width: 600px !important;
+        height: 350px !important;}
 }
 @media (min-width: 1400px) {
     .container-title {
         max-width: 1275px;
     }
+    .popup-content{
+        position: relative;
+        width: 800px !important;
+        height: 450px !important;}
 }
 
 .title-big-circle,
@@ -864,6 +891,18 @@ body {
         width: 100%;
         height: 260px !important;
     }
+
+    .popup-content{
+        padding: 1rem !important;
+        width: 100% !important;
+        height: 350px !important;
+    }
+
+    .popup-close{
+        top: 15px;
+        right: 25px;
+
+      }
 }
 
 @media screen and (max-width: 376px) {
@@ -968,3 +1007,104 @@ body {
     50%  {padding-bottom: 6px;}
     100% {padding-bottom: 4px;}
   } */
+
+
+  .card-videos img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+  }
+
+  .card-videos:hover img{
+   transform: scale(1.05);
+   transition:all .5s;
+}
+
+  .card-videos{
+      position:relative;
+    overflow: hidden;
+
+
+  }
+
+  .inset-videos{
+    position:absolute;
+    top: 0;
+    bottom:0;
+    right: 0;
+    left: 0;
+    background-color:rgba(0,0,0,.4);
+    height: 100%;
+    width: 100%;
+  }
+
+.popup-trigger{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer !important ;
+}
+
+
+
+
+  .popup{
+  height: 0vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+
+  .popup-content{
+    position: relative;
+    width: 800px;
+    height: 450px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .popup-close{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer !important;
+    color: #fff;
+  }
+
+  .popup-iframe{
+      width: 100% !important;
+      height: 100% !important;
+  }
+
+
+.popup-iframe{
+    animation: video;
+    animation-duration: 10s;
+}
+
+@keyframes video {
+ 0%{
+     opacity: 0;
+ }
+
+ 100%{
+     opacity: 1;
+ }
+}
