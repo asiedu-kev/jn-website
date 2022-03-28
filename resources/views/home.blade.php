@@ -264,7 +264,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-6 col-sm-12 mb-4">
-                                        <div class="col-12 col-md-10">
+                                        <div class="col-12 col-md-10 card-history-header">
                                             <p class="text-justify">
                                                 Je suis né le 12 Juillet à Cotonou en République du Bénin, d'une famille modeste. Mon père est décédé seulement 3 mois avant ma naissance. Ma mère m'a alors élevée seule dans un petit quartier de Bohicon, au Sud du pays.
 
@@ -297,7 +297,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-6 col-sm-12 mb-4">
-                                        <div class="col-12 col-md-10">
+                                        <div class="col-12 col-md-10 card-history-header">
                                             <p class="text-justify">
                                                 Quelques années plus tard, j'ai eu mon Brevet d'études du premier cycle en étant parmi les meilleurs élèves du Bénin.
 
@@ -327,7 +327,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-6 col-sm-12 mb-4">
-                                        <div class="col-12 col-md-10">
+                                        <div class="col-12 col-md-10 card-history-header">
                                             <p class="text-justify">
                                                 J'étais tellement passionné par les robots que quelques mois plus tard j'ai décidé de passer un concours international, le Google Science Fair, avec mon ami Junior Hounkpe. Nous avions développé un prototype de robot agricole, et nous nous sommes mis à chercher les ressources pour concrétiser le projet.
 
@@ -362,17 +362,18 @@
                 </div>
             </div>
 
-            <div class="container-wb py-5">
+            <div class="container-wb py-2 py-md-5">
                 <div class="d-flex justify-content-center justify-content-md-between align-items-center">
-                    <div class="col-6 d-flex justify-content-start">
+                    <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start">
                         <button class="btn btn-wb-dark owl-History-Prev me-4"> <i class="fas fa-chevron-left"></i>
                         </button>
                         <button class="btn btn-wb-dark owl-History-Next"> <i class="fas fa-chevron-right"></i> </button>
 
                     </div>
 
-                    <div class="col-6 d-flex justify-content-end d-none d-md-block">
-                        <h4 class="text-muted">1/20</h4>
+                    <div class="col-6 d-none d-md-block">
+                        <div class="h4 d-flex justify-content-center text-muted history-paginate"></div>
+
                     </div>
                 </div>
             </div>

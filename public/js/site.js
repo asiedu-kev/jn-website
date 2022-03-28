@@ -115,6 +115,10 @@ $("#close-popup").click(function(e){
           nextEl: '.owl-History-Next',
           prevEl: '.owl-History-Prev',
         },
+        pagination: {
+            el: ".history-paginate",
+            type: "fraction",
+          },
 
       });
 
@@ -128,6 +132,7 @@ function aos_init() {
       mirror: false
     });
   }
+
 
 
   });

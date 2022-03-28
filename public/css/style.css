@@ -406,8 +406,8 @@ body {
     }
 
     .card-videos {
-        width: 380px;
-        height: 200px;
+        width: 380px !important;
+        height: 200px !important;
     }
 
     .popup-img{
@@ -420,8 +420,8 @@ body {
     }
 
     .card-videos {
-        width: 400px;
-        height: 280px;
+        width: 400px !important;
+        height: 280px !important;
     }
     .popup-img{
         height: 5rem;
@@ -433,8 +433,8 @@ body {
     }
 
     .card-videos {
-        width: 500px;
-        height: 300px;
+        width: 500px !important;
+        height: 300px !important;
     }
 
     .popup-img{
@@ -692,7 +692,7 @@ body {
     height: 400px;
 }
 
-.swiper-slide {
+/* .swiper-slide {
     background-position: center;
     background-size: cover;
 }
@@ -700,9 +700,16 @@ body {
 .swiper-slide img {
     display: block;
     width: 100%;
-}
+} */
+
 
 @media screen and (max-width: 427px) {
+    .card-history-header{
+        height: 295px !important;
+    }
+    .card-history p {
+        font-size: 14px !important;
+    }
     .card-price{
         height: 520px !important;
     }
@@ -848,7 +855,7 @@ body {
 
     .swiper {
         width: 100%;
-        height: 680px !important;
+        height: 600px !important;
     }
 
     .card-history-img{
@@ -903,6 +910,12 @@ body {
         right: 25px;
 
       }
+
+    .card-videos{
+        height: 200px !important;
+    }
+
+
 }
 
 @media screen and (max-width: 376px) {
@@ -919,6 +932,18 @@ body {
         bottom: -5rem;
         right: 0rem;
     }
+
+    .card-history-header {
+        height: 375px !important;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 700px !important;
+    }
+
+
+
 }
 
 .card-history{
@@ -1059,7 +1084,7 @@ body {
   height: 0vh;
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 8000;
   left: 0;
   top: 0;
   background-color: rgb(0,0,0);
