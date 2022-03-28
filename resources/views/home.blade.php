@@ -1,7 +1,7 @@
 @extends('layouts.template')
 
 @section('content')
-    <section>
+    <section class="mt-header">
         <div class="container position-relative hero-container">
             <img src="{{ asset('icons/big-black-circle.svg') }}" alt="" class="hero-big-circle">
             <img src="{{ asset('icons/medium-black-circle.svg') }}" alt="" class="hero-medium-circle">

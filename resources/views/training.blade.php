@@ -1,7 +1,7 @@
 @extends('layouts.template')
 
 @section('content')
-    <section>
+    <section class="mt-header">
         <div class="p-wb-4 p-5 container-title d-flex justify-content-center align-items-center">
             <img src="{{ asset('icons/big-black-circle.svg') }}" alt="" class="title-big-circle">
             <img src="{{ asset('icons/medium-black-circle.svg') }}" alt="" class="title-medium-circle">

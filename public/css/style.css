@@ -1108,3 +1108,29 @@ align-items: center;
      opacity: 1;
  }
 }
+ #navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 1000 !important;
+    background: white;
+    top: 0px;
+    transition:all  1s;
+   }
+
+   /* .section:first-of-type{
+       margin-top: 4rem;
+   } */
+
+   .mt-header{
+       margin-top: 4rem;
+   }
+
+
+   .sec-p{
+       padding-top: 3rem;
+       padding-bottom: 3rem;
+   }
+
+#menu-overlay{
+    z-index: 5000 !important;
+}
