@@ -1218,5 +1218,18 @@ body {
 }
 
 .h-wb-100{
+
     height: 100% !important;
+}
+
+
+.wb-full{
+    position: fixed;
+    height: 100vh !important;
+    width: 100vw !important;
+    background-color: #ce3200 !important;
+}
+
+.step-full{
+    height: 100vh;
 }

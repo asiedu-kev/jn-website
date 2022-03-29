@@ -10,7 +10,8 @@ $(function(){
     $('#btn-menu').click(function(e){
 
         menu.css('height','100vh');
-        // $('.menu-overlay-link').addClass('anim');
+
+
 
     });
 
@@ -172,6 +173,39 @@ var galleryThumbs = new Swiper(".price-thumbs", {
   galleryThumbs.on('transitionStart', function(){
     galleryMain.slideTo(galleryThumbs.activeIndex);
   });
+
+
+  /* check element in view*/
+
+  function  checkInView(elem,partial)
+{
+    var container = $(".scrollable");
+    var contHeight = container.height();
+    var contTop = container.scrollTop();
+    var contBottom = contTop + contHeight ;
+
+    var elemTop = $(elem).offset().top - container.offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    var isTotal = (elemTop >= 0 && elemBottom <=contHeight);
+    var isPart = ((elemTop < 0 && elemBottom > 0 ) || (elemTop > 0 && elemTop <= container.height())) && partial ;
+
+    return  isTotal  || isPart ;
+}
+
+
+$("#accompagnement-step").scroll(function(){
+    var result = checkInView($("#accompagnement-step"),true);
+
+    console.log(result);
+
+    if(result){
+        $("#accompagnement-step").addClass('wb-full');
+    }
+    else{
+        $("#accompagnement-step").addRemove('wb-full');
+    }
+});
 
   });
 

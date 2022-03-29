@@ -74,7 +74,7 @@
     </section>
 
     <section>
-        <div class="container-fluid py-5 bg-step-1">
+        <div class="container-fluid py-5 bg-step-1 step-full"  id="decouverte-step">
             <div class="container-wb py-5">
                 <div class="row">
                     <div class="col-12 col-md-2">
@@ -108,7 +108,7 @@
 
     </section>
     <section>
-        <div class="container-fluid py-5 bg-step-2">
+        <div class="container-fluid py-5 bg-step-2 step-full"  id="formation-step">
             <div class="container-wb py-5">
                 <div class="row">
                     <div class="col-12 col-md-2">
@@ -151,7 +151,7 @@
 
     </section>
     <section>
-        <div class="container-fluid bg-step-3 py-5">
+        <div class="container-fluid bg-step-3 py-5 step-full" id="accompagnement-step">
             <div class="container-wb py-5">
                 <div class="row">
                     <div class="col-12 col-md-2">
