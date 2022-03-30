@@ -19,8 +19,14 @@ $(function(){
     var menu = $('#menu-overlay')
 
     $('#btn-menu').click(function(e){
-
+        $('.nav').css('height','220px');
         menu.css('height','100vh');
+
+        $('.menu-overlay-link1').css('bottom','0px')
+        $('.menu-overlay-link2').css('bottom','0px')
+        $('.menu-overlay-link3').css('bottom','0px')
+        $('.menu-overlay-link4').css('bottom','0px')
+
 
 
 

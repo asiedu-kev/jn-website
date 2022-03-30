@@ -192,6 +192,8 @@ body {
     font-size: 18px;
     padding-bottom: 1rem;
     padding-left: 1rem;
+    transition: bottom 1.5s ease;
+
 }
 
 .menu-overlay-link:hover {
@@ -729,9 +731,7 @@ body {
         display: block !important;
     }
 
-    .menu-overlay-link {
-        font-size: 16px;
-    }
+
 
     .menu-overlay .closebtn {
         top: 1rem;
@@ -1284,3 +1284,63 @@ body {
 }
 
 
+
+/*
+
+.animated{
+
+    animation: example1 3s ease 1;
+ }
+
+ .animated:nth-child(1) {
+
+ }
+ .animated:nth-child(2) {
+
+   animation-delay:1s;
+
+ }.animated:nth-child(3) {
+
+   animation-delay:2s;
+ }
+ .animated:nth-child(3) {
+
+    animation-delay:4s;
+  }
+ @keyframes example1 {
+   0% {
+     opacity:0;
+     bottom:-220px;
+     transform:translateY(200px); }
+
+   100%{transform:translateY(0px);
+   opacity:1;}
+ } */
+
+
+ .test-menu{
+     transition-delay: .6s;
+     transition-timing-function: ease;
+     transition-property: opacity,transform;
+ }
+
+
+ .menu-overlay-link1,.menu-overlay-link2,.menu-overlay-link3,.menu-overlay-link4{
+     bottom: -1500px;
+     position: relative;
+ }
+
+ .menu-overlay-link1{
+}
+
+.menu-overlay-link2{
+    transition-delay: 1s;
+}
+
+.menu-overlay-link3{
+    transition-delay: 2s;
+}
+
+.menu-overlay-link4{
+    transition-delay: 3s;
+}
