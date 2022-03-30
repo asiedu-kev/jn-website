@@ -370,8 +370,8 @@
     <section>
         <div class="container-fluid bg-black h-wb-100 py-5">
             <div class="container-wb">
-                <div class="row d-flex">
-                    <div class="col-10">
+                <div class="row d-flex flex-column flex-md-row">
+                    <div class="col-12 col-md-10 order-2 order-md-1">
                         <div class="swiper-container price-main">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -386,7 +386,7 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="col-md-6 d-flex justify-content-center ps-5">
+                                                <div class="col-md-6 d-flex justify-content-center ps-md-5 mb-price-y">
                                                     <div>
 
                                                         <h3 class="text-white">Consulting/coaching mindset</h3>
@@ -463,7 +463,7 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="col-md-6 d-flex justify-content-center ps-5">
+                                                <div class="col-md-6 d-flex justify-content-center ps-md-5 mb-price-y">
                                                     <div>
 
                                                         <h3 class="text-white">Consulting e-commerce</h3>
@@ -533,7 +533,7 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="col-md-6 d-flex justify-content-center ps-5">
+                                                <div class="col-md-6 d-flex justify-content-center ps-md-5 mb-price-y">
                                                     <div>
 
                                                         <h3 class="text-white">Coaching e-commerce</h3>
@@ -596,7 +596,7 @@
                         </div>
                     </div>
 
-                    <div class="col-2 d-flex justify-content-center align-items-start">
+                    <div class="col-12 col-md-2 d-flex flex-row  align-items-center justify-content-center  justify-content-md-start flex-md-column order-1 order-md-2 ">
                         <div class="swiper-container price-thumbs">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">

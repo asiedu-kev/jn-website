@@ -2,7 +2,18 @@ $(function(){
 
     "use strict";
 
+
     AOS.init();
+
+    /* scroll  to about */
+
+    $(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top
+        }, 500);
+    });
 
 
     var menu = $('#menu-overlay')
@@ -126,44 +137,40 @@ $("#close-popup").click(function(e){
       });
 
 
-/* aos function */
-function aos_init() {
-    AOS.init({
-      duration: 1000,
-      easing: "ease-in-out",
-      once: true,
-      mirror: false
-    });
-  }
-
 /* pricing*/
 
 var galleryThumbs = new Swiper(".price-thumbs", {
     centeredSlides: true,
     centeredSlidesBounds: true,
     slidesPerView: 3,
-    watchOverflow: true,
-    watchSlidesVisibility: true,
-    watchSlidesProgress: true,
-    direction: 'vertical'
+    watchOverflow: false,
+    watchSlidesVisibility: false,
+    watchSlidesProgress: false,
+    direction:'vertical',
+    breakpoints:{
+        0:{
+            direction: 'horizontal',
+        },
+        768:{
+            direction: 'vertical',
+        }
+    }
+
   });
 
   var galleryMain = new Swiper(".price-main", {
-    watchOverflow: true,
-    watchSlidesVisibility: true,
-    watchSlidesProgress: true,
+    watchOverflow: false,
+    watchSlidesVisibility: false,
+    watchSlidesProgress: false,
     preventInteractionOnTransition: true,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+    freeMode: true,
     effect: 'fade',
       fadeEffect: {
       crossFade: true
     },
     thumbs: {
       swiper: galleryThumbs
-    }
+    },
   });
 
   galleryMain.on('slideChangeTransitionStart', function() {
@@ -174,6 +181,18 @@ var galleryThumbs = new Swiper(".price-thumbs", {
     galleryMain.slideTo(galleryThumbs.activeIndex);
   });
 
+
+//   var tail = window.innerWidth;
+
+//   if(tail < 768){
+//     galleryThumbs.changeDirection('horizontal', true)
+//   }
+
+//   $(window).on('resize', function(){
+//     var win = $(this); //this = window
+
+//     if (win.width() < 768 ) { galleryThumbs.changeDirection('horizontal', true)}
+// });
 
   /* check element in view*/
 
@@ -193,7 +212,55 @@ var galleryThumbs = new Swiper(".price-thumbs", {
     return  isTotal  || isPart ;
 }
 
+/**
+     * Easy selector helper function
+     */
+ const select = (el, all = false) => {
+    el = el.trim()
+    if (all) {
+      return [...document.querySelectorAll(el)]
+    } else {
+      return document.querySelector(el)
+    }
+  }
 
+  /**
+   * Easy event listener function
+   */
+  const on = (type, el, listener, all = false) => {
+    if (all) {
+      select(el, all).forEach(e => e.addEventListener(type, listener))
+    } else {
+      select(el, all).addEventListener(type, listener)
+    }
+  }
+
+  /**
+   * Easy on scroll event listener
+   */
+  const onscroll = (el, listener) => {
+    el.addEventListener('scroll', listener)
+  }
+
+  /**
+   * Navbar links active state on scroll
+   */
+  let navbarlinks = select('#navbarSupportedContent .menu-cta', true)
+  const navbarlinksActive = () => {
+    let position = window.scrollY + 200
+    navbarlinks.forEach(navbarlink => {
+      if (!navbarlink.hash) return
+      let section = select(navbarlink.hash)
+      if (!section) return
+      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+        navbarlink.classList.add('active')
+      } else {
+        navbarlink.classList.remove('active')
+      }
+    })
+  }
+  window.addEventListener('load', navbarlinksActive)
+  onscroll(document, navbarlinksActive)
 $("#accompagnement-step").scroll(function(){
     var result = checkInView($("#accompagnement-step"),true);
 
@@ -206,6 +273,10 @@ $("#accompagnement-step").scroll(function(){
         $("#accompagnement-step").addRemove('wb-full');
     }
 });
+
+
+
+
 
   });
 

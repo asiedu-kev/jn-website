@@ -17,14 +17,14 @@
                     </div>
 
                     <div class="text-center hero-see-more">
-                        <button class="btn text-white">
+                        <a class="btn text-white btn-hash" href="#aboutJn">
                             <div>
                                 <span class="d-block ">See more</span>
-                                <span class="d-block py-3"><i class="fas fa-chevron-down fa-animate-chevron"></i></span>
+                                <span class="d-block"><i class="fas fa-chevron-down fa-animate-chevron"></i></span>
 
                             </div>
 
-                        </button>
+                        </a>
                     </div>
                 </div>
 
@@ -35,8 +35,8 @@
     </section>
 
     <section>
-        <div class="container container-custom">
-            <div class="row align-items-center">
+        <div class="container container-custom " id="aboutJn">
+            <div class="row align-items-center" >
                 <div class="col-12 col-md-6 d-flex justify-content-center mb-3">
                     <div class="profile-image-container ">
                         <img src="{{ asset('img/profile.png') }}" alt="profile" class="profile-image">

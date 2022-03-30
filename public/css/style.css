@@ -578,7 +578,7 @@ body {
     position: absolute;
     bottom: 0;
     padding: 2.5rem 1rem;
-    transition: all 0.5s ease;
+
 }
 
 .card-price-footer-link {
@@ -587,6 +587,7 @@ body {
 
 .card-price-footer:hover .card-price-footer-link {
     display: block;
+    transition: display 1s ease;
 }
 
 .container-img-started-about {
@@ -617,9 +618,7 @@ body {
     line-height: 36px;
 }
 
-.opactity-60 {
-    opacity: 0.6 !important;
-}
+
 
 .p-ressource-about {
     padding: 5rem !important;
@@ -705,7 +704,18 @@ body {
     width: 100%;
 } */
 
+.step-full{
+    height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
 @media screen and (max-width: 427px) {
+    .step-full{
+        height: 100%;
+    }
     .card-history-header {
         height: 295px !important;
     }
@@ -916,6 +926,38 @@ body {
     .card-videos {
         height: 200px !important;
     }
+
+    .swiper-container.price-thumbs{
+        width: 250px !important;
+    }
+
+    .card-price-thumbs{
+        height: 60px !important;
+        width: 60px !important;
+    }
+
+
+
+    .card-swiper-price{
+
+    }
+
+    .card-swiper-price-header{
+
+    }
+
+  .p-price-x {
+        padding-left: 0.4rem !important;
+        padding-right: 0.4rem !important;
+    }
+
+    .card-swiper-price-header{
+        height:360px !important ;
+    }
+
+    .mb-price-y{
+        margin-top: 8rem;
+    }
 }
 
 @media screen and (max-width: 376px) {
@@ -1016,16 +1058,19 @@ body {
 }
 
 .fa-animate-chevron {
-    animation-name: fa-animate-chevron;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
+    animation: fa-animate-chevron 2s ease infinite;
+
 }
 
-/* @keyframes fa-animate-chevron {
-    0%   {padding-bottom: 4px;}
-    50%  {padding-bottom: 6px;}
-    100% {padding-bottom: 4px;}
-  } */
+@keyframes fa-animate-chevron {
+    0%   {
+        transform: translateY(0px);
+    }
+    50%  {
+        transform: translateY(7px);
+    }
+
+  }
 
 .card-videos img {
     height: 100%;
@@ -1171,6 +1216,17 @@ body {
     transition-delay: 3s;
 
 }
+.opacity-text-3{
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+.opacity-text-2{
+    color: rgba(206, 50, 0, 0.6) !important;
+}
+
+.opacity-text-1{
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
 
 @keyframes header {
     0% {
@@ -1197,7 +1253,7 @@ body {
 
 .p-price-x{
 
-    padding-right: 4rem !important;
+    padding-right: 4rem ;
 }
 
 .card-swiper-price-header{
@@ -1222,14 +1278,9 @@ body {
     height: 100% !important;
 }
 
+.btn-hash:focus{
 
-.wb-full{
-    position: fixed;
-    height: 100vh !important;
-    width: 100vw !important;
-    background-color: #ce3200 !important;
+    box-shadow: 0 0 0 0.25rem transparent !important;
 }
 
-.step-full{
-    height: 100vh;
-}
+

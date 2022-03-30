@@ -29,7 +29,7 @@
 
                     <div class="card-price-footer  ">
 
-                            <h4 class="font-bold text-uppercase opacity-60">ECOM ELITE</h4>
+                            <h4 class="font-bold text-uppercase opacity-text-1">ECOM ELITE</h4>
                             <div class="fs-16 font-regular">La formation e-commerce <br> exclusivement dédiée à l'Afrique</div>
                             <div class="card-price-footer-link py-4"><a href="" class="d-block text-decoration-none text-white font-medium">
                                 <div class="d-flex justify-content-between align-items-center">
@@ -47,7 +47,7 @@
                     </div>
 
                     <div class="card-price-footer ">
-                        <h4 class="font-bold text-uppercase opacity-60">NETCAMP</h4>
+                        <h4 class="font-bold text-uppercase opacity-text-2">NETCAMP</h4>
                         <div class="fs-16 font-regular">L'application qui te forme pour gagner <br> tes premiers milliers
                             d'euros.</div>
                         <div class="card-price-footer-link py-4"><a href="" class="d-block text-decoration-none color-primary font-medium">
@@ -64,7 +64,7 @@
                     </div>
 
                     <div class="card-price-footer ">
-                        <h4 class="font-bold text-uppercase opacity-60">QUICK STARTS</h4>
+                        <h4 class="font-bold text-uppercase opacity-text-3">QUICK STARTS</h4>
                         <div class="fs-16 font-regular">Un ensemble de formations en ligne <br> gratuites pour démarrer dans
                             les <br> business en ligne.</div>
                             <div class="card-price-footer-link py-4"><a href="" class="d-block text-decoration-none text-dark font-medium">
