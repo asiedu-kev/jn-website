@@ -457,7 +457,7 @@
                                             <div class="row">
                                                 <div class="col-md-6 d-flex justify-content-center p-price-x">
                                                     <div class="card-swiper-price-header">
-                                                        <img src="{{ asset('img/price1.png') }}" alt="">
+                                                        <img src="{{ asset('img/price2.png') }}" alt="">
                                                         <button
                                                             class="btn bg-wb-primary w-100 text-white font-mono-medium py-2 text-center mt-3">Commander</button>
                                                     </div>
@@ -527,7 +527,7 @@
                                             <div class="row">
                                                 <div class="col-md-6 d-flex justify-content-center p-price-x">
                                                     <div class="card-swiper-price-header">
-                                                        <img src="{{ asset('img/price1.png') }}" alt="">
+                                                        <img src="{{ asset('img/price3.png') }}" alt="">
                                                         <button
                                                             class="btn bg-wb-primary w-100 text-white font-mono-medium py-2 text-center mt-3">Commander</button>
                                                     </div>

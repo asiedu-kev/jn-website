@@ -1344,3 +1344,114 @@ body {
 .menu-overlay-link4{
     transition-delay: 3s;
 }
+
+
+
+@media screen and (min-width:768px) {
+
+    .wb-header-title {
+        font-size: 20px !important;
+    }
+
+    .wb-header-btn {
+        font-size: 24px !important;
+    }
+
+    .home-title {
+        font-size: 64px !important;
+    }
+
+    .menu-overlay-link {
+        font-size: 48px !important;
+    }
+
+    .section-title {
+        font-size: 64px !important;
+    }
+
+    .section-title-sub {
+        font-size: 24px !important;
+    }
+    .section-title-CTA {
+        font-size: 18px !important;
+    }
+
+    .title-3{
+        font-size: 72px !important;
+    }
+    .join-box-title{
+        font-size: 24px !important;
+    }
+
+    .about-title{
+        font-size: 96px !important;
+    }
+
+    .wb-text{
+        font-size: 18px !important;
+    }
+
+    .history-text{
+        font-size: 32px !important ;
+    }
+
+    .history-sub-text{
+        font-size: 24px !important;
+    }
+
+    .sub-section-title{
+        font-size: 48px !important;
+    }
+
+    .fs-32{
+        font-size: 32px !important;
+    }
+}
+
+@media screen and (max-width:677px) {
+
+    .history-text{
+        font-size: 24px !important ;
+    }
+
+
+
+    .wb-text{
+        font-size: 18px !important;
+    }
+    .section-title-CTA {
+        font-size: 18px !important;
+    }
+    .section-title-sub {
+        font-size: 24px !important;
+    }
+
+    .wb-header-title {
+        font-size: 16px !important;
+    }
+
+    .home-title {
+        font-size: 48px !important;
+    }
+
+    .menu-overlay-link {
+        font-size: 40px !important;
+    }
+
+    .section-title {
+        font-size: 48px !important;
+    }
+
+    .title-3{
+        font-size: 64px !important;
+    }
+
+    .join-box-title{
+        font-size: 24px !important;
+    }
+
+    .about-title{
+        font-size: 72px !important;
+    }
+
+}
