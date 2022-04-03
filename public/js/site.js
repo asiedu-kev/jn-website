@@ -12,21 +12,21 @@ $(function(){
 
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top
-        }, 500);
+        }, 100);
     });
 
 
     var menu = $('#menu-overlay')
 
     $('#btn-menu').click(function(e){
-        $('.nav').css('height','220px');
+        $('.nav').css('height','400px');
         menu.css('height','100vh');
 
         $('.menu-overlay-link1').css('bottom','0px')
         $('.menu-overlay-link2').css('bottom','0px')
         $('.menu-overlay-link3').css('bottom','0px')
         $('.menu-overlay-link4').css('bottom','0px')
-
+        $('.menu-overlay-title').css('right','-31px')
 
 
 
@@ -34,7 +34,7 @@ $(function(){
 
     $('#close-menu').click(function(e){
         menu.css('height','0vh');
-        $('.menu-overlay-link').removeClass('anim');
+
     });
 
 
