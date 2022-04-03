@@ -95,26 +95,26 @@
             <h2 class="color-primary font-bold wb-h0 mb-5">À propos</h2>
             <div class="my-4">
                 <div class="row justify-content-md-center fs-18 ">
-                    <div class="col-12 col-md-4 mb-3 pe-md-5 aos-init aos-animate" data-aos="fade-zoom-in"
+                    <div class="col-12 col-md-4 mb-3 pe-md-4 aos-init aos-animate" data-aos="fade-zoom-in"
                         data-aos-easing="ease-in-back" data-aos-delay="300">
-                        <p class=" mb-0 text-justify "> Il y a 3 ans, j'ai démarré mon aventure sur internet. Cela a été la
+                        <p class=" mb-0  "> Il y a 3 ans, j'ai démarré mon aventure sur internet. Cela a été la
                             meilleure décision de ma vie, car grâce à la réussite dans mes business, je peux désormais
                             voyager partout dans le monde.
                         </p>
                     </div>
 
-                    <div class="col-12 col-md-4 mb-3 pe-md-5 aos-init aos-animate" data-aos="fade-zoom-in"
+                    <div class="col-12 col-md-4 mb-3 pe-md-4 aos-init aos-animate" data-aos="fade-zoom-in"
                         data-aos-easing="ease-in-back" data-aos-delay="500">
-                        <p class="text-justify"> Dès le début de mon aventure, j'ai compris que le numérique était un
+                        <p class=""> Dès le début de mon aventure, j'ai compris que le numérique était un
                             véritable levier d'autonomisation pour les jeunes africains. C'est pourquoi, en Juillet  2019,
                             au cours d'une conférence TEDx, j'ai exprimé mon engagement à aider un maximum de jeunes à
                             embrasser les opportunités qui s'y offrent.
                         </p>
                     </div>
 
-                    <div class="col-12 col-md-4 mb-3 pe-md-5 aos-init aos-animate" data-aos="fade-zoom-in"
+                    <div class="col-12 col-md-4 mb-3 pe-md-4 aos-init aos-animate" data-aos="fade-zoom-in"
                         data-aos-easing="ease-in-back" data-aos-delay="700">
-                        <p class="text-justify">
+                        <p class="">
                             En deux ans, j'ai donné de nombreuses conférences gratuites, développé des ressources librement
                             accessibles et des programmes d'accompagnement pour aider ceux qui souhaitent apprendre des
                             compétences et/ou se lancer le numérique.
@@ -128,7 +128,7 @@
     </section>
 
     <section>
-        <div class="container-fluid bg-wb-secondary wb-py-7">
+        <div class="container-fluid bg-wb-secondary wb-py-7 ">
             <div class="container-wb">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-5">
@@ -226,25 +226,27 @@
                 </div>
 
             </div>
+
+
         </div>
     </section>
 
     <section>
-        <div class="container container-about wb-py-8">
+        <div class="container container-about wb-py-8 wb-pb-revolution">
             <div class="row">
                 <div class="col-12 col-md-5">
                     <h2 class="color-primary font-bold wb-h3 mb-4">Rejoins la <br> révolution e- <br> commerce</h2>
 
                     <div class="col-12 col-md-9">
                         <p class="fs-18 mb-4  aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="200">Pour moi, le e-commerce est une énorme opportunité à saisir pour la
+                            data-aos-delay="100">Pour moi, le e-commerce est une énorme opportunité à saisir pour la
                             jeunesse africaine. Les jeunes
                             africains peuvent obtenir les mêmes résultats que tous ceux que j'ai accompagnés en Europe et
                             partout dans le monde.</p>
 
 
                         <p class="fs-18 mb-4 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="500">C'est pourquoi, conscient des difficultés que les jeunes africains
+                            data-aos-delay="250">C'est pourquoi, conscient des difficultés que les jeunes africains
                             éprouvent à obtenir des résultats,
                             j'ai développé ECOM ELITE le premier programme E-commerce 100% adapté pour l'Afrique
                             francophone.
@@ -253,8 +255,8 @@
 
 
                     <a href=""
-                        class="btn px-5 btn-wb-primary font-mono-medium rounded-pill fs-18 aos-init aos-animate mb-4 mb-md-0"
-                        data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="700">Rejoindre ECOM ELITE</a>
+                        class="btn px-5 btn-wb-primary font-mono-medium rounded-pill fs-18 aos-init aos-animate mb-5 mb-md-0"
+                        data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400">Rejoindre ECOM ELITE</a>
 
                 </div>
 
@@ -283,7 +285,7 @@
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
                                         <div class="col-12 col-md-10 card-history-header font-regular wb-h4 ">
-                                            <p class="text-justify">
+                                            <p class="">
                                                 Je suis né le 12 Juillet à Cotonou en République du Bénin, d'une famille
                                                 modeste. Mon père est décédé seulement 3 mois avant ma naissance. Ma mère
                                                 m'a alors élevée seule dans un petit quartier de Bohicon, au Sud du pays.
@@ -316,7 +318,7 @@
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
                                         <div class="col-12 col-md-10 card-history-header font-regular wb-h4">
-                                            <p class="text-justify">
+                                            <p class="">
                                                 Quelques années plus tard, j'ai eu mon Brevet d'études du premier cycle en
                                                 étant parmi les meilleurs élèves du Bénin.
 
@@ -346,7 +348,7 @@
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
                                         <div class="col-12 col-md-10 card-history-header font-regular wb-h4">
-                                            <p class="text-justify">
+                                            <p class="">
                                                 J'étais tellement passionné par les robots que quelques mois plus tard j'ai
                                                 décidé de passer un concours international, le Google Science Fair, avec mon
                                                 ami Junior Hounkpe. Nous avions développé un prototype de robot agricole, et

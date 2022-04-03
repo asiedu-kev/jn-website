@@ -63,12 +63,12 @@
             <div class="d-flex justify-content-center flex-column align-items-start flex-md-row fs-18">
                 <div class="col-md-5 col-sm-12 p-2 p-md-4 aos-init aos-animate" data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-back" data-aos-delay="100">
-                    <p class="text-justify fs-18 mb-4"> C'est vrai, les compétences et le savoir faire, c'est important.
+                    <p class=" fs-18 mb-4"> C'est vrai, les compétences et le savoir faire, c'est important.
                         Mais ce qui
                         te fait réussir, c'est la vitesse à laquelle tu arrives à trouver des solutions aux difficultés qle
                         tu vas rencontrer.
                     </p>
-                    <p class="text-justify fs-18">Les personnes qui explosent tout en entrepreneuriat réussissent car ils
+                    <p class=" fs-18">Les personnes qui explosent tout en entrepreneuriat réussissent car ils
                         ont
                         accès à un écosystème où ils peuvent trouver de l'accompagnement, des astuces et des outils pour
                         résoudre facilement les difficultés qu'ils rencontrent et aller rapidement vers le succès.
@@ -80,17 +80,17 @@
 
                 <div class="col-md-5 col-sm-12 p-2 p-md-4 aos-init aos-animate" data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-back" data-aos-delay="300">
-                    <p class="text-justify fs-18 mb-4"> C'est ce que les gourous et coachs sur les réseaux sociaux ne te
+                    <p class=" fs-18 mb-4"> C'est ce que les gourous et coachs sur les réseaux sociaux ne te
                         diront
                         malheureusement jamais.
                     </p>
-                    <p class="text-justify fs-18 mb-4">En effet, le long de ton parcours d'entrepreneur, tu vas rencontrer
+                    <p class=" fs-18 mb-4">En effet, le long de ton parcours d'entrepreneur, tu vas rencontrer
                         beaucoup
                         de difficultés. Tu seras bloqué à certaines étapes et tu seras également soumis à de nombreux
                         dilemmes. À chaque fois, tu devras chercher et trouver la solution qui te fera avancer.
                     </p>
 
-                    <p class="text-justify fs-18">À ce stade, une solution s'offre à toi : Tu peux essayer de trouver à
+                    <p class=" fs-18">À ce stade, une solution s'offre à toi : Tu peux essayer de trouver à
                         chaque
                         fois toi-même la solution, en testant et en essayant beaucoup de choses.
                     </p>
@@ -112,17 +112,17 @@
 
                     <div class="col-sm-12 mb-3 col-md-6 d-flex justify-content-center  fs-18">
                         <div class="col-12 wb-col-md-9">
-                            <p class="text-justify aos-init aos-animate mb-5 mb-md-5" data-aos="fade-zoom-in"
+                            <p class=" aos-init aos-animate mb-5 mb-md-5" data-aos="fade-zoom-in"
                                 data-aos-easing="ease-in-back" data-aos-delay="100">❌ <br>
                                 Ça te prend beaucoup de temps pour trouver des solutions. Pendant que tu perds du temps,
                                 ceux
                                 qui font le même business que toi évoluent rapidement et obtiennent de gros résultats.</p>
-                            <p class="text-justify aos-init aos-animate mb-5 mb-md-5" data-aos="fade-zoom-in"
+                            <p class=" aos-init aos-animate mb-5 mb-md-5" data-aos="fade-zoom-in"
                                 data-aos-easing="ease-in-back" data-aos-delay="300">❌ <br>
                                 Tu finis par te décourager car les difficultés s'enchaînent. Tu deviens dépressif et tu as
                                 envie
                                 de tout laisser tomber.</p>
-                            <p class="text-justify aos-init aos-animate mb-5 mb-md-5" data-aos="fade-zoom-in"
+                            <p class=" aos-init aos-animate mb-5 mb-md-5" data-aos="fade-zoom-in"
                                 data-aos-easing="ease-in-back" data-aos-delay="500">❌ <br>
                                 Tu prends beaucoup de mauvaises décisions, perds beaucoup d'argent et tu stagnes.</p>
                         </div>
@@ -151,7 +151,7 @@
 
                 <div class="col-12 mb-2 col-md-7 d-flex justify-content-md-center align-items-center">
                     <div class="col-12 col-md-9 fs-32">
-                        <p class="fs-32 mb-5 mb-md-0"> Je m'appelle Junior Natabou, j'ai 18 ans, et cela fait 4 ans que
+                        <p class="fs-32 mb-5 "> Je m'appelle Junior Natabou, j'ai 18 ans, et cela fait 4 ans que
                             j'entreprends dans plusieurs domaines, notamment les business en ligne.
 
                         </p>
@@ -173,12 +173,12 @@
             <div class="d-flex justify-content-center  align-items-start flex-column flex-md-row fs-18">
                 <div class="col-12 mb-3 col-md-6 p-2 pe-md-5 ps-md-0 aos-init aos-animate" data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-back" data-aos-delay="100">
-                    <p class="text-justify fs-18 mb-4"> Pourtant, depuis 2019, comme tous les entrepreneurs, j'ai eu à faire face
+                    <p class=" fs-18 mb-4"> Pourtant, depuis 2019, comme tous les entrepreneurs, j'ai eu à faire face
                         à
                         de nombreux problèmes dans mes différents business.
 
                     </p>
-                    <p class="text-justify fs-18"> Lorsque j'ai démarré dans le e-commerce en 2019 notamment, j'ai perdu
+                    <p class=" fs-18"> Lorsque j'ai démarré dans le e-commerce en 2019 notamment, j'ai perdu
                         tout
                         mon capital de départ. Je ne me suis pas pour autant découragé. J'ai dû retourner chercher du
                         capital et recommencer. Mais j'ai encore échoué une seconde fois. Puis une troisième et une
@@ -191,13 +191,13 @@
                     data-aos-easing="ease-in-back" data-aos-delay="300">
 
 
-                    <p class="text-justify fs-18 mb-4"> Honnêtement, j'étais totalement découragé et j'ai même frôlé la
+                    <p class=" fs-18 mb-4"> Honnêtement, j'étais totalement découragé et j'ai même frôlé la
                         dépression.
                         Je voyais les autres réussir et je ne comprenais pas pourquoi ça ne fonctionnait pas pour moi.
                     </p>
-                    <p class="text-justify fs-18 mb-4"> J'aurais pu tout laisser tomber à ce moment-là…
+                    <p class=" fs-18 mb-4"> J'aurais pu tout laisser tomber à ce moment-là…
                     </p>
-                    <p class="text-justify fs-18"> Cependant, j'ai décidé de recommencer une dernière fois. Mais cette fois,
+                    <p class=" fs-18"> Cependant, j'ai décidé de recommencer une dernière fois. Mais cette fois,
                         en
                         prenant le soin de me faire accompagner par un expert. Et devine quoi ? Cette fois-ci, il m'a fallu
                         seulement 3 mois pour atteindre 100000€ de chiffres d'affaires.
@@ -218,21 +218,21 @@
 
                     <div class="col-md-6 col-sm-12 mb-3 d-flex justify-content-center p-2  fs-18">
                         <div class="col-12 wb-col-md-9">
-                            <p class="text-justify aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in"
+                            <p class=" aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in"
                             data-aos-easing="ease-in-back" data-aos-delay="100">90% des entrepreneurs réussissent tout
                             simplement parce qu'ils se sont
                             fait accompagner. En te faisant accompagner tu auras un soutien de poids pour résoudre
                             rapidement toutes les difficultés que tu vas rencontrer :</p>
-                        <p class="text-justify aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in"
+                        <p class=" aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in"
                             data-aos-easing="ease-in-back" data-aos-delay="250">✅ Dans ton parcours vers la réussite <br>
                             ✅ Sur ton business <br>
                             ✅ Dans ta carrière.</p>
-                        <p class="text-justify aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in"
+                        <p class=" aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in"
                             data-aos-easing="ease-in-back" data-aos-delay="400">Malheureusement, se faire accompagner, ce
                             n'est pas simple. La plupart des
                             programmes de coaching de qualité coûtent très cher ( en moyenne de 2000€). Mais ils constituent
                             une garantie sûr pour obtenir des résultats et atteindre tes objectifs.</p>
-                        <p class="text-justify font-bold aos-animate mb-5 mb-md-4 fs-24" data-aos="fade-zoom-in"
+                        <p class=" font-bold aos-animate mb-5 mb-md-4 fs-24" data-aos="fade-zoom-in"
                             data-aos-easing="ease-in-back" data-aos-delay="550">Ce que je te propose : Un accompagnement
                             accessible et adapté à
                             tes besoins.</p>
@@ -253,11 +253,11 @@
                     </div>
                     <div class="col-12 col-md-8">
                         <div class="row">
-                            <div class="col-12 col-md-7 mb-3   ">
+                            <div class="col-12 col-md-7 offset-md-1 mb-3   ">
                                 <p class="mb-0 fs-18">Cela fait quelques années que j'accompagne les jeunes du monde
                                     entier à obtenir des résultats stratosphériques dans leur vie.</p>
                             </div>
-                            <div class="col-12 col-md-5 d-flex justify-content-md-end">
+                            <div class="col-12 col-md-4 d-flex justify-content-md-end">
                                 <button class="btn btn-wb-light d-none d-md-inline owlVideosPrev me-4"> <i
                                         class="fas fa-chevron-left"></i>
                                 </button>
@@ -372,9 +372,9 @@
 
 
 
-                    <p class="text-justify fs-18"> ✅ Quelles que soient tes compétences</p>
-                    <p class="text-justify fs-18">✅ Quel que soit la nature de ton business ou de ton entreprise</p>
-                    <p class="text-justify fs-18">✅ Quels que soient tes objectifs</p>
+                    <p class=" fs-18"> ✅ Quelles que soient tes compétences</p>
+                    <p class=" fs-18">✅ Quel que soit la nature de ton business ou de ton entreprise</p>
+                    <p class=" fs-18">✅ Quels que soient tes objectifs</p>
                 </div>
                 <div class="col-sm-12 col-md-4 ps-md-4  mb-5 aos-animate " data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                     data-aos-delay="250">
@@ -384,9 +384,9 @@
 
 
 
-                    <p class="text-justify fs-18">❌ Pas besoin d'avoir des compétences digitales</p>
-                    <p class="text-justify fs-18">❌ Pas besoin de faire nécessairement un business en ligne</p>
-                    <p class="text-justify fs-18">❌ Pas besoin d'avoir un grand diplôme.</p>
+                    <p class=" fs-18">❌ Pas besoin d'avoir des compétences digitales</p>
+                    <p class=" fs-18">❌ Pas besoin de faire nécessairement un business en ligne</p>
+                    <p class=" fs-18">❌ Pas besoin d'avoir un grand diplôme.</p>
                 </div>
 
                 <div class="col-sm-12 col-md-4 ps-md-4  mb-5 aos-animate " data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
@@ -397,11 +397,11 @@
 
 
 
-                    <p class="text-justify fs-18">1- Entretien et diagnostic/audit</p>
-                    <p class="text-justify fs-18">2- Identification des problèmes et difficultés qui t'empêchent de réussir
+                    <p class=" fs-18">1- Entretien et diagnostic/audit</p>
+                    <p class=" fs-18">2- Identification des problèmes et difficultés qui t'empêchent de réussir
                     </p>
-                    <p class="text-justify fs-18">3- Plan d'action détaillé pour résoudre les problèmes et difficultés</p>
-                    <p class="text-justify fs-18">4- Évaluation des réussites</p>
+                    <p class=" fs-18">3- Plan d'action détaillé pour résoudre les problèmes et difficultés</p>
+                    <p class=" fs-18">4- Évaluation des réussites</p>
                 </div>
             </div>
         </div>
@@ -434,7 +434,7 @@
 
                                                         <div class="my-4">
                                                             <h5 class="fs-18 font-bold">Parfait si</h5>
-                                                            <p class="text-justify fs-18">Vous souhaitez avoir une entrevue
+                                                            <p class=" fs-18">Vous souhaitez avoir une entrevue
                                                                 pour me
                                                                 demander des conseils sur votre business en ligne, votre
                                                                 carrière,
@@ -511,10 +511,10 @@
 
                                                         <div class="my-4">
                                                             <h5 class="fs-18 font-bold">Parfait si</h5>
-                                                            <p class="text-justify fs-18">Vous avez débuté dans le
+                                                            <p class=" fs-18">Vous avez débuté dans le
                                                                 e-commerce ou vous souhaitez y débuter.
                                                             </p>
-                                                            <p class="text-justify fs-18">
+                                                            <p class=" fs-18">
                                                                 Vous souhaitez une entrevue pour avoir mes conseils et
                                                                 produire plus rapidement des résultats.
                                                             </p>
@@ -587,11 +587,11 @@
 
                                                         <div class="my-4">
                                                             <h5 class="fs-18 font-bold">Parfait si</h5>
-                                                            <p class="text-justify fs-18">Vous faites du e-commerce ou vous
+                                                            <p class=" fs-18">Vous faites du e-commerce ou vous
                                                                 souhaitez faire du e-commerce depuis l'Afrique
                                                             </p>
 
-                                                            <p class="text-justify fs-18">Vous souhaitez un accompagnement
+                                                            <p class=" fs-18">Vous souhaitez un accompagnement
                                                                 de longue durée pour avoir mes conseils et produire plus
                                                                 rapidement des résultats</p>
                                                         </div>
@@ -681,7 +681,7 @@
 
 
     <section>
-        <div class="container-wb wb-py-8 wb-pb-88">
+        <div class="container-wb wb-py-8 wb-pb-88 wb-pb-faq">
             <h2 class="text-center wb-h3 font-bold text-uppercase">FAQ</h2>
             <div class="d-flex justify-content-center py-5">
                 <div class="col-12 col-md-11">

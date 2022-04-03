@@ -139,6 +139,10 @@ $("#close-popup").click(function(e){
             el: ".history-paginate",
             type: "fraction",
           },
+        //   mousewheel: true,
+        //   slidesPerView: 1,
+        //   spaceBetween: 30,
+        //   mousewheel: true,
 
       });
 
@@ -281,6 +285,18 @@ $("#accompagnement-step").scroll(function(){
 });
 
 
+
+
+
+var swiperVideos = new Swiper('.swiper-videos',{
+    slidesPerView: 3,
+    centeredSlides: true,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+});
 
 
 

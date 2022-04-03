@@ -66,8 +66,10 @@
     <section>
         <div class="container-wb pb-5 wb-pt-7 wb-m-py-7">
             <div class="d-flex justify-content-center">
-                <h2 class="wb-h3  text-center">Voici comment <br> construire ton empire <br> sur Internet dès <br>
+                <h2 class="wb-h3  text-center  d-none d-md-inline">Voici comment <br> construire ton empire <br> sur Internet dès <br>
                     aujourd'hui</h2>
+                    <h2 class="wb-h3  text-center d-inline  d-md-none  ">Voici <br> comment <br> construire <br> ton empire <br> sur Internet <br> dès
+                    <br>    aujourd'hui</h2>
 
             </div>
         </div>
@@ -85,10 +87,10 @@
                     </div>
                     <div class="col-12 col-md-6 d-flex justify-content-center order-2 order-md-1 aos-init aos-animate pt-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100">
                         <div class=" col-12 col-md-8">
-                            <p class="text-justify fs-18">Avant de te lancer tu dois maîtriser ce que sont les business en
+                            <p class=" fs-18">Avant de te lancer tu dois maîtriser ce que sont les business en
                                 ligne, les avantages, limites, et tout ce que tu dois savoir pour régulariser ton activité
                                 depuis l'Afrique.</p>
-                            <p class="text-justify fs-18">Tu trouveras de nombreux articles à ce sujet sur internet. Mais si tu
+                            <p class=" fs-18">Tu trouveras de nombreux articles à ce sujet sur internet. Mais si tu
                                 veux gagner du temps, je te conseille de suivre les formations ENTIÈREMENT GRATUITES que
                                 j'ai préparé sur le sujet.</p>
                             <a href="" class="color-primary font-bold fs-18">Je profite des Formations Gratuites</a>
@@ -119,16 +121,16 @@
                     </div>
                     <div class="col-12 col-md-6 d-flex justify-content-center order-2 order-md-1 aos-init aos-animate pt-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100">
                         <div class="col-12 col-md-8">
-                            <p class="text-justify fs-18">Maintenant que tu es dans le bain, c'est le moment de te lancer. Cela
+                            <p class=" fs-18">Maintenant que tu es dans le bain, c'est le moment de te lancer. Cela
                                 passe par la formation. Tu dois apprendre des compétences que tu vas utiliser pour
                                 construire ton empire.
 
 
-                            <p class="text-justify fs-18"> Il y a de nombreuses compétences que tu peux apprendre sur des
+                            <p class=" fs-18"> Il y a de nombreuses compétences que tu peux apprendre sur des
                                 plateformes comme Openclassrooms.com ou Udemy.com. Ces formations coûtent cependant souvent
                                 très cher.
                             </p>
-                            <p class="text-justify fs-18"> Si tu ne sais pas par quoi commencer ou que tu n'as pas beaucoup
+                            <p class=" fs-18"> Si tu ne sais pas par quoi commencer ou que tu n'as pas beaucoup
                                 d'argent pour te former, je te conseille de prendre l'accès à NETCAMP, une plate-forme que
                                 j'ai développé avec la collaboration de plusieurs experts européens pour t'aider à avoir
                                 accès à toutes les formations possibles à moindre coût.</p>
@@ -151,7 +153,7 @@
 
     </section>
     <section>
-        <div class="container-fluid bg-step-3 wb-py-8 " id="accompagnement-step">
+        <div class="container-fluid bg-step-3 wb-py-8 wb-pb-step3" id="accompagnement-step">
             <div class="container-wb py-5">
                 <div class="row">
                     <div class="col-12 col-md-2 mb-5 mb-md-0">
@@ -163,12 +165,12 @@
                     <div class="col-12 col-md-6 d-flex justify-content-center order-2 order-md-1 aos-init aos-animate pt-3" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100">
                         <div class="col-sm-12 col-md-8">
 
-                            <p class="text-justify fs-18"> Se former ne suffit pas toujours pour produire des résultats. Pour ma
+                            <p class=" fs-18"> Se former ne suffit pas toujours pour produire des résultats. Pour ma
                                 part, j'ai dû prendre un coaching pour réussir à chiffrer en e-commerce. Beaucoup
                                 d'entrepreneurs web ne réussissent pas malgré le fait qu'ils se soient formés parcequ'ils ne
                                 se sont pas fait accompagner.
                             </p>
-                            <p class="text-justify fs-18"> Un accompagnement te fait gagner du temps et te donne un raccourci
+                            <p class=" fs-18"> Un accompagnement te fait gagner du temps et te donne un raccourci
                                 vers le succès. Si tu souhaites te faire accompagner par moi dans tes business, je propose
                                 plusieurs programmes qui vont sûrement t'aider.
                             </p>
@@ -192,9 +194,11 @@
     <section>
         <div class="container-wb wb-py-8 wb-pb-8">
             <div class="row align-items-center">
-                <div class="col-md-6 col-sm-12 mb-2">
-                    <h2 class="text-dark wb-h1 ">Prêt à nous  rejoindre ?</h2>
-                    <div class="col-12 col-md-11">
+                <div class="col-md-6 col-sm-12 mb-5 mb-md-0">
+                    <h2 class="text-dark wb-h1  d-none d-md-inline">Prêt à nous  rejoindre ?</h2>
+                    <h2 class="text-dark wb-h1 d-inline d-md-none">Prêt à <br> nous  <br> rejoindre <br> ?</h2>
+
+                    <div class="col-12 col-md-11 mt-4 ">
                         <p class="fs-32">Grimpe la première marche et commence à construire ton  empire sur Internet aujourd'hui</p>
 
                     </div>

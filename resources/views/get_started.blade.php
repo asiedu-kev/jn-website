@@ -24,7 +24,7 @@
 
     <section>
         <div class="container-wb wb-py-8">
-            <div class="row px-3 p-md-2  ">
+            <div class="row px-4 p-md-2  ">
                 <div class="card card-price bg-wb-primary text-white">
                     <div class="card-price-header">
                         <h3 class="font-bold fs-32">1 Million d’Euros</h3>
@@ -52,8 +52,10 @@
 
                     <div class="card-price-footer ">
                         <h4 class="font-bold text-uppercase opacity-text-2 fs-24">NETCAMP</h4>
-                        <div class="fs-18 font-regular">L'application qui te forme pour gagner <br> tes premiers milliers
+                        <div class="fs-18 font-regular d-none d-md-block ">L'application qui te forme pour gagner <br> tes premiers milliers
                             d'euros.</div>
+                            <div class="fs-18 font-regular d-block d-md-none ">L'application qui te forme pour gagner  tes premiers milliers
+                                d'euros.</div>
                         <div class="card-price-footer-link py-4"><a href=""
                                 class="d-block text-decoration-none color-primary font-medium">
                                 <div class="d-flex justify-content-between align-items-center">
@@ -70,8 +72,10 @@
 
                     <div class="card-price-footer ">
                         <h4 class="font-bold text-uppercase opacity-text-3 fs-24">QUICK STARTS</h4>
-                        <div class="fs-18 font-regular">Un ensemble de formations en ligne <br> gratuites pour démarrer dans
+                        <div class="fs-18 font-regular d-none d-md-inline">Un ensemble de formations en ligne <br> gratuites pour démarrer dans
                             les <br> business en ligne.</div>
+                            <div class="fs-18 font-regular d-block d-md-none">Un ensemble de formations en ligne gratuites pour démarrer dans
+                                les  business en ligne.</div>
                         <div class="card-price-footer-link py-4"><a href=""
                                 class="d-block text-decoration-none text-dark font-medium">
                                 <div class="d-flex justify-content-between align-items-center">

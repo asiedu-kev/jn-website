@@ -267,7 +267,7 @@ body {
     position: absolute;
     bottom: 13%;
     padding: 1.5rem;
-    padding-left: 5rem;
+    padding-left: 4rem;
 }
 
 .hero-see-more {
@@ -461,8 +461,8 @@ body {
     }
 
     .card-videos {
-        width: 500px !important;
-        height: 300px !important;
+        width: 505px !important;
+        height: 320px !important;
     }
 
     .popup-img {
@@ -1018,7 +1018,7 @@ body {
     }
 
     .card-swiper-price-header {
-        height: 360px !important;
+        height: 420px !important;
     }
 
     .mb-price-y {
@@ -1210,7 +1210,7 @@ body {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.9);
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: height 0.3s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1240,7 +1240,7 @@ body {
 
 .popup-iframe {
     animation: video;
-    animation-duration: 10s;
+    animation-duration: 1s;
 }
 
 @keyframes video {
@@ -1657,9 +1657,7 @@ body {
     padding-bottom: 17rem !important;
 }
 
-.wb-pb-88{
-    padding-bottom: 14rem !important;
-}
+
 
 
 .wb-mb-5{
@@ -1683,4 +1681,87 @@ body {
 .wb-py-result{
     padding-top: 6rem;
     padding-bottom: 14rem;
+}
+
+
+.ln-48{
+    line-height: 48px !important;
+}
+.ln-70{
+    line-height: 70px !important;
+}
+.ln-27{
+    line-height: 27px !important;
+}
+
+.ln-24{
+    line-height: 24px !important;
+}
+.ln-58{
+    line-height: 58px !important;
+}
+.ln-36{
+    line-height: 36px !important;
+}
+.ln-86{
+    line-height: 86px !important;
+}
+.ln-34{
+    line-height: 34px !important;
+}
+.ln-32{
+    line-height: 32px !important;
+}
+.ln-36{
+    line-height: 36px !important;
+}
+.ln-34{
+    line-height: 34px !important;
+}
+.ln-35{
+    line-height: 36px !important;
+}
+.ln-38{
+    line-height: 38px !important;
+}
+.ln-42{
+    line-height: 42px !important;
+}
+.ln-31{
+    line-height: 31px !important;
+}
+
+.ln-58{
+    line-height: 58px !important;
+}
+
+.wb-pb-revolution{
+    padding-bottom: 11rem;
+}
+
+.wb-pb-faq{
+    padding-bottom: 8rem !important;
+}
+
+@media screen and (min-width:768px) {
+
+    .wb-pb-88{
+        padding-bottom: 20rem !important;
+    }
+
+    .wb-pb-step3{
+        padding-bottom: 10rem !important;
+    }
+
+
+}
+
+
+.swiper-videos{
+    width: 100%;
+    height: 500px;
+}
+
+.wb-videos{
+    width: 100vw !important;
 }
