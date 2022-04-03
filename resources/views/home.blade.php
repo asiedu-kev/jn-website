@@ -59,10 +59,10 @@
                         </div>
 
                         <div class="d-flex flex-column flex-md-row ">
-                            <a href=""
-                                class="btn btn-wb-primary font-mono-medium rounded-pill d-block mb-3 d-md-inline fs-18 px-4 me-md-3">Démarrer</a>
-                            <a href=""
-                                class="btn btn-wb-primary font-mono-medium rounded-pill d-block mb-3 d-md-inline fs-18 px-4">En
+                            <a href="{{ route('get_started')}}"
+                                class="btn btn-wb-primary font-mono-medium rounded-pill d-block mb-3 d-md-inline fs-18 px-5 py-2 me-md-3">Démarrer</a>
+                            <a href="#myHistory"
+                                class="btn btn-wb-primary font-mono-medium rounded-pill d-block mb-3 d-md-inline fs-18 px-5 py-2">En
                                 savoir
                                 plus</a>
 
@@ -95,7 +95,7 @@
             <h2 class="color-primary font-bold wb-h0 mb-5">À propos</h2>
             <div class="my-4">
                 <div class="row justify-content-md-center fs-18 ">
-                    <div class="col-12 col-md-4 mb-3 pe-md-4 aos-init aos-animate" data-aos="fade-zoom-in"
+                    <div class="col-12 col-md-4 mb-3 pe-md-4 " data-aos="fade-zoom-in"
                         data-aos-easing="ease-in-back" data-aos-delay="300">
                         <p class=" mb-0  "> Il y a 3 ans, j'ai démarré mon aventure sur internet. Cela a été la
                             meilleure décision de ma vie, car grâce à la réussite dans mes business, je peux désormais
@@ -103,7 +103,7 @@
                         </p>
                     </div>
 
-                    <div class="col-12 col-md-4 mb-3 pe-md-4 aos-init aos-animate" data-aos="fade-zoom-in"
+                    <div class="col-12 col-md-4 mb-3 pe-md-4 " data-aos="fade-zoom-in"
                         data-aos-easing="ease-in-back" data-aos-delay="500">
                         <p class=""> Dès le début de mon aventure, j'ai compris que le numérique était un
                             véritable levier d'autonomisation pour les jeunes africains. C'est pourquoi, en Juillet  2019,
@@ -112,7 +112,7 @@
                         </p>
                     </div>
 
-                    <div class="col-12 col-md-4 mb-3 pe-md-4 aos-init aos-animate" data-aos="fade-zoom-in"
+                    <div class="col-12 col-md-4 mb-3 pe-md-4 " data-aos="fade-zoom-in"
                         data-aos-easing="ease-in-back" data-aos-delay="700">
                         <p class="">
                             En deux ans, j'ai donné de nombreuses conférences gratuites, développé des ressources librement
@@ -238,14 +238,14 @@
                     <h2 class="color-primary font-bold wb-h3 mb-4">Rejoins la <br> révolution e- <br> commerce</h2>
 
                     <div class="col-12 col-md-9">
-                        <p class="fs-18 mb-4  aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        <p class="fs-18 mb-4  " data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                             data-aos-delay="100">Pour moi, le e-commerce est une énorme opportunité à saisir pour la
                             jeunesse africaine. Les jeunes
                             africains peuvent obtenir les mêmes résultats que tous ceux que j'ai accompagnés en Europe et
                             partout dans le monde.</p>
 
 
-                        <p class="fs-18 mb-4 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        <p class="fs-18 mb-4 " data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                             data-aos-delay="250">C'est pourquoi, conscient des difficultés que les jeunes africains
                             éprouvent à obtenir des résultats,
                             j'ai développé ECOM ELITE le premier programme E-commerce 100% adapté pour l'Afrique
@@ -254,8 +254,8 @@
                     </div>
 
 
-                    <a href=""
-                        class="btn px-5 btn-wb-primary font-mono-medium rounded-pill fs-18 aos-init aos-animate mb-5 mb-md-0"
+                    <a href="{{route("get_started")}}"
+                        class="btn px-5 btn-wb-primary font-mono-medium rounded-pill fs-18  mb-5 mb-md-0"
                         data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400">Rejoindre ECOM ELITE</a>
 
                 </div>
@@ -269,7 +269,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="myHistory">
         <div class="container-fluid bg-black text-white wb-py-7">
             <div class="container-wb">
                 <h5 class="text-uppercase history-deco font-bold fs-18 position-relative">Mon histoire</h5>
@@ -411,13 +411,13 @@
                 </div>
 
                 <div class="col-12 col-md-5 d-flex justify-content-center d-flex justify-content-md-end align-items-center flex-column">
-                    <a href="" class="text-decoration-none">
+                    <a href="{{ route("ressources")}}" class="text-decoration-none">
                         <div class="join-box mb-3">
                             <span><i class="fas fa-arrow-right rotate-icone fs-32"></i></span>
                             <p class=" text-start  font-mono-medium fs-24">Se faire accompagner</p>
                         </div>
                     </a>
-                    <a href="" class="text-decoration-none">
+                    <a href="https://api.whatsapp.com/send?phone=22997000000&text=Call%20to%20action%20" target="_blank" rel="noopener" class="text-decoration-none">
                         <div class="join-box">
                             <span><i class="fas fa-arrow-right rotate-icone fs-32"></i></span>
                             <p class=" text-start  font-mono-medium fs-24">Rejoindre <br> mon réseau</p>
