@@ -208,6 +208,9 @@ body {
 .menu-overlay-link:hover {
     color: var(--color-primary);
 }
+.menu-overlay-link:focus {
+    color: var(--color-primary) !important;
+}
 
 .menu-overlay .closebtn {
     position: absolute;
