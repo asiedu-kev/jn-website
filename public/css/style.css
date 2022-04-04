@@ -461,8 +461,8 @@ body {
     }
 
     .card-videos {
-        width: 505px !important;
-        height: 350px !important;
+        width: 517px !important;
+        height: 380px !important;
     }
 
     .popup-img {
@@ -1768,4 +1768,25 @@ body {
 
 .wb-videos{
     width: 100vw !important;
+}
+
+
+
+
+/* swiper history css */
+
+@media screen and (min-width:768px) {
+    .swiper{
+        height: 82vh;
+    }
+   .card-history{
+        height: 1000px;
+    }
+
+.card-history-img img {
+    object-fit: fill;
+}
+
+
+
 }
