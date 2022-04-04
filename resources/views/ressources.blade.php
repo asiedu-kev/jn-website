@@ -507,7 +507,7 @@
                                                     <div>
 
                                                         <h3 class="text-white fs-32">Consulting e-commerce</h3>
-                                                        <p class="mb-3 text-muted fs-24">87€ / 50.000 F.CFA</p>
+                                                        <p class="mb-3 text-muted fs-24">147€ / 100.000 F.CFA</p>
 
                                                         <div class="my-4">
                                                             <h5 class="fs-18 font-bold">Parfait si</h5>
@@ -583,7 +583,7 @@
                                                     <div>
 
                                                         <h3 class="text-white fs-32">Coaching e-commerce</h3>
-                                                        <p class="mb-3 text-muted fs-24">87€ / 50.000 F.CFA</p>
+                                                        <p class="mb-3 text-muted fs-24">1000€ / 650000 F.CFA</p>
 
                                                         <div class="my-4">
                                                             <h5 class="fs-18 font-bold">Parfait si</h5>
@@ -697,10 +697,7 @@
                             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body fs-18">
-                                    Les programmes se déroulent en ligne à 100%. Pour ce qui est des séances de 1h,
-                                    l'échange aura lieu via Zoom. Pour le coaching de 1 mois, les discussions se poursuivent
-                                    via WhatsApp. Tous les détails de connexion vous seront envoyés par mail après que vous
-                                    ayez lancé la commande. </div>
+                                    Les programmes se déroulent en ligne à 100%. Pour ce qui est des séances de 1h, l'échange aura lieu via Zoom. Pour le coaching de 1 mois, les discussions se poursuivent via WhatsApp. Tous les détails de connexion vous seront envoyés par mail après que vous ayez lancé la commande.</div>
                             </div>
                         </div>
                         <div class="accordion-item py-5 py-md-0 mb-2 border-top">
@@ -713,9 +710,7 @@
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body fs-18">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam debitis porro numquam
-                                    maxime natus aliquid aliquam rem optio? Consequatur obcaecati alias perspiciatis non
-                                    similique rem! Mollitia, natus? Alias, eveniet? Cum. </div>
+                                    Les programmes d'accompagnement sont destinés aux jeunes Africains qui désirent réussir dans les business et dans leur vie. C'est pour cela que nous avons mis en place des tarifs extrêmement accessibles par rapport à ceux du marché.</div>
                             </div>
                         </div>
                         <div class="accordion-item py-5 py-md-0 mb-2 border-top">
@@ -728,9 +723,7 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body fs-18">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum fuga voluptates
-                                    eligendi architecto amet molestiae quis maiores inventore iste. Enim odio maiores minus
-                                    fuga placeat, qui nulla ipsa corrupti maxime!
+                                    Vous recevrez une confirmation de commande par mail. Patientez ensuite 48 heures et vérifiez votre boîte mail. Vous aurez des détails concernant le déroulement de la séance. Vous pourrez notamment réserver un jour où une heure précise pour le rendez-vous. N'hésitez pas à contacter le service client par whatsApp au     pour voir plus d'infos.
                                 </div>
                             </div>
                         </div>
@@ -745,9 +738,7 @@
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body fs-18">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam totam atque perferendis
-                                    alias cupiditate, doloribus soluta amet. Perspiciatis harum, hic placeat, incidunt,
-                                    quisquam sint facere repellat tenetur quasi dolor libero! </div>
+                                    Les programmes d'accompagnement vous permettent de discuter directement en priorité avec Junior Natabou pour être guidé sur le plan du Mindset ou des stratégies à adopter pour réussir dans votre business. À l'issue des échanges vous aurez des réponses à toutes vos questions et un plan d'action pour l'atteinte de vos objectifs. </div>
                             </div>
                         </div>
                     </div>
