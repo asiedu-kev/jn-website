@@ -269,14 +269,15 @@
         </div>
     </section>
 
-    <section id="myHistory">
+    <section >
         <div class="container-fluid bg-black text-white wb-py-7">
             <div class="container-wb">
                 <h5 class="text-uppercase history-deco font-bold fs-18 position-relative">Mon histoire</h5>
             </div>
-
-            <div class="container-wb">
-                <div class="swiper">
+        </div>
+        <div class="container-fluid bg-black text-white" id="myHistory">
+            <div class="container-wb" >
+                <div class="swiper swiperHistory">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
@@ -390,7 +391,7 @@
                                     <div
                                         class="col-md-4 col-sm-12  d-flex justify-content-center order-1 order-md-2 mb-4 mb-md-0 pt-0 pt-md-3">
                                         <div class="card-history-img">
-                                            <img src="{{ asset("img/history/5.jpg") }}" alt="" class="">
+                                            <img src="{{ asset("img/history/5.JPG") }}" alt="" class="">
                                         </div>
                                     </div>
 
@@ -485,7 +486,7 @@
                                     <div
                                         class="col-md-4 col-sm-12  d-flex justify-content-center order-1 order-md-2 mb-4 mb-md-0 pt-0 pt-md-3">
                                         <div class="card-history-img">
-                                            <img src="{{ asset('img/history/9.jpg') }}" alt="" class="">
+                                            <img src="{{ asset('img/history/9.JPG') }}" alt="" class="">
                                         </div>
                                     </div>
 
@@ -510,7 +511,7 @@
                                     <div
                                         class="col-md-4 col-sm-12  d-flex justify-content-center order-1 order-md-2 mb-4 mb-md-0">
                                         <div class="card-history-img">
-                                            <img src="{{ asset('img/history/10.jpg') }}" alt="" class="">
+                                            <img src="{{ asset('img/history/10.JPG') }}" alt="" class="">
                                         </div>
                                     </div>
 
@@ -643,7 +644,7 @@
                                     <div
                                         class="col-md-4 col-sm-12  d-flex justify-content-center order-1 order-md-2 mb-4 mb-md-0">
                                         <div class="card-history-img">
-                                            <img src="{{ asset('img/history/15.jpg') }}" alt="" class="">
+                                            <img src="{{ asset('img/history/15.JPG') }}" alt="" class="">
                                         </div>
                                     </div>
 
@@ -667,7 +668,7 @@
                                     <div
                                         class="col-md-4 col-sm-12  d-flex justify-content-center order-1 order-md-2 mb-4 mb-md-0">
                                         <div class="card-history-img">
-                                            <img src="{{ asset('img/history/16.jpg') }}" alt="" class="">
+                                            <img src="{{ asset('img/history/16.JPG') }}" alt="" class="">
                                         </div>
                                     </div>
 
@@ -715,7 +716,7 @@
                                     <div
                                         class="col-md-4 col-sm-12  d-flex justify-content-center order-1 order-md-2 mb-4 mb-md-0">
                                         <div class="card-history-img">
-                                            <img src="{{ asset('img/history/18.jpg') }}" alt="" class="">
+                                            <img src="{{ asset('img/history/18.JPG') }}" alt="" class="">
                                         </div>
                                     </div>
 
@@ -768,7 +769,7 @@
                                     <div
                                         class="col-md-4 col-sm-12  d-flex justify-content-center order-1 order-md-2 mb-4 mb-md-0">
                                         <div class="card-history-img">
-                                            <img src="{{ asset('img/history/20.jpg') }}" alt="" class="">
+                                            <img src="{{ asset('img/history/20.JPG') }}" alt="" class="">
                                         </div>
                                     </div>
 
@@ -803,7 +804,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="endHomepage">
         <div class="container container-join-me wb-py">
             <div class="row">
                 <div class="col-12 col-md-7 mb-5 mb-md-0">

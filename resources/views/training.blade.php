@@ -76,7 +76,7 @@
     </section>
 
     <section>
-        <div class="container-fluid wb-py-8 wb-pb-88 bg-step-1 "  id="decouverte-step">
+        <div class="container-fluid wb-py-8 wb-pb-88 bg-step-1 step-element "  id="decouverte-step">
             <div class="container-wb py-5">
                 <div class="row">
                     <div class="col-12 col-md-2 mb-5 mb-md-0">
@@ -110,7 +110,7 @@
 
     </section>
     <section>
-        <div class="container-fluid wb-py-8 bg-step-2 "  id="formation-step">
+        <div class="container-fluid wb-py-8 bg-step-2 step-element"  id="formation-step">
             <div class="container-wb py-5">
                 <div class="row">
                     <div class="col-12 col-md-2 mb-5 mb-md-0">
@@ -153,7 +153,7 @@
 
     </section>
     <section>
-        <div class="container-fluid bg-step-3 wb-py-8 wb-pb-step3" id="accompagnement-step">
+        <div class="container-fluid bg-step-3 wb-py-8 wb-pb-step3 step-element" id="accompagnement-step">
             <div class="container-wb py-5">
                 <div class="row">
                     <div class="col-12 col-md-2 mb-5 mb-md-0">
@@ -192,7 +192,7 @@
     </section>
 
     <section>
-        <div class="container-wb wb-py-8 wb-pb-8">
+        <div class="container-wb wb-py-8 wb-pb-8" id="joinUs">
             <div class="row align-items-center">
                 <div class="col-md-6 col-sm-12 mb-5 mb-md-0">
                     <h2 class="text-dark wb-h1  d-none d-md-inline">Prêt à nous  rejoindre ?</h2>
