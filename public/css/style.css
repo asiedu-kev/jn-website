@@ -1807,10 +1807,20 @@ body {
 } */
 
 
-.videos-controller{
-    width: 1400px;
-    margin-right: -90px;
+
+
+@media (min-width:768px){
+    .videos-controller{
+        width: 1400px;
+        margin-right: -70px;
+    }
+    .owl-item{
+        width: 560px !important;
+    }
+
+
+    .owl-stage{
+        width: 3500px !important;
+    }
 }
-
-
 

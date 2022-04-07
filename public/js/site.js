@@ -92,14 +92,7 @@ $(function () {
     var wOwlItem = 0;
         var wOwlStage= 0;
 
-    videos.on('initialize.owl.carousel', event => {
-        var wOwlItem = $('.owl-item').css('width');
-        var wOwlStage = $('.owl-stage').css('width');
 
-        console.log(wOwlItem + "  " + wOwlStage)
-
-        console.log('ici')
-    });
 
 
 
@@ -127,7 +120,7 @@ $(function () {
 
 
 
-  
+
 
         var ret = (counter.length - 1);
 

@@ -215,7 +215,7 @@
                                 <div class="popup-trigger" id="popup-trigger"
                                     data-yt="https://www.youtube.com/embed/YbpJY2fz7jk">
                                     <div class="popup-img">
-                                        <img src="{{ asset('icons/icone-menu.svg') }}" alt="play icone">
+                                        <img src="{{ asset('icons/play-icone.svg') }}" alt="play icone">
                                     </div>
                                 </div>
 
