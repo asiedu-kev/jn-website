@@ -1076,8 +1076,8 @@ body {
 }
 
 .card-history-img {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     position: relative;
     z-index: 1;
 }
@@ -1801,3 +1801,16 @@ body {
 .border-thumbs{
     border : 1px solid #ce3200;
 }
+
+/* .owl-item-first{
+    margin-left: 10rem !important;
+} */
+
+
+.videos-controller{
+    width: 1400px;
+    margin-right: -90px;
+}
+
+
+
