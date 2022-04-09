@@ -182,6 +182,14 @@ $(function () {
             el: ".history-paginate",
             type: "fraction",
         },
+        breakpoints: {
+            0: {
+                direction: 'vertical',
+            },
+            768: {
+                direction: 'vertical',
+            }
+        }
 
 
     });
@@ -296,15 +304,7 @@ alert('ici')
         }
 
 
-        if (isOnScreen(jQuery('.step-element'))) {
-            $('.step-element').addClass('fullView');
-            stepDisplay = 1;
-        }
 
-        if (isOnScreen(jQuery('#joinUs'))) {
-            $('.step-element').removeClass('fullView');
-            stepDisplay = 0;
-        }
     });
 
 
