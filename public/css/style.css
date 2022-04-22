@@ -1773,7 +1773,7 @@ body {
 
 @media screen and (min-width:768px) {
     .swiper{
-        height: 82vh;
+        height: 80vh;
     }
    .card-history{
         height: 1000px;
@@ -1824,3 +1824,14 @@ body {
     }
 }
 
+
+
+.full{
+    height: 100%;
+width: 100%;
+position: fixed;
+top: 0;
+bottom: 0;
+z-index: 5000;
+background: black;
+}
