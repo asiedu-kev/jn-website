@@ -103,14 +103,14 @@ $(function () {
 
         console.log(el)
 
-        if(el >= 0){
+        if (el >= 0) {
 
             counter.push(el);
 
             $('#videos-controller').removeClass('videos-controller');
-            if(window.screen.width > 768){
-                $('.owl-stage').css('width','3500px ');
-                $('.owl-item').css('width','560px');
+            if (window.screen.width > 768) {
+                $('.owl-stage').css('width', '3500px ');
+                $('.owl-item').css('width', '560px');
             }
 
 
@@ -120,16 +120,14 @@ $(function () {
 
 
 
-
-
         var ret = (counter.length - 1);
 
-        if(counter[ret] == 0 ){
+        if (counter[ret] == 0) {
 
-            if(window.screen.width > 768){
-                $('.owl-stage').css('width','3500px');
+            if (window.screen.width > 768) {
+                $('.owl-stage').css('width', '3500px');
                 $('#videos-controller').addClass('videos-controller');
-                $('.owl-item').css('width','560px');
+                $('.owl-item').css('width', '560px');
 
             }
         }
@@ -154,7 +152,7 @@ $(function () {
         var youtubelink = $(this).attr('data-yt');
 
         $('#iframe-video').attr('src', youtubelink);
-        $('#close-popup').attr('data-yt', youtubelink);
+
         $("#popup").css('height', '100vh');
     })
 
@@ -200,10 +198,9 @@ $(function () {
     swiper.mousewheel.disable();
 
 
-    eventRotation = false ;
+    // verification de la position de la section pour fixation sur la page
 
-
-
+    eventRotation = false;
 
     const beforeFunction = () => {
 
@@ -211,9 +208,9 @@ $(function () {
 
         scrollpos = window.scrollY;
 
-        var a,b ;
+        var a, b;
 
-        if(element){
+        if (element) {
             a = element.offsetHeight;
             b = element.offsetTop;
 
@@ -221,14 +218,14 @@ $(function () {
 
 
         eventRotation = false;
-        posDef = scrollpos +500;
+        posDef = scrollpos + 500;
 
 
 
-        if(posDef >= (b)){
+        if (posDef >= (b)) {
 
             $('#myHistory').addClass('full');
-            $('body').css('overflow','hidden')
+            $('body').css('overflow', 'hidden')
         }
 
         swiper.mousewheel.enable();
@@ -244,9 +241,9 @@ $(function () {
 
         a = element.offsetHeight;
         b = element.offsetTop;
-      eventRotation = true;
+        eventRotation = true;
         posDef = scrollpos;
-        eventRotation= true;
+        eventRotation = true;
         swiper.mousewheel.enable();
         // if((posDef) <= (b+a)){
         //     $('#test').addClass('full');
@@ -255,22 +252,22 @@ $(function () {
 
     };
 
-    window.addEventListener('scroll',beforeFunction);
+    window.addEventListener('scroll', beforeFunction);
     // Verifier la fin du carousel
 
     swiper.on('reachEnd', function () {
         swiper.mousewheel.disable();
         $('#myHistory').removeClass('full');
-        $('body').css('overflow','initial')
-       if(eventRotation){
-        window.addEventListener('scroll',beforeFunction);
+        $('body').css('overflow', 'initial')
+        if (eventRotation) {
+            window.addEventListener('scroll', beforeFunction);
 
-        window.removeEventListener('scroll',afterFunction);
-       }
-       else{
-        window.removeEventListener('scroll',beforeFunction)
-        window.addEventListener('scroll',afterFunction);
-       }
+            window.removeEventListener('scroll', afterFunction);
+        }
+        else {
+            window.removeEventListener('scroll', beforeFunction)
+            window.addEventListener('scroll', afterFunction);
+        }
 
     });
 
@@ -311,6 +308,7 @@ $(function () {
         watchSlidesProgress: false,
         preventInteractionOnTransition: true,
         freeMode: true,
+        mousewheel: true,
         effect: 'fade',
         fadeEffect: {
             crossFade: true

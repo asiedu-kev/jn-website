@@ -453,8 +453,8 @@
         </div>
     </section>
 
-    <section>
-        <div class="container-fluid bg-black wb-py-7">
+    <section  class="swiper-ressources">
+        <div class="container-fluid bg-black wb-py-7 h-100">
             <div class="container-wb">
                 <div class="row d-flex flex-column flex-md-row">
                     <div class="col-12 col-md-10 order-2 order-md-1">
@@ -804,3 +804,4 @@
         </div>
     </div>
 @endsection
+
