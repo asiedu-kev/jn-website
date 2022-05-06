@@ -1,6 +1,6 @@
 
 
-<div id="navbar">
+<div id="navbar" class="container-fluid">
     <div class="container d-flex justify-content-between align-items-center py-3" >
         <a href="{{ route('home') }}" class="text-decoration-none color-primary">
             <h3 class="wb-header-title font-bold color-primary text-uppercase mb-0 aos-init aos-animate" data-aos="fade-up"  data-aos-delay="400">JUNIOR NATABOU</h3>

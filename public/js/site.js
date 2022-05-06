@@ -1,3 +1,4 @@
+
 $(function () {
 
 
@@ -89,8 +90,7 @@ $(function () {
 
     var counter = [];
 
-    var wOwlItem = 0;
-        var wOwlStage= 0;
+
 
 
 
@@ -154,12 +154,15 @@ $(function () {
         var youtubelink = $(this).attr('data-yt');
 
         $('#iframe-video').attr('src', youtubelink);
+        $('#close-popup').attr('data-yt', youtubelink);
         $("#popup").css('height', '100vh');
     })
 
 
     $("#close-popup").click(function (e) {
         $("#popup").css('height', '0vh');
+        $('#iframe-video').attr('src', "");
+
     });
 
 
@@ -203,19 +206,24 @@ $(function () {
 
 
     const beforeFunction = () => {
-       console.log("before")
 
         element = document.getElementById('myHistory');
 
         scrollpos = window.scrollY;
 
-        a = element.offsetHeight;
-        b = element.offsetTop;
-      eventRotation = false;
+        var a,b ;
+
+        if(element){
+            a = element.offsetHeight;
+            b = element.offsetTop;
+
+        }
+
+
+        eventRotation = false;
         posDef = scrollpos +500;
 
 
-        // console.log ('scroll' + posDef + " offsetHeight "  + a + "offsettop " + b)
 
         if(posDef >= (b)){
 
@@ -230,7 +238,6 @@ $(function () {
 
     const afterFunction = () => {
 
-       console.log('after')
         element = document.getElementById('myHistory');
 
         scrollpos = window.scrollY;
@@ -293,8 +300,7 @@ $(function () {
 
     galleryThumbs.on('slideChange', function () {
         var element = galleryThumbs.realIndex;
-alert('ici')
-        console.log(element);
+
     });
 
     $('.swiper-slide-thumb-active .card-price-thumbs img').addClass('border-thumbs');
@@ -323,30 +329,12 @@ alert('ici')
     });
 
 
-    // function isOnScreen(elem) {
-    //     // if the element doesn't exist, abort
-    //     if (elem.length == 0) {
-    //         return;
-    //     }
-    //     var $window = jQuery(window)
-    //     var viewport_top = $window.scrollTop()
-    //     var viewport_height = $window.height()
-    //     var viewport_bottom = viewport_top + viewport_height
-    //     var $elem = jQuery(elem)
-    //     var top = $elem.offset().top
-    //     var height = $elem.height()
-    //     var bottom = top + height
-
-    //     return (bottom > viewport_top) && (top < viewport_bottom);
-    // }
-
-
-
-
 
 
 
 });
+
+
 
 
 

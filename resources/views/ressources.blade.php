@@ -16,7 +16,7 @@
 
                     <div class="mt-4">
                         <button
-                            class="btn rounded-pill btn-wb-primary d-block d-md-inline fs-18 text-xs-start px-2 px-md-3 wb-w-100">Se
+                            class="btn rounded-pill btn-wb-primary d-block d-md-inline fs-18 text-xs-start py-md-2 px-2 px-md-4 wb-w-100">Se
                             faire accompagner</button>
                     </div>
                 </div>
@@ -375,6 +375,18 @@
                     </div>
                 </div>
 
+            </div>
+
+            <div class="container d-md-none">
+                <div class="row justify-content-center  mt-3">
+                        <button class="btn btn-wb-light  d-md-none owlVideosPrev me-4"> <i
+                                class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="btn btn-wb-light  d-md-none owlVideosNext"> <i class="fas fa-chevron-right"></i>
+                        </button>
+
+
+                </div>
             </div>
         </div>
     </section>

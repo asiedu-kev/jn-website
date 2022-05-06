@@ -241,6 +241,19 @@
                 </div>
 
             </div>
+
+
+            <div class="container d-md-none">
+                <div class="row justify-content-center  mt-3">
+                        <button class="btn btn-wb-light  d-md-none owlVideosPrev me-4"> <i
+                                class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="btn btn-wb-light  d-md-none owlVideosNext"> <i class="fas fa-chevron-right"></i>
+                        </button>
+
+
+                </div>
+            </div>
         </div>
 
 
