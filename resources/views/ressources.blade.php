@@ -901,7 +901,6 @@ galleryMain.on('reachEnd', function () {
         $('#swiper-ressources').removeClass('full');
         $('body').css('overflow', 'initial')
             window.removeEventListener('scroll', beforeFunction);
-          
             window.addEventListener('scroll',endofpage);
     });
 

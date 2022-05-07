@@ -956,3 +956,107 @@
         </div>
     </div>
 @endsection
+
+@push('js')
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    window.addEventListener("load", function(event) {
+
+    // Carousel pour le mode histoire
+
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: false,
+        effect: "fade",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        // Navigation arrows
+        navigation: {
+            nextEl: '.owl-History-Next',
+            prevEl: '.owl-History-Prev',
+        },
+        pagination: {
+            el: ".history-paginate",
+            type: "fraction",
+        },
+        breakpoints: {
+            0: {
+                direction: 'vertical',
+            },
+            768: {
+                direction: 'vertical',
+            }
+        }
+
+
+    });
+
+    swiper.mousewheel.disable();
+
+
+    // verification de la position de la section pour fixation sur la page
+
+    const beforeFunction = () => {
+
+        element = document.getElementById('myHistory');
+
+        scrollpos = window.scrollY;
+
+        var a, b, c;
+
+        if (element) {
+            a = element.offsetHeight;
+            b = element.offsetTop;
+            c = a / 1.5;
+
+        }
+
+        posDef = scrollpos + 500;
+
+        if (posDef >= (b+c)) {
+
+            $('#myHistory').addClass('full');
+            $('body').css('overflow', 'hidden')
+            swiper.mousewheel.enable();
+        }
+
+    };
+
+
+    window.addEventListener('scroll', beforeFunction);
+    // Verifier la fin du carousel
+
+    swiper.on('reachEnd', function () {
+        swiper.mousewheel.disable();
+        $('#myHistory').removeClass('full');
+        $('body').css('overflow', 'initial')
+        window.removeEventListener('scroll', beforeFunction);
+        window.addEventListener('scroll',endofpage);
+    });
+
+
+    const endofpage = () => {
+    a= window.innerHeight;
+    b= window.scrollY;
+    c= document.body.offsetHeight;
+    d= c - (a+b);
+
+    console.log(d);
+
+    if(d >= 1500){
+        window.addEventListener('scroll', beforeFunction)
+        swiper.slideTo(0);
+    }
+} ;
+
+    });
+});
+
+</script>
+
+@endpush
+
