@@ -453,8 +453,8 @@
         </div>
     </section>
 
-    <section  class="swiper-ressources">
-        <div class="container-fluid bg-black wb-py-7 h-100">
+    <section  class="swiper-ressources" id="swiper-ressources">
+        <div class="container-fluid bg-black h-step-container py-5 ">
             <div class="container-wb">
                 <div class="row d-flex flex-column flex-md-row">
                     <div class="col-12 col-md-10 order-2 order-md-1">
@@ -805,3 +805,130 @@
     </div>
 @endsection
 
+@push('js')
+<script>
+
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    window.addEventListener("load", function(event) {
+
+        
+    // Gerer le carousel sur les prix avec swiper
+
+    var galleryThumbs = new Swiper(".price-thumbs", {
+        centeredSlides: true,
+        centeredSlidesBounds: true,
+        slidesPerView: 3,
+        watchOverflow: false,
+        watchSlidesVisibility: false,
+        watchSlidesProgress: false,
+        direction: 'vertical',
+        breakpoints: {
+            0: {
+                direction: 'horizontal',
+            },
+            768: {
+                direction: 'vertical',
+            }
+        }
+
+    });
+
+    galleryThumbs.on('slideChange', function () {
+        var element = galleryThumbs.realIndex;
+
+    });
+
+    $('.swiper-slide-thumb-active .card-price-thumbs img').addClass('border-thumbs');
+
+    var galleryMain = new Swiper(".price-main", {
+        watchOverflow: false,
+        watchSlidesVisibility: false,
+        watchSlidesProgress: false,
+        preventInteractionOnTransition: true,
+        freeMode: true,
+        mousewheel: true,
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true
+        },
+        thumbs: {
+            swiper: galleryThumbs
+        },
+    });
+
+    galleryMain.on('slideChangeTransitionStart', function () {
+        galleryThumbs.slideTo(galleryMain.activeIndex);
+    });
+
+    galleryThumbs.on('transitionStart', function () {
+        galleryMain.slideTo(galleryThumbs.activeIndex);
+    });
+
+    galleryMain.mousewheel.disable();
+
+const beforeFunction = () => {
+
+    element = document.getElementById('swiper-ressources');
+
+    scrollpos = window.scrollY;
+
+    var a, b, c;
+
+    if (element) {
+        a = element.offsetHeight;
+        b = element.offsetTop;
+        c = a / 2;
+
+    }
+
+    posDef = scrollpos + 500;
+
+    if (posDef >= (b + c)) {
+
+        $('#swiper-ressources').addClass('full');
+        $('body').css('overflow', 'hidden')
+        galleryMain.mousewheel.enable();
+    }
+};
+
+
+window.addEventListener('scroll', beforeFunction);
+// Verifier la fin du carousel
+
+galleryMain.on('reachEnd', function () {
+    galleryMain.mousewheel.disable();
+        $('#swiper-ressources').removeClass('full');
+        $('body').css('overflow', 'initial')
+            window.removeEventListener('scroll', beforeFunction);
+          
+            window.addEventListener('scroll',endofpage);
+    });
+
+const endofpage = () => {
+    a= window.innerHeight;
+    b= window.scrollY;
+    c= document.body.offsetHeight;
+    d= c - (a+b);
+
+    console.log(d);
+
+    if(d >= 1500){
+        window.addEventListener('scroll', beforeFunction)
+        galleryMain.slideTo(0);
+    }
+} ;
+
+
+
+
+});
+});
+
+
+
+
+
+
+</script>
+@endpush

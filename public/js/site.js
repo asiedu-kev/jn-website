@@ -274,57 +274,6 @@ $(function () {
 
 
 
-    // Gerer le carousel sur les prix avec swiper
-
-    var galleryThumbs = new Swiper(".price-thumbs", {
-        centeredSlides: true,
-        centeredSlidesBounds: true,
-        slidesPerView: 3,
-        watchOverflow: false,
-        watchSlidesVisibility: false,
-        watchSlidesProgress: false,
-        direction: 'vertical',
-        breakpoints: {
-            0: {
-                direction: 'horizontal',
-            },
-            768: {
-                direction: 'vertical',
-            }
-        }
-
-    });
-
-    galleryThumbs.on('slideChange', function () {
-        var element = galleryThumbs.realIndex;
-
-    });
-
-    $('.swiper-slide-thumb-active .card-price-thumbs img').addClass('border-thumbs');
-
-    var galleryMain = new Swiper(".price-main", {
-        watchOverflow: false,
-        watchSlidesVisibility: false,
-        watchSlidesProgress: false,
-        preventInteractionOnTransition: true,
-        freeMode: true,
-        mousewheel: true,
-        effect: 'fade',
-        fadeEffect: {
-            crossFade: true
-        },
-        thumbs: {
-            swiper: galleryThumbs
-        },
-    });
-
-    galleryMain.on('slideChangeTransitionStart', function () {
-        galleryThumbs.slideTo(galleryMain.activeIndex);
-    });
-
-    galleryThumbs.on('transitionStart', function () {
-        galleryMain.slideTo(galleryThumbs.activeIndex);
-    });
 
 
 
