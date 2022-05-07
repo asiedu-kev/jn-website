@@ -33,7 +33,7 @@
                     <div class="card-price-footer  ">
 
                         <h4 class="font-bold text-uppercase opacity-text-1 fs-24">ECOM ELITE</h4>
-                        <div class="fs-18 font-regular">La formation e-commerce <br> exclusivement dédiée à l'Afrique</div>
+                        <div class="fs-18 font-regular">La formation e-commerce  exclusivement dédiée à l'Afrique</div>
                         <div class="card-price-footer-link py-4"><a href=""
                                 class="d-block text-decoration-none text-white font-medium">
                                 <div class="d-flex justify-content-between align-items-center">
@@ -52,7 +52,7 @@
 
                     <div class="card-price-footer ">
                         <h4 class="font-bold text-uppercase opacity-text-2 fs-24">NETCAMP</h4>
-                        <div class="fs-18 font-regular d-none d-md-block ">L'application qui te forme pour gagner <br> tes premiers milliers
+                        <div class="fs-18 font-regular d-none d-md-block ">L'application qui te forme pour gagner  tes premiers milliers
                             d'euros.</div>
                             <div class="fs-18 font-regular d-block d-md-none ">L'application qui te forme pour gagner  tes premiers milliers
                                 d'euros.</div>
@@ -72,8 +72,8 @@
 
                     <div class="card-price-footer ">
                         <h4 class="font-bold text-uppercase opacity-text-3 fs-24">QUICK STARTS</h4>
-                        <div class="fs-18 font-regular d-none d-md-inline">Un ensemble de formations en ligne <br> gratuites pour démarrer dans
-                            les <br> business en ligne.</div>
+                        <div class="fs-18 font-regular d-none d-md-inline">Un ensemble de formations en ligne  gratuites pour démarrer dans
+                            les  business en ligne.</div>
                             <div class="fs-18 font-regular d-block d-md-none">Un ensemble de formations en ligne gratuites pour démarrer dans
                                 les  business en ligne.</div>
                         <div class="card-price-footer-link py-4"><a href=""

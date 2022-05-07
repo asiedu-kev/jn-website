@@ -1093,6 +1093,7 @@ bottom: 10px;
 .card-history-img img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
     z-index: 1000 !important;
     position: relative;
 }
@@ -1788,7 +1789,7 @@ bottom: 10px;
     }
 
 .card-history-img img {
-    object-fit: fill;
+    object-fit: cover;
 }
 
 
@@ -1926,6 +1927,24 @@ section{
 }
 
 
+@media (max-width:768px){
+    
+
+    .wb-swiper-h4{
+        font-size: 18px;
+    }
+
+    .card-history a {
+        font-size: 22px !important;
+    }
+
+    .wb-swiper-py-7{
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+}
+
+
 @media (min-width:768px){
     .step-element{
         position: absolute;
@@ -1937,4 +1956,15 @@ section{
     .h-step-container{
         height: 100vh;
     }
+
+    .wb-swiper-h4{
+        font-size: 22px;
+    }
 }
+
+
+
+
+
+
+

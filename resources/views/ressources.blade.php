@@ -39,11 +39,13 @@
     <section>
         <div class="container-fluid wb-py-7 bg-wb-secondary">
             <div class="container-wb">
-                <h2 class="font-bold wb-h1 text-start d-md-inline d-none ">À tous les jeunes africains qui souhaitent tout exploser
+                <h2 class="font-bold wb-h1 text-start d-md-inline d-none ">À tous les jeunes africains qui souhaitent tout
+                    exploser
                     dans
                     leur business en ligne 💥
                 </h2>
-                <h2 class="font-bold wb-h1 text-start d-inline d-md-none">À tous les <br> jeunes <br> africains <br> qui <br> souhait <br> ent tout <br> exploser <br>
+                <h2 class="font-bold wb-h1 text-start d-inline d-md-none">À tous les <br> jeunes <br> africains <br> qui
+                    <br> souhait <br> ent tout <br> exploser <br>
                     dans
                     leur business <br> en ligne 💥
                 </h2>
@@ -218,24 +220,25 @@
 
                     <div class="col-md-6 col-sm-12 mb-3 d-flex justify-content-center p-2  fs-18">
                         <div class="col-12 wb-col-md-9">
-                            <p class=" aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in"
-                            data-aos-easing="ease-in-back" data-aos-delay="100">90% des entrepreneurs réussissent tout
-                            simplement parce qu'ils se sont
-                            fait accompagner. En te faisant accompagner tu auras un soutien de poids pour résoudre
-                            rapidement toutes les difficultés que tu vas rencontrer :</p>
-                        <p class=" aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in"
-                            data-aos-easing="ease-in-back" data-aos-delay="250">✅ Dans ton parcours vers la réussite <br>
-                            ✅ Sur ton business <br>
-                            ✅ Dans ta carrière.</p>
-                        <p class=" aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in"
-                            data-aos-easing="ease-in-back" data-aos-delay="400">Malheureusement, se faire accompagner, ce
-                            n'est pas simple. La plupart des
-                            programmes de coaching de qualité coûtent très cher ( en moyenne de 2000€). Mais ils constituent
-                            une garantie sûr pour obtenir des résultats et atteindre tes objectifs.</p>
-                        <p class=" font-bold aos-animate mb-5 mb-md-4 fs-24" data-aos="fade-zoom-in"
-                            data-aos-easing="ease-in-back" data-aos-delay="550">Ce que je te propose : Un accompagnement
-                            accessible et adapté à
-                            tes besoins.</p>
+                            <p class=" aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                                data-aos-delay="100">90% des entrepreneurs réussissent tout
+                                simplement parce qu'ils se sont
+                                fait accompagner. En te faisant accompagner tu auras un soutien de poids pour résoudre
+                                rapidement toutes les difficultés que tu vas rencontrer :</p>
+                            <p class=" aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                                data-aos-delay="250">✅ Dans ton parcours vers la réussite <br>
+                                ✅ Sur ton business <br>
+                                ✅ Dans ta carrière.</p>
+                            <p class=" aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                                data-aos-delay="400">Malheureusement, se faire accompagner, ce
+                                n'est pas simple. La plupart des
+                                programmes de coaching de qualité coûtent très cher ( en moyenne de 2000€). Mais ils
+                                constituent
+                                une garantie sûr pour obtenir des résultats et atteindre tes objectifs.</p>
+                            <p class=" font-bold aos-animate mb-5 mb-md-4 fs-24" data-aos="fade-zoom-in"
+                                data-aos-easing="ease-in-back" data-aos-delay="550">Ce que je te propose : Un accompagnement
+                                accessible et adapté à
+                                tes besoins.</p>
                         </div>
 
                     </div>
@@ -379,11 +382,10 @@
 
             <div class="container d-md-none">
                 <div class="row justify-content-center  mt-3">
-                        <button class="btn btn-wb-light  d-md-none owlVideosPrev me-4"> <i
-                                class="fas fa-chevron-left"></i>
-                        </button>
-                        <button class="btn btn-wb-light  d-md-none owlVideosNext"> <i class="fas fa-chevron-right"></i>
-                        </button>
+                    <button class="btn btn-wb-light  d-md-none owlVideosPrev me-4"> <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="btn btn-wb-light  d-md-none owlVideosNext"> <i class="fas fa-chevron-right"></i>
+                    </button>
 
 
                 </div>
@@ -410,8 +412,8 @@
         <div class="container-wb wb-py-7">
             <h2 class="wb-h1 color-primary font-bold mb-5">Je vais être ton coach 🔥</h2>
             <div class="row mt-3 py-4 ">
-                <div class="col-sm-12 col-md-4  pe-md-0 mb-5 aos-animate " data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                    data-aos-delay="100">
+                <div class="col-sm-12 col-md-4  pe-md-0 mb-5 aos-animate " data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back" data-aos-delay="100">
                     <h5 class="fw-bold fs-24  mb-5">Je mets à ta disposition 3 programmes d'accompagnement disponibles à
                         des
                         tarifs forfaitaires.</h5>
@@ -422,8 +424,8 @@
                     <p class=" fs-18">✅ Quel que soit la nature de ton business ou de ton entreprise</p>
                     <p class=" fs-18">✅ Quels que soient tes objectifs</p>
                 </div>
-                <div class="col-sm-12 col-md-4 ps-md-4  mb-5 aos-animate " data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                    data-aos-delay="250">
+                <div class="col-sm-12 col-md-4 ps-md-4  mb-5 aos-animate " data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back" data-aos-delay="250">
                     <h5 class="fw-bold fs-24 mb-5">Je te donnerai les solutions à tout ce qui te bloque dans ton parcours
                         vers
                         la réussite. Ne t'inquiète pas :</h5>
@@ -435,8 +437,8 @@
                     <p class=" fs-18">❌ Pas besoin d'avoir un grand diplôme.</p>
                 </div>
 
-                <div class="col-sm-12 col-md-4 ps-md-4  mb-5 aos-animate " data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                    data-aos-delay="400">
+                <div class="col-sm-12 col-md-4 ps-md-4  mb-5 aos-animate " data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back" data-aos-delay="400">
                     <h5 class="fw-bold fs-24  mb-5">Je t'accompagne, je t'aide à atteindre tes objectifs et je te donne des
                         solutions clés en mains en 4 étapes.</h5>
 
@@ -453,7 +455,7 @@
         </div>
     </section>
 
-    <section  class="swiper-ressources" id="swiper-ressources">
+    <section class="swiper-ressources" id="swiper-ressources">
         <div class="container-fluid bg-black h-step-container py-5 ">
             <div class="container-wb">
                 <div class="row d-flex flex-column flex-md-row">
@@ -743,7 +745,10 @@
                             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body fs-18">
-                                    Les programmes se déroulent en ligne à 100%. Pour ce qui est des séances de 1h, l'échange aura lieu via Zoom. Pour le coaching de 1 mois, les discussions se poursuivent via WhatsApp. Tous les détails de connexion vous seront envoyés par mail après que vous ayez lancé la commande.</div>
+                                    Les programmes se déroulent en ligne à 100%. Pour ce qui est des séances de 1h,
+                                    l'échange aura lieu via Zoom. Pour le coaching de 1 mois, les discussions se poursuivent
+                                    via WhatsApp. Tous les détails de connexion vous seront envoyés par mail après que vous
+                                    ayez lancé la commande.</div>
                             </div>
                         </div>
                         <div class="accordion-item py-5 py-md-0 mb-2 border-top">
@@ -756,7 +761,9 @@
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body fs-18">
-                                    Les programmes d'accompagnement sont destinés aux jeunes Africains qui désirent réussir dans les business et dans leur vie. C'est pour cela que nous avons mis en place des tarifs extrêmement accessibles par rapport à ceux du marché.</div>
+                                    Les programmes d'accompagnement sont destinés aux jeunes Africains qui désirent réussir
+                                    dans les business et dans leur vie. C'est pour cela que nous avons mis en place des
+                                    tarifs extrêmement accessibles par rapport à ceux du marché.</div>
                             </div>
                         </div>
                         <div class="accordion-item py-5 py-md-0 mb-2 border-top">
@@ -769,7 +776,11 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body fs-18">
-                                    Vous recevrez une confirmation de commande par mail. Patientez ensuite 48 heures et vérifiez votre boîte mail. Vous aurez des détails concernant le déroulement de la séance. Vous pourrez notamment réserver un jour où une heure précise pour le rendez-vous. N'hésitez pas à contacter le service client par whatsApp au     pour voir plus d'infos.
+                                    Vous recevrez une confirmation de commande par mail. Patientez ensuite 48 heures et
+                                    vérifiez votre boîte mail. Vous aurez des détails concernant le déroulement de la
+                                    séance. Vous pourrez notamment réserver un jour où une heure précise pour le
+                                    rendez-vous. N'hésitez pas à contacter le service client par whatsApp au pour voir plus
+                                    d'infos.
                                 </div>
                             </div>
                         </div>
@@ -784,7 +795,10 @@
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body fs-18">
-                                    Les programmes d'accompagnement vous permettent de discuter directement en priorité avec Junior Natabou pour être guidé sur le plan du Mindset ou des stratégies à adopter pour réussir dans votre business. À l'issue des échanges vous aurez des réponses à toutes vos questions et un plan d'action pour l'atteinte de vos objectifs. </div>
+                                    Les programmes d'accompagnement vous permettent de discuter directement en priorité avec
+                                    Junior Natabou pour être guidé sur le plan du Mindset ou des stratégies à adopter pour
+                                    réussir dans votre business. À l'issue des échanges vous aurez des réponses à toutes vos
+                                    questions et un plan d'action pour l'atteinte de vos objectifs. </div>
                             </div>
                         </div>
                     </div>
@@ -806,128 +820,128 @@
 @endsection
 
 @push('js')
-<script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            window.addEventListener("load", function(event) {
 
 
-document.addEventListener("DOMContentLoaded", function(event) {
-    window.addEventListener("load", function(event) {
+                // Gerer le carousel sur les prix avec swiper
 
-        
-    // Gerer le carousel sur les prix avec swiper
+                var galleryThumbs = new Swiper(".price-thumbs", {
+                    centeredSlides: true,
+                    centeredSlidesBounds: true,
+                    slidesPerView: 3,
+                    watchOverflow: false,
+                    watchSlidesVisibility: false,
+                    watchSlidesProgress: false,
+                    direction: 'vertical',
+                    breakpoints: {
+                        0: {
+                            direction: 'horizontal',
+                        },
+                        768: {
+                            direction: 'vertical',
+                        }
+                    }
 
-    var galleryThumbs = new Swiper(".price-thumbs", {
-        centeredSlides: true,
-        centeredSlidesBounds: true,
-        slidesPerView: 3,
-        watchOverflow: false,
-        watchSlidesVisibility: false,
-        watchSlidesProgress: false,
-        direction: 'vertical',
-        breakpoints: {
-            0: {
-                direction: 'horizontal',
-            },
-            768: {
-                direction: 'vertical',
-            }
-        }
+                });
 
-    });
+                galleryThumbs.on('slideChange', function() {
+                    var element = galleryThumbs.realIndex;
 
-    galleryThumbs.on('slideChange', function () {
-        var element = galleryThumbs.realIndex;
+                });
 
-    });
+                $('.swiper-slide-thumb-active .card-price-thumbs img').addClass('border-thumbs');
 
-    $('.swiper-slide-thumb-active .card-price-thumbs img').addClass('border-thumbs');
+                var galleryMain = new Swiper(".price-main", {
+                    watchOverflow: false,
+                    watchSlidesVisibility: false,
+                    watchSlidesProgress: false,
+                    preventInteractionOnTransition: true,
+                    freeMode: true,
+                    mousewheel: true,
+                    effect: 'fade',
+                    fadeEffect: {
+                        crossFade: true
+                    },
+                    thumbs: {
+                        swiper: galleryThumbs
+                    },
 
-    var galleryMain = new Swiper(".price-main", {
-        watchOverflow: false,
-        watchSlidesVisibility: false,
-        watchSlidesProgress: false,
-        preventInteractionOnTransition: true,
-        freeMode: true,
-        mousewheel: true,
-        effect: 'fade',
-        fadeEffect: {
-            crossFade: true
-        },
-        thumbs: {
-            swiper: galleryThumbs
-        },
-    });
+                });
 
-    galleryMain.on('slideChangeTransitionStart', function () {
-        galleryThumbs.slideTo(galleryMain.activeIndex);
-    });
+                galleryMain.on('slideChangeTransitionStart', function() {
+                    galleryThumbs.slideTo(galleryMain.activeIndex);
+                });
 
-    galleryThumbs.on('transitionStart', function () {
-        galleryMain.slideTo(galleryThumbs.activeIndex);
-    });
+                galleryThumbs.on('transitionStart', function() {
+                    galleryMain.slideTo(galleryThumbs.activeIndex);
+                });
 
-    galleryMain.mousewheel.disable();
+                pageWidth = window.innerWidth;
+                if (pageWidth >= 768) {
 
-const beforeFunction = () => {
+                    galleryMain.mousewheel.disable();
 
-    element = document.getElementById('swiper-ressources');
+                    const beforeFunction = () => {
 
-    scrollpos = window.scrollY;
+                        element = document.getElementById('swiper-ressources');
 
-    var a, b, c;
+                        scrollpos = window.scrollY;
 
-    if (element) {
-        a = element.offsetHeight;
-        b = element.offsetTop;
-        c = a / 2;
+                        var a, b, c;
 
-    }
+                        if (element) {
+                            a = element.offsetHeight;
+                            b = element.offsetTop;
+                            c = a / 2;
 
-    posDef = scrollpos + 500;
+                        }
 
-    if (posDef >= (b + c)) {
+                        posDef = scrollpos + 500;
 
-        $('#swiper-ressources').addClass('full');
-        $('body').css('overflow', 'hidden')
-        galleryMain.mousewheel.enable();
-    }
-};
+                        if (posDef >= (b + c)) {
 
-
-window.addEventListener('scroll', beforeFunction);
-// Verifier la fin du carousel
-
-galleryMain.on('reachEnd', function () {
-    galleryMain.mousewheel.disable();
-        $('#swiper-ressources').removeClass('full');
-        $('body').css('overflow', 'initial')
-            window.removeEventListener('scroll', beforeFunction);
-            window.addEventListener('scroll',endofpage);
-    });
-
-const endofpage = () => {
-    a= window.innerHeight;
-    b= window.scrollY;
-    c= document.body.offsetHeight;
-    d= c - (a+b);
-
-    console.log(d);
-
-    if(d >= 1500){
-        window.addEventListener('scroll', beforeFunction)
-        galleryMain.slideTo(0);
-    }
-} ;
+                            $('#swiper-ressources').addClass('full');
+                            $('body').css('overflow', 'hidden')
+                            galleryMain.mousewheel.enable();
+                        }
+                    };
 
 
+                    window.addEventListener('scroll', beforeFunction);
+                    // Verifier la fin du carousel
+
+                    galleryMain.on('reachEnd', function() {
+                        galleryMain.mousewheel.disable();
+                        $('#swiper-ressources').removeClass('full');
+                        $('body').css('overflow', 'initial')
+                        window.removeEventListener('scroll', beforeFunction);
+                        window.addEventListener('scroll', endofpage);
+                    });
+
+                    const endofpage = () => {
+                        a = window.innerHeight;
+                        b = window.scrollY;
+                        c = document.body.offsetHeight;
+                        d = c - (a + b);
+
+                        console.log(d);
+
+                        if (d >= 1500) {
+                            window.addEventListener('scroll', beforeFunction)
+                            galleryMain.slideTo(0);
+                        }
+                    };
+
+                }
+                else {
+                    galleryMain.mousewheel.disable();
+                }
 
 
-});
-});
+            });
+        });
 
-
-
-
-
-
-</script>
+    </script>
 @endpush

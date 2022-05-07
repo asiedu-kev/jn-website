@@ -316,13 +316,13 @@
         </div>
     </section>
 
-    <section>
-        <div class="container-fluid bg-black text-white wb-py-7">
+    <section class="bg-black">
+        <div class="container-fluid  text-white wb-swiper-py-7">
             <div class="container-wb">
                 <h5 class="text-uppercase history-deco font-bold fs-18 position-relative">Mon histoire</h5>
             </div>
         </div>
-        <div class="container-fluid bg-black text-white" id="myHistory">
+        <div class="container-fluid  text-white" id="myHistory">
             <div class="container-wb">
                 <div class="swiper swiperHistory">
                     <!-- Additional required wrapper -->
@@ -332,7 +332,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-10 card-history-header font-regular wb-h4 ">
+                                        <div class="col-12 col-md-10 card-history-header font-regular wb-swiper-h4 ">
                                             <p class="">
                                                 Je suis né le 12 Juillet à Cotonou en République du Bénin, d'une famille
                                                 modeste. Mon père est décédé seulement 3 mois avant ma naissance. Ma mère
@@ -358,7 +358,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-10 card-history-header font-regular wb-h4">
+                                        <div class="col-12 col-md-10 card-history-header font-regular wb-swiper-h4">
                                             <p class="">
                                                 Malgré ses maigres revenus, ma mère m'a inculqué une très bonne éducation
                                                 dès le début, insistant sur la nécessité d'étudier et travailler dur pour
@@ -387,7 +387,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4 ">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4 ">
                                             <p>Quelques années plus tard, j'ai eu mon Brevet d'études du premier cycle en
                                                 étant parmi les meilleurs élèves du Bénin.</p>
 
@@ -415,7 +415,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4">
                                             <p>J'étais tellement passionné par les robots que quelques mois plus tard j'ai
                                                 décidé de passer un concours international, le Google Science Fair, avec mon
                                                 ami Junior Hounkpe. Nous avions développé un prototype de robot agricole, et
@@ -440,7 +440,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4">
                                             <p>
                                                 Comme on pouvait s'y attendre, cela a été très difficile au début. Nous
                                                 avons essuyé plusieurs refus de la part de nombreuses organisations de la
@@ -466,7 +466,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4 ">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4 ">
                                             <p>
                                                 Le Président Patrice Talon s'est montré très enthousiaste par rapport à
                                                 notre projet. Il nous a vivement encouragés à le concrétiser, et, pour
@@ -492,7 +492,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4">
 
                                             <p>
                                                 En 2017, j'ai donc entrepris, accompagné de mon ami Patrick, un voyage au
@@ -520,7 +520,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4">
                                             <p class="">
                                                 La plupart des gens dans cet endroit pouvaient financer mon projet et
                                                 m'aider à le réaliser. J'ai tout de suite compris que gagner de l'argent
@@ -547,7 +547,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4 ">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4 ">
 
 
                                             <p>
@@ -576,7 +576,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4">
 
                                             <p>
                                                 Au début, quelques proches m'ont déconseillé de me lancer. Mais je pensais
@@ -605,7 +605,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4">
                                             <p class="">
                                                 Je me suis par la suite activement formé en marketing digital puis en growth
                                                 hacking. Résultat : J'ai décroché des contrats auprès d'agences à
@@ -635,7 +635,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4 ">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4 ">
 
                                             <p>
                                                 Au cours de la conférence TED, j'ai expliqué que je voulais aider un maximum
@@ -661,7 +661,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4">
 
                                             <p>
                                                 C'est un objectif qui me tient particulièrement à cœur. C'est pourquoi j'ai
@@ -699,7 +699,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4">
                                             <p>
                                                 Quelques mois après ma conférence TED, j'ai décidé d'aller plus loin et de
                                                 passer un palier. J'ai utilisé toutes mes économies pour prendre la
@@ -725,7 +725,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4 ">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4 ">
 
                                             <p>
                                                 Les débuts ont été difficiles, et j'ai dû prendre un coaching pour aller
@@ -753,7 +753,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4">
 
                                             <p>
                                                 De nombreux médias ont parlé de mon exploit et j'ai même été nommé homme de
@@ -780,7 +780,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4">
                                             <p class="">
                                                 En 2021, j'ai décidé de créer ma première société au Bénin : JN HOLDING SAS.
                                                 La société comporte 5 filiales dont JN Services qui met en relation les
@@ -806,7 +806,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4 ">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4 ">
                                             <p class="">
                                                 Cette même année j'ai organisé le JN University Tour. Pendant une quinzaine
                                                 de jours, j'ai sillonné de nombreuses universités du Nord au Sud du Bénin
@@ -833,7 +833,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-11 card-history-header font-regular wb-h4">
+                                        <div class="col-12 col-md-11 card-history-header font-regular wb-swiper-h4">
                                             <p class="">
                                                 En 2021, Urban Studios ma société de production a organisé le plus grand
                                                 événement musical de l'histoire du Bénin. Plus de 40000 personnes étaient
@@ -862,7 +862,7 @@
                             <div class="card card-history">
                                 <div class="row py-5">
                                     <div class="col-md-8 col-sm-12 order-2 order-md-1">
-                                        <div class="col-12 col-md-10 card-history-header font-regular wb-h4">
+                                        <div class="col-12 col-md-10 card-history-header font-regular wb-swiper-h4">
                                             <p class="">
                                                 J'ai débuté l'année 2022 avec une nouvelle tournée, cette fois continentale,
                                                 et toujours dans le même esprit. Le JN AFRICA TOUR va permettre aux jeunes
@@ -895,7 +895,7 @@
                 </div>
             </div>
 
-            <div class="container-wb py-2 py-md-5">
+            <div class="container-wb py-5 py-md-5">
                 <div class="d-flex justify-content-center justify-content-md-between align-items-center">
                     <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start">
                         <button class="btn btn-wb-dark owl-History-Prev me-4"> <i class="fas fa-chevron-left"></i>
