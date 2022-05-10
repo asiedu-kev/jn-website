@@ -109,8 +109,8 @@ $(function () {
 
             $('#videos-controller').removeClass('videos-controller');
             if (window.screen.width > 768) {
-                $('.owl-stage').css('width', '3500px ');
-                $('.owl-item').css('width', '560px');
+                $('.owl-stage').css('width', '4500px ');
+                // $('.owl-item').css('width', '560px');
             }
 
 
@@ -125,9 +125,9 @@ $(function () {
         if (counter[ret] == 0) {
 
             if (window.screen.width > 768) {
-                $('.owl-stage').css('width', '3500px');
+                $('.owl-stage').css('width', '4500px');
                 $('#videos-controller').addClass('videos-controller');
-                $('.owl-item').css('width', '560px');
+                // $('.owl-item').css('width', '560px');
 
             }
         }
