@@ -632,9 +632,19 @@ body {
 }
 
 .card-price:hover .card-price-footer {
-    /* transform: translateY(-10px); */
-bottom: 10px;
-    transition: all .4s ease;
+   animation: pricing .22s ease;
+}
+
+
+@keyframes pricing {
+    from {
+        transform: translateY(35px);
+
+    }
+
+    to {
+        transform: translateY(0px);
+        }
 }
 
 .card-price:hover .card-price-footer-link {
