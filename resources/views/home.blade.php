@@ -1013,9 +1013,6 @@
                 swiper.mousewheel.enable();
             }
 
-            console.log(" window innerHeight: " + a + " window scrollY: " + b + "bodyOffsetHeight: " + c +
-                "HistoryOffsetHeight: " + e + "HistoryOffsetTop: " + f + "                                " + d);
-
             swiper.on('realIndexChange', function() {
 
                 if (swiper.realIndex == 0) {
@@ -1025,7 +1022,7 @@
                     window.removeEventListener('scroll', afterFunction);
                     setTimeout(() => {
                         window.addEventListener('scroll', beforeFunction)
-                    }, 4000);
+                    }, 2000);
 
                 }
 
@@ -1064,10 +1061,6 @@
             }
 
             m = scrollpos - b
-
-            console.log("scrollpos: " + scrollpos + "  elementoffsetheight:  " + a +
-                "  elementoffsetTOP: " + b + " A/2: " + c);
-
             posDef = scrollpos;
 
             if (m >= 25) {

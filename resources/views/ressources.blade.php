@@ -400,7 +400,8 @@
                     <p class="text-center">Ces résultats peuvent être les tiens. Gagne du temps et augmente tes chances
                         de réussite à 99% en te faisant accompagner aujourd'hui.</p>
                 </div>
-                <a class="btn rounded-pill btn-wb-primary px-3 fs-18 text-decoration-none wb-w-100">Se faire accompagner</a>
+                <a class="btn rounded-pill btn-wb-primary px-3 fs-18 text-decoration-none wb-w-100">Se faire
+                    accompagner</a>
             </div>
 
         </div>
@@ -821,127 +822,169 @@
 
 @push('js')
     <script>
-        document.addEventListener("DOMContentLoaded", function(event) {
-            window.addEventListener("load", function(event) {
+        // Gerer le carousel sur les prix avec swiper
 
-
-                // Gerer le carousel sur les prix avec swiper
-
-                var galleryThumbs = new Swiper(".price-thumbs", {
-                    centeredSlides: true,
-                    centeredSlidesBounds: true,
-                    slidesPerView: 3,
-                    watchOverflow: false,
-                    watchSlidesVisibility: false,
-                    watchSlidesProgress: false,
+        var galleryThumbs = new Swiper(".price-thumbs", {
+            centeredSlides: true,
+            centeredSlidesBounds: true,
+            slidesPerView: 3,
+            watchOverflow: false,
+            watchSlidesVisibility: false,
+            watchSlidesProgress: false,
+            direction: 'vertical',
+            breakpoints: {
+                0: {
+                    direction: 'horizontal',
+                },
+                768: {
                     direction: 'vertical',
-                    breakpoints: {
-                        0: {
-                            direction: 'horizontal',
-                        },
-                        768: {
-                            direction: 'vertical',
-                        }
+                }
+            }
+
+        });
+
+        galleryThumbs.on('slideChange', function() {
+            var element = galleryThumbs.realIndex;
+
+        });
+
+        $('.swiper-slide-thumb-active .card-price-thumbs img').addClass('border-thumbs');
+
+        var galleryMain = new Swiper(".price-main", {
+            watchOverflow: false,
+            watchSlidesVisibility: false,
+            watchSlidesProgress: false,
+            preventInteractionOnTransition: true,
+            freeMode: true,
+            mousewheel: true,
+            effect: 'fade',
+            fadeEffect: {
+                crossFade: true
+            },
+            thumbs: {
+                swiper: galleryThumbs
+            },
+
+        });
+
+        galleryMain.on('slideChangeTransitionStart', function() {
+            galleryThumbs.slideTo(galleryMain.activeIndex);
+        });
+
+        galleryThumbs.on('transitionStart', function() {
+            galleryMain.slideTo(galleryThumbs.activeIndex);
+        });
+
+        galleryMain.mousewheel.disable();
+
+        pageWidth = window.innerWidth;
+        if (pageWidth > 768) {
+
+            const afterFunction = () => {
+
+                a = window.innerHeight;
+                b = window.scrollY;
+                c = document.body.offsetHeight;
+
+
+                var el = document.getElementById('swiper-ressources');
+
+                e = el.offsetHeight;
+                f = el.offsetTop;
+                d = b - f;
+
+                if (d <= 0) {
+                    $('#swiper-ressources').addClass('el-fixed');
+                    $('body').css('overflow', 'hidden')
+                    galleryMain.mousewheel.enable();
+                }
+
+                galleryMain.on('realIndexChange', function() {
+
+                    if (galleryMain.realIndex == 0) {
+                        galleryMain.mousewheel.disable();
+                        $('#swiper-ressources').removeClass('el-fixed');
+                        $('body').css('overflow', 'initial');
+                        window.removeEventListener('scroll', afterFunction);
+                        setTimeout(() => {
+                            galleryMain.slideTo(0);
+                            window.addEventListener('scroll', beforeFunction)
+                        }, 2000);
+
                     }
 
                 });
 
-                galleryThumbs.on('slideChange', function() {
-                    var element = galleryThumbs.realIndex;
-
-                });
-
-                $('.swiper-slide-thumb-active .card-price-thumbs img').addClass('border-thumbs');
-
-                var galleryMain = new Swiper(".price-main", {
-                    watchOverflow: false,
-                    watchSlidesVisibility: false,
-                    watchSlidesProgress: false,
-                    preventInteractionOnTransition: true,
-                    freeMode: true,
-                    mousewheel: true,
-                    effect: 'fade',
-                    fadeEffect: {
-                        crossFade: true
-                    },
-                    thumbs: {
-                        swiper: galleryThumbs
-                    },
-
-                });
-
-                galleryMain.on('slideChangeTransitionStart', function() {
-                    galleryThumbs.slideTo(galleryMain.activeIndex);
-                });
-
-                galleryThumbs.on('transitionStart', function() {
-                    galleryMain.slideTo(galleryThumbs.activeIndex);
-                });
-
-                pageWidth = window.innerWidth;
-                if (pageWidth >= 768) {
-
+                galleryMain.on('reachEnd', function() {
                     galleryMain.mousewheel.disable();
+                    $('#swiper-ressources').removeClass('el-fixed');
+                    $('body').css('overflow', 'initial')
+                    window.removeEventListener('scroll', afterFunction);
+                    setTimeout(() => {
+                        window.addEventListener('scroll', afterFunction)
+                    }, 4000);
 
-                    const beforeFunction = () => {
-
-                        element = document.getElementById('swiper-ressources');
-
-                        scrollpos = window.scrollY;
-
-                        var a, b, c;
-
-                        if (element) {
-                            a = element.offsetHeight;
-                            b = element.offsetTop;
-                            c = a / 2;
-
-                        }
-
-                        posDef = scrollpos + 500;
-
-                        if (posDef >= (b + c)) {
-
-                            $('#swiper-ressources').addClass('full');
-                            $('body').css('overflow', 'hidden')
-                            galleryMain.mousewheel.enable();
-                        }
-                    };
+                });
 
 
-                    window.addEventListener('scroll', beforeFunction);
-                    // Verifier la fin du carousel
 
-                    galleryMain.on('reachEnd', function() {
+
+            };
+            const beforeFunction = () => {
+
+                element = document.getElementById('swiper-ressources');
+
+                scrollpos = window.scrollY;
+
+                var a, b, c;
+
+                if (element) {
+                    a = element.offsetHeight;
+                    b = element.offsetTop;
+                    c = a / 1.5;
+
+                }
+
+                m = scrollpos - b
+                posDef = scrollpos;
+
+                if (m >= 25) {
+
+                    $('#swiper-ressources').addClass('el-fixed');
+                    $('body').css('overflow', 'hidden')
+                    galleryMain.mousewheel.enable();
+                }
+
+                galleryMain.on('realIndexChange', function() {
+
+                    if (galleryMain.realIndex == 0) {
                         galleryMain.mousewheel.disable();
-                        $('#swiper-ressources').removeClass('full');
-                        $('body').css('overflow', 'initial')
+                        $('#swiper-ressources').removeClass('el-fixed');
+                        $('body').css('overflow', 'initial');
                         window.removeEventListener('scroll', beforeFunction);
-                        window.addEventListener('scroll', endofpage);
-                    });
-
-                    const endofpage = () => {
-                        a = window.innerHeight;
-                        b = window.scrollY;
-                        c = document.body.offsetHeight;
-                        d = c - (a + b);
-
-                        console.log(d);
-
-                        if (d >= 1500) {
+                        setTimeout(() => {
                             window.addEventListener('scroll', beforeFunction)
-                            galleryMain.slideTo(0);
-                        }
-                    };
+                        }, 4000);
+                    }
 
-                }
-                else {
+                });
+
+                galleryMain.on('reachEnd', function() {
                     galleryMain.mousewheel.disable();
-                }
+                    $('#swiper-ressources').removeClass('el-fixed');
+                    $('body').css('overflow', 'initial')
+                    window.removeEventListener('scroll', beforeFunction);
+                    setTimeout(() => {
+                        window.addEventListener('scroll', afterFunction)
+                    }, 4000);
 
+                });
 
-            });
-        });
+            };
 
+            window.addEventListener('scroll', beforeFunction);
+        } else {
+            galleryMain.mousewheel.disable();
+        }
     </script>
 @endpush

@@ -1980,6 +1980,6 @@ section{
 
 
 
-
-
-
+.step-trigger{
+    z-index: 5000 !important;
+}

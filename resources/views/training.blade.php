@@ -11,7 +11,8 @@
                 <h1 class="wb-h2 wb-mb-5">La méthode simple en 3 étapes pour percer dans les business en
                     ligne</h1>
                 <div class="mt-4">
-                    <button class="btn rounded-pill btn-wb-primary d-block d-md-inline fs-18 py-md-2 px-2 px-md-4 w-wb-100">Démarrer
+                    <button
+                        class="btn rounded-pill btn-wb-primary d-block d-md-inline fs-18 py-md-2 px-2 px-md-4 w-wb-100">Démarrer
                         maintenant</button>
                 </div>
 
@@ -245,71 +246,74 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function(event) {
-    window.addEventListener("load", function(event) {
-        window.requestAnimationFrame(function() {
-            let pageWidth = '';
-            let slider_height = '';
-            var testi1_height = '';
-            var sliderHeight = function() {
-                pageWidth = window.innerWidth
-                testi1_height = window.innerHeight;
-
-            }
-            var home4Slider = function() {
-                if (pageWidth >= 768) {
-                    var sliderAnim = gsap.timeline({
-                        scrollTrigger: {
-                            trigger: ".step-trigger",
-                            start: "top  top",
-                            end: "bottom top",
-                            toggleActions: 'restart complete reverse reset',
-                            markers: false,
-                            scrub: true,
-                            pin: true
-                        }
-                    });
-
-
-                    sliderAnim.from(".bg-step-1, .bg-step-1-text, .bg-step-1-img", {
-                        opacity: 1,
-                        ease: Power3.easeInOut,
-                        duration: 10
-                    }).to(".bg-step-1, .bg-step-1-text, .bg-step-1-img", {
-                        opacity: 0,
-                        ease: Power3.easeInOut,
-                        duration: 10
-                    }).from(".bg-step-2, .bg-step-2-text, .bg-step-2-img", {
-                        opacity: 0,
-                        scale: 0,
-                        ease: Power3.easeInOut,
-                        duration: 5
-                    }, "-=10").to(".bg-step-2, .bg-step-2-text, .bg-step-2-img", {
-                        opacity: 1,
-                        ease: Power3.easeInOut,
-                        duration: 10
-                    }).to(".bg-step-2, .bg-step-2-text, .bg-step-2-img", {
-                        opacity: 0,
-                        ease: Power3.easeInOut,
-                        duration: 6
-                    }).from(".bg-step-3, .bg-step-3-text, .bg-step-3-img", {
-                        opacity: 0,
-                        scale: 0,
-                        ease: Power3.easeInOut,
-                        duration: 5
-                    }, "-=10").to(".bg-step-3, .bg-step-3-text, .bg-step-3-img", {
-                        opacity: 1,
-                        ease: Power3.easeInOut,
-                        duration: 10
-                    })
+        window.addEventListener("load", function(event) {
+            window.requestAnimationFrame(function() {
+                let pageWidth = '';
+                let slider_height = '';
+                var testi1_height = '';
+                var sliderHeight = function() {
+                    pageWidth = window.innerWidth
+                    testi1_height = window.innerHeight;
 
                 }
+                var home4Slider = function() {
+                    if (pageWidth >= 768) {
+                        var sliderAnim = gsap.timeline({
+                            scrollTrigger: {
+                                trigger: ".step-trigger",
+                                start: "top  top",
+                                end: "bottom top",
+                                toggleActions: 'restart complete reverse reset',
+                                markers: false,
+                                scrub: true,
+                                pin: true
+                            }
+                        });
 
-            }
-            sliderHeight();
-            home4Slider();
 
+
+                        sliderAnim.from(".bg-step-1, .bg-step-1-text, .bg-step-1-img", {
+                            opacity: 1,
+                            ease: Power3.easeInOut,
+                            duration: 10
+                        }).to(".bg-step-1, .bg-step-1-text, .bg-step-1-img", {
+                            opacity: 0,
+                            ease: Power3.easeInOut,
+                            duration: 10
+                        }).from(".bg-step-2, .bg-step-2-text, .bg-step-2-img", {
+                            opacity: 0,
+                            scale: 0,
+                            ease: Power3.easeInOut,
+                            duration: 5
+                        }, "-=10").to(".bg-step-2, .bg-step-2-text, .bg-step-2-img", {
+                            opacity: 1,
+                            ease: Power3.easeInOut,
+                            duration: 10
+                        }).to(".bg-step-2, .bg-step-2-text, .bg-step-2-img", {
+                            opacity: 0,
+                            ease: Power3.easeInOut,
+                            duration: 6
+                        }).from(".bg-step-3, .bg-step-3-text, .bg-step-3-img", {
+                            opacity: 0,
+                            scale: 0,
+                            ease: Power3.easeInOut,
+                            duration: 5
+                        }, "-=10").to(".bg-step-3, .bg-step-3-text, .bg-step-3-img", {
+                            opacity: 1,
+                            ease: Power3.easeInOut,
+                            duration: 10
+                        })
+
+
+                    }
+
+                }
+                sliderHeight();
+                home4Slider();
+
+
+
+            });
         });
     });
-});
-
 </script>
