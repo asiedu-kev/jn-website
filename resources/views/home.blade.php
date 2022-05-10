@@ -264,11 +264,10 @@
 
             <div class="container d-md-none">
                 <div class="row justify-content-center  mt-3">
-                        <button class="btn btn-wb-light  d-md-none owlVideosPrev me-4"> <i
-                                class="fas fa-chevron-left"></i>
-                        </button>
-                        <button class="btn btn-wb-light  d-md-none owlVideosNext"> <i class="fas fa-chevron-right"></i>
-                        </button>
+                    <button class="btn btn-wb-light  d-md-none owlVideosPrev me-4"> <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="btn btn-wb-light  d-md-none owlVideosNext"> <i class="fas fa-chevron-right"></i>
+                    </button>
 
 
                 </div>
@@ -316,13 +315,13 @@
         </div>
     </section>
 
-    <section class="bg-black">
-        <div class="container-fluid  text-white wb-swiper-py-7">
+    <section class="bg-black" id="swpHistory">
+        <div class="container-fluid  text-white wb-swiper-py-7" id="">
             <div class="container-wb">
                 <h5 class="text-uppercase history-deco font-bold fs-18 position-relative">Mon histoire</h5>
             </div>
         </div>
-        <div class="container-fluid  text-white" id="myHistory">
+        <div class="container-fluid  text-white el-100 bg-black" id="myHistory">
             <div class="container-wb">
                 <div class="swiper swiperHistory">
                     <!-- Additional required wrapper -->
@@ -958,105 +957,153 @@
 @endsection
 
 @push('js')
+    <script>
+        // Carousel pour le mode histoire
 
-<script>
-
-document.addEventListener("DOMContentLoaded", function(event) {
-    window.addEventListener("load", function(event) {
-
-    // Carousel pour le mode histoire
-
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: false,
-        effect: "fade",
-        slidesPerView: 1,
-        spaceBetween: 30,
-        mousewheel: true,
-        // Navigation arrows
-        navigation: {
-            nextEl: '.owl-History-Next',
-            prevEl: '.owl-History-Prev',
-        },
-        pagination: {
-            el: ".history-paginate",
-            type: "fraction",
-        },
-        breakpoints: {
-            0: {
-                direction: 'vertical',
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: false,
+            effect: "fade",
+            slidesPerView: 1,
+            spaceBetween: 30,
+            mousewheel: {
+                thresholdTime: 500,
             },
-            768: {
-                direction: 'vertical',
+            // Navigation arrows
+            navigation: {
+                nextEl: '.owl-History-Next',
+                prevEl: '.owl-History-Prev',
+            },
+            pagination: {
+                el: ".history-paginate",
+                type: "fraction",
+            },
+            breakpoints: {
+                0: {
+                    direction: 'vertical',
+                },
+                768: {
+                    direction: 'vertical',
+                }
             }
-        }
 
 
-    });
+        });
 
-    swiper.mousewheel.disable();
-
-
-    // verification de la position de la section pour fixation sur la page
-
-    const beforeFunction = () => {
-
-        element = document.getElementById('myHistory');
-
-        scrollpos = window.scrollY;
-
-        var a, b, c;
-
-        if (element) {
-            a = element.offsetHeight;
-            b = element.offsetTop;
-            c = a / 1.5;
-
-        }
-
-        posDef = scrollpos + 500;
-
-        if (posDef >= (b+c)) {
-
-            $('#myHistory').addClass('full');
-            $('body').css('overflow', 'hidden')
-            swiper.mousewheel.enable();
-        }
-
-    };
-
-
-    window.addEventListener('scroll', beforeFunction);
-    // Verifier la fin du carousel
-
-    swiper.on('reachEnd', function () {
         swiper.mousewheel.disable();
-        $('#myHistory').removeClass('full');
-        $('body').css('overflow', 'initial')
-        window.removeEventListener('scroll', beforeFunction);
-        window.addEventListener('scroll',endofpage);
-    });
 
 
-    const endofpage = () => {
-    a= window.innerHeight;
-    b= window.scrollY;
-    c= document.body.offsetHeight;
-    d= c - (a+b);
+        const afterFunction = () => {
 
-    console.log(d);
+            a = window.innerHeight;
+            b = window.scrollY;
+            c = document.body.offsetHeight;
 
-    if(d >= 1500){
-        window.addEventListener('scroll', beforeFunction)
-        swiper.slideTo(0);
-    }
-} ;
 
-    });
-});
+            var el = document.getElementById('myHistory');
 
-</script>
+            e = el.offsetHeight;
+            f = el.offsetTop;
+            d = b - f;
 
+            if (d <= 0) {
+                $('#myHistory').addClass('el-fixed');
+                $('body').css('overflow', 'hidden')
+                swiper.mousewheel.enable();
+            }
+
+            console.log(" window innerHeight: " + a + " window scrollY: " + b + "bodyOffsetHeight: " + c +
+                "HistoryOffsetHeight: " + e + "HistoryOffsetTop: " + f + "                                " + d);
+
+            swiper.on('realIndexChange', function() {
+
+                if (swiper.realIndex == 0) {
+                    swiper.mousewheel.disable();
+                    $('#myHistory').removeClass('el-fixed');
+                    $('body').css('overflow', 'initial');
+                    window.removeEventListener('scroll', afterFunction);
+                    setTimeout(() => {
+                        window.addEventListener('scroll', beforeFunction)
+                    }, 4000);
+
+                }
+
+            });
+
+            swiper.on('reachEnd', function() {
+                swiper.mousewheel.disable();
+                $('#myHistory').removeClass('el-fixed');
+                $('body').css('overflow', 'initial')
+                window.removeEventListener('scroll', afterFunction);
+                setTimeout(() => {
+                    window.addEventListener('scroll', afterFunction)
+                }, 4000);
+
+            });
+
+
+
+
+        };
+
+
+        const beforeFunction = () => {
+
+            element = document.getElementById('myHistory');
+
+            scrollpos = window.scrollY;
+
+            var a, b, c;
+
+            if (element) {
+                a = element.offsetHeight;
+                b = element.offsetTop;
+                c = a / 1.5;
+
+            }
+
+            m = scrollpos - b
+
+            console.log("scrollpos: " + scrollpos + "  elementoffsetheight:  " + a +
+                "  elementoffsetTOP: " + b + " A/2: " + c);
+
+            posDef = scrollpos;
+
+            if (m >= 25) {
+
+                $('#myHistory').addClass('el-fixed');
+                $('body').css('overflow', 'hidden')
+                swiper.mousewheel.enable();
+            }
+
+            swiper.on('realIndexChange', function() {
+
+                if (swiper.realIndex == 0) {
+                    swiper.mousewheel.disable();
+                    $('#myHistory').removeClass('el-fixed');
+                    $('body').css('overflow', 'initial');
+                    window.removeEventListener('scroll', beforeFunction);
+                    setTimeout(() => {
+                        window.addEventListener('scroll', beforeFunction)
+                    }, 4000);
+                }
+
+            });
+
+            swiper.on('reachEnd', function() {
+                swiper.mousewheel.disable();
+                $('#myHistory').removeClass('el-fixed');
+                $('body').css('overflow', 'initial')
+                window.removeEventListener('scroll', beforeFunction);
+                setTimeout(() => {
+                    window.addEventListener('scroll', afterFunction)
+                }, 4000);
+
+            });
+
+        };
+
+        window.addEventListener('scroll', beforeFunction);
+    </script>
 @endpush
-
