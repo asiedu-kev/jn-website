@@ -49,7 +49,7 @@
                     dans
                     leur business <br> en ligne 💥
                 </h2>
-                <div class="col-md-6 col-sm-12 mt-5">
+                <div class="col-lg-6 col-sm-12 mt-5">
                     <p class="fs-32">La différence entre ceux qui ont réalisé des millions d'euros en
                         entrepreneuriat et ceux qui stagnent
                         n'a
@@ -62,8 +62,8 @@
 
     <section>
         <div class="container-wb wb-py-7 ">
-            <div class="d-flex justify-content-center flex-column align-items-start flex-md-row fs-18">
-                <div class="col-md-5 col-sm-12 p-2 p-md-4 aos-init aos-animate" data-aos="fade-zoom-in"
+            <div class="d-flex justify-content-center flex-column align-items-start flex-lg-row fs-18">
+                <div class="col-lg-5 col-sm-12 p-2 p-lg-4 aos-init aos-animate" data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-back" data-aos-delay="100">
                     <p class=" fs-18 mb-4"> C'est vrai, les compétences et le savoir faire, c'est important.
                         Mais ce qui
@@ -80,7 +80,7 @@
 
                 </div>
 
-                <div class="col-md-5 col-sm-12 p-2 p-md-4 aos-init aos-animate" data-aos="fade-zoom-in"
+                <div class="col-lg-5 col-sm-12 p-2 p-lg-4 aos-init aos-animate" data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-back" data-aos-delay="300">
                     <p class=" fs-18 mb-4"> C'est ce que les gourous et coachs sur les réseaux sociaux ne te
                         diront
@@ -108,23 +108,23 @@
         <div class="container-fluid bg-black wb-py-7">
             <div class="container-wb text-white">
                 <div class="row align-items-start">
-                    <div class="col-sm-12 mb-5 mb-md-0 col-md-6 text-start">
+                    <div class="col-sm-12 mb-5 mb-lg-0 col-lg-6 text-start">
                         <h5 class="fs-32">Malheureusement, <br> voici ce qu'il se passe <br> très souvent</h5>
                     </div>
 
-                    <div class="col-sm-12 mb-3 col-md-6 d-flex justify-content-center  fs-18">
-                        <div class="col-12 wb-col-md-9">
-                            <p class=" aos-init aos-animate mb-5 mb-md-5" data-aos="fade-zoom-in"
+                    <div class="col-sm-12 mb-3 col-lg-6 d-flex justify-content-center  fs-18">
+                        <div class="col-12 wb-col-lg-9">
+                            <p class=" aos-init aos-animate mb-5 mb-lg-5" data-aos="fade-zoom-in"
                                 data-aos-easing="ease-in-back" data-aos-delay="100">❌ <br>
                                 Ça te prend beaucoup de temps pour trouver des solutions. Pendant que tu perds du temps,
                                 ceux
                                 qui font le même business que toi évoluent rapidement et obtiennent de gros résultats.</p>
-                            <p class=" aos-init aos-animate mb-5 mb-md-5" data-aos="fade-zoom-in"
+                            <p class=" aos-init aos-animate mb-5 mb-lg-5" data-aos="fade-zoom-in"
                                 data-aos-easing="ease-in-back" data-aos-delay="300">❌ <br>
                                 Tu finis par te décourager car les difficultés s'enchaînent. Tu deviens dépressif et tu as
                                 envie
                                 de tout laisser tomber.</p>
-                            <p class=" aos-init aos-animate mb-5 mb-md-5" data-aos="fade-zoom-in"
+                            <p class=" aos-init aos-animate mb-5 mb-lg-5" data-aos="fade-zoom-in"
                                 data-aos-easing="ease-in-back" data-aos-delay="500">❌ <br>
                                 Tu prends beaucoup de mauvaises décisions, perds beaucoup d'argent et tu stagnes.</p>
                         </div>
@@ -140,19 +140,19 @@
     <section>
         <div class="container-wb wb-py-7">
             <div class="col-12 d-flex justify-content-center">
-                <div class="col-12 col-md-8">
+                <div class="col-12 col-lg-8">
                     <h2 class="color-primary text-center font-bold  wb-h3">Qui suis-je et comment je sais celà ?</h2>
 
                 </div>
             </div>
-            <div class="d-flex justify-content-center flex-column flex-md-row align-items-center mt-5">
-                <div class="col-12 mb-2 col-md-5 mb-5 mb-md-0 profile-img-ressource-about">
+            <div class="d-flex justify-content-center flex-column flex-lg-row align-items-center mt-5">
+                <div class="col-12 mb-2 col-lg-5 mb-5 mb-lg-0 profile-img-ressource-about">
                     <img src="{{ asset('img/profile.png') }}" alt="img-started-about" class="img-started-about">
                 </div>
 
 
-                <div class="col-12 mb-2 col-md-7 d-flex justify-content-md-center align-items-center">
-                    <div class="col-12 col-md-9 fs-32">
+                <div class="col-12 mb-2 col-lg-7 d-flex justify-content-lg-center align-items-center">
+                    <div class="col-12 col-lg-9 fs-32">
                         <p class="fs-32 mb-5 "> Je m'appelle Junior Natabou, j'ai 18 ans, et cela fait 4 ans que
                             j'entreprends dans plusieurs domaines, notamment les business en ligne.
 
@@ -172,8 +172,8 @@
         </div>
 
         <div class="container-wb wb-pb-77">
-            <div class="d-flex justify-content-center  align-items-start flex-column flex-md-row fs-18">
-                <div class="col-12 mb-3 col-md-6 p-2 pe-md-5 ps-md-0 aos-init aos-animate" data-aos="fade-zoom-in"
+            <div class="d-flex justify-content-center  align-items-start flex-column flex-lg-row fs-18">
+                <div class="col-12 mb-3 col-lg-6 p-2 pe-lg-5 ps-lg-0 aos-init aos-animate" data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-back" data-aos-delay="100">
                     <p class=" fs-18 mb-4"> Pourtant, depuis 2019, comme tous les entrepreneurs, j'ai eu à faire face
                         à
@@ -189,7 +189,7 @@
 
                 </div>
 
-                <div class="col-12 mb-3 col-md-6 p-2 ps-md-5 pe-md-0 aos-init aos-animate" data-aos="fade-zoom-in"
+                <div class="col-12 mb-3 col-lg-6 p-2 ps-lg-5 pe-lg-0 aos-init aos-animate" data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-back" data-aos-delay="300">
 
 
@@ -214,28 +214,28 @@
         <div class="container-fluid bg-black text-white wb-py-7">
             <div class="container-wb">
                 <div class="row">
-                    <div class="col-md-6 col-sm-12 mb-5">
+                    <div class="col-lg-6 col-sm-12 mb-5">
                         <h2 class="text-start fs-32">Le coaching/ <br> accompagnement te <br> fait gagner du temps…</h2>
                     </div>
 
-                    <div class="col-md-6 col-sm-12 mb-3 d-flex justify-content-center p-2  fs-18">
-                        <div class="col-12 wb-col-md-9">
-                            <p class=" aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    <div class="col-lg-6 col-sm-12 mb-3 d-flex justify-content-center p-2  fs-18">
+                        <div class="col-12 wb-col-lg-9">
+                            <p class=" aos-animate mb-5 mb-lg-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                                 data-aos-delay="100">90% des entrepreneurs réussissent tout
                                 simplement parce qu'ils se sont
                                 fait accompagner. En te faisant accompagner tu auras un soutien de poids pour résoudre
                                 rapidement toutes les difficultés que tu vas rencontrer :</p>
-                            <p class=" aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                            <p class=" aos-animate mb-5 mb-lg-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                                 data-aos-delay="250">✅ Dans ton parcours vers la réussite <br>
                                 ✅ Sur ton business <br>
                                 ✅ Dans ta carrière.</p>
-                            <p class=" aos-animate mb-5 mb-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                            <p class=" aos-animate mb-5 mb-lg-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                                 data-aos-delay="400">Malheureusement, se faire accompagner, ce
                                 n'est pas simple. La plupart des
                                 programmes de coaching de qualité coûtent très cher ( en moyenne de 2000€). Mais ils
                                 constituent
                                 une garantie sûr pour obtenir des résultats et atteindre tes objectifs.</p>
-                            <p class=" font-bold aos-animate mb-5 mb-md-4 fs-24" data-aos="fade-zoom-in"
+                            <p class=" font-bold aos-animate mb-5 mb-lg-4 fs-24" data-aos="fade-zoom-in"
                                 data-aos-easing="ease-in-back" data-aos-delay="550">Ce que je te propose : Un accompagnement
                                 accessible et adapté à
                                 tes besoins.</p>
@@ -249,22 +249,22 @@
 
     <section class="overflow-hidden">
         <div class="container-fluid bg-wb-secondary wb-py-7">
-            <div class="container-wb">
-                <div class="row align-items-md-center">
-                    <div class="col-12 col-md-4">
+            <div class="container-wb wb-mw-md">
+                <div class="row align-items-lg-center">
+                    <div class="col-12 col-lg-4">
                         <h2 class="font-bold fs-32">Plus de 3 ans <br> d'expérience dans <br> l'accompagnement</h2>
                     </div>
-                    <div class="col-12 col-md-8">
+                    <div class="col-12 col-lg-8">
                         <div class="row">
-                            <div class="col-12 col-md-7 offset-md-1 mb-3   ">
+                            <div class="col-12 col-lg-7 offset-lg-1 mb-3   ">
                                 <p class="mb-0 fs-18">Cela fait quelques années que j'accompagne les jeunes du monde
                                     entier à obtenir des résultats stratosphériques dans leur vie.</p>
                             </div>
-                            <div class="col-12 col-md-4 d-flex justify-content-md-end">
-                                <button class="btn btn-wb-light d-none d-md-inline owlVideosPrev me-4"> <i
+                            <div class="col-12 col-lg-4 d-flex justify-content-lg-end">
+                                <button class="btn btn-wb-light d-none d-lg-inline owlVideosPrev me-4"> <i
                                         class="fas fa-chevron-left"></i>
                                 </button>
-                                <button class="btn btn-wb-light d-none d-md-inline owlVideosNext"> <i
+                                <button class="btn btn-wb-light d-none d-lg-inline owlVideosNext"> <i
                                         class="fas fa-chevron-right"></i>
                                 </button>
 
@@ -380,11 +380,11 @@
 
             </div>
 
-            <div class="container d-md-none">
+            <div class="container d-lg-none">
                 <div class="row justify-content-center  mt-3">
-                    <button class="btn btn-wb-light  d-md-none owlVideosPrev me-4"> <i class="fas fa-chevron-left"></i>
+                    <button class="btn btn-wb-light  d-lg-none owlVideosPrev me-4"> <i class="fas fa-chevron-left"></i>
                     </button>
-                    <button class="btn btn-wb-light  d-md-none owlVideosNext"> <i class="fas fa-chevron-right"></i>
+                    <button class="btn btn-wb-light  d-lg-none owlVideosNext"> <i class="fas fa-chevron-right"></i>
                     </button>
 
 
@@ -396,7 +396,7 @@
     <section>
         <div class="container-wb wb-py-result">
             <div class="d-flex justify-content-center flex-column align-items-center">
-                <div class="wb-col-md-99 col-sm-12 mb-3 fs-32">
+                <div class="col-lg-9 col-sm-12 mb-3 fs-32">
                     <p class="text-center">Ces résultats peuvent être les tiens. Gagne du temps et augmente tes chances
                         de réussite à 99% en te faisant accompagner aujourd'hui.</p>
                 </div>
@@ -413,7 +413,7 @@
         <div class="container-wb wb-py-7">
             <h2 class="wb-h1 color-primary font-bold mb-5">Je vais être ton coach 🔥</h2>
             <div class="row mt-3 py-4 ">
-                <div class="col-sm-12 col-md-4  pe-md-0 mb-5 aos-animate " data-aos="fade-zoom-in"
+                <div class="col-sm-12 col-lg-4  pe-lg-0 mb-5 aos-animate " data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-back" data-aos-delay="100">
                     <h5 class="fw-bold fs-24  mb-5">Je mets à ta disposition 3 programmes d'accompagnement disponibles à
                         des
@@ -425,7 +425,7 @@
                     <p class=" fs-18">✅ Quel que soit la nature de ton business ou de ton entreprise</p>
                     <p class=" fs-18">✅ Quels que soient tes objectifs</p>
                 </div>
-                <div class="col-sm-12 col-md-4 ps-md-4  mb-5 aos-animate " data-aos="fade-zoom-in"
+                <div class="col-sm-12 col-lg-4 ps-lg-4  mb-5 aos-animate " data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-back" data-aos-delay="250">
                     <h5 class="fw-bold fs-24 mb-5">Je te donnerai les solutions à tout ce qui te bloque dans ton parcours
                         vers
@@ -438,7 +438,7 @@
                     <p class=" fs-18">❌ Pas besoin d'avoir un grand diplôme.</p>
                 </div>
 
-                <div class="col-sm-12 col-md-4 ps-md-4  mb-5 aos-animate " data-aos="fade-zoom-in"
+                <div class="col-sm-12 col-lg-4 ps-lg-4  mb-5 aos-animate " data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-back" data-aos-delay="400">
                     <h5 class="fw-bold fs-24  mb-5">Je t'accompagne, je t'aide à atteindre tes objectifs et je te donne des
                         solutions clés en mains en 4 étapes.</h5>
@@ -733,7 +733,7 @@
         <div class="container-wb wb-py-8 wb-pb-88 wb-pb-faq">
             <h2 class="text-center wb-h3 font-bold text-uppercase">FAQ</h2>
             <div class="d-flex justify-content-center py-5">
-                <div class="col-12 col-md-11">
+                <div class="col-12 col-lg-11">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item py-5 py-md-0 mb-2">
                             <h2 class="accordion-header" id="headingOne">
@@ -836,7 +836,7 @@
                 0: {
                     direction: 'horizontal',
                 },
-                768: {
+                1000: {
                     direction: 'vertical',
                 }
             }

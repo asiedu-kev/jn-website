@@ -42,15 +42,15 @@
     <section>
         <div class="container container-custom wb-py " id="aboutJn">
             <div class="row align-items-center">
-                <div class="col-12 col-md-6 d-flex justify-content-center mb-3">
+                <div class="col-12 col-lg-6 d-flex justify-content-center mb-3">
                     <div class="profile-image-container ">
                         <img src="{{ asset('img/profile.png') }}" alt="profile" class="profile-image">
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 d-flex justify-content-start py-3">
+                <div class="col-12 col-lg-6 d-flex justify-content-start py-3">
 
-                    <div class="col-12 col-md-10">
+                    <div class="col-12 col-lg-10">
                         <div class="mb-5">
                             <p class="wb-h4 font-regular"> Junior est le PDG de JN <br> HOLDING SAS, et le fondateur de JN
                                 Médias où il aide les entreprises et
@@ -94,8 +94,8 @@
         <div class="container container-about wb-py">
             <h2 class="color-primary font-bold wb-h0 mb-5">À propos</h2>
             <div class="my-4">
-                <div class="row justify-content-md-center fs-18 ">
-                    <div class="col-12 col-md-4 mb-3 pe-md-4 " data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                <div class="row justify-content-lg-center fs-18 ">
+                    <div class="col-12 col-lg-4 mb-3 pe-lg-4 " data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                         data-aos-delay="300">
                         <p class=" mb-0  "> Il y a 3 ans, j'ai démarré mon aventure sur internet. Cela a été la
                             meilleure décision de ma vie, car grâce à la réussite dans mes business, je peux désormais
@@ -103,7 +103,7 @@
                         </p>
                     </div>
 
-                    <div class="col-12 col-md-4 mb-3 pe-md-4 " data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    <div class="col-12 col-lg-4 mb-3 pe-lg-4 " data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                         data-aos-delay="500">
                         <p class=""> Dès le début de mon aventure, j'ai compris que le numérique était un
                             véritable levier d'autonomisation pour les jeunes africains. C'est pourquoi, en Juillet  2019,
@@ -112,7 +112,7 @@
                         </p>
                     </div>
 
-                    <div class="col-12 col-md-4 mb-3 pe-md-4 " data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    <div class="col-12 col-lg-4 mb-3 pe-lg-4 " data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                         data-aos-delay="700">
                         <p class="">
                             En deux ans, j'ai donné de nombreuses conférences gratuites, développé des ressources librement
@@ -129,23 +129,23 @@
 
     <section class="overflow-hidden">
         <div class="container-fluid bg-wb-secondary wb-py-7 ">
-            <div class="container-wb">
+            <div class="container-wb wb-mw-md">
                 <div class="row align-items-center">
-                    <div class="col-12 col-md-5">
+                    <div class="col-12 col-lg-5">
                         <h2 class="font-bold wb-h3">La révolution du <br>
                             e-commerce</h2>
                     </div>
-                    <div class="col-12 col-md-7">
+                    <div class="col-12 col-lg-7">
                         <div class="row">
-                            <div class="col-12 col-md-7   ">
+                            <div class="col-12 col-lg-7   ">
                                 <p class="mb-0 fs-18">En trois ans, j'ai formé et accompagné des centaines de jeunes
                                     dans le monde entier au e-commerce.</p>
                             </div>
-                            <div class="col-12 col-md-5 d-flex justify-content-md-end mt-3">
-                                <button class="btn btn-wb-light d-none d-md-inline owlVideosPrev me-4"> <i
+                            <div class="col-12 col-lg-5 d-flex justify-content-lg-end mt-3">
+                                <button class="btn btn-wb-light d-none d-lg-inline owlVideosPrev me-4"> <i
                                         class="fas fa-chevron-left"></i>
                                 </button>
-                                <button class="btn btn-wb-light d-none d-md-inline owlVideosNext"> <i
+                                <button class="btn btn-wb-light d-none d-lg-inline owlVideosNext"> <i
                                         class="fas fa-chevron-right"></i>
                                 </button>
 
@@ -262,11 +262,11 @@
             </div>
 
 
-            <div class="container d-md-none">
+            <div class="container d-lg-none">
                 <div class="row justify-content-center  mt-3">
-                    <button class="btn btn-wb-light  d-md-none owlVideosPrev me-4"> <i class="fas fa-chevron-left"></i>
+                    <button class="btn btn-wb-light  d-lg-none owlVideosPrev me-4"> <i class="fas fa-chevron-left"></i>
                     </button>
-                    <button class="btn btn-wb-light  d-md-none owlVideosNext"> <i class="fas fa-chevron-right"></i>
+                    <button class="btn btn-wb-light  d-lg-none owlVideosNext"> <i class="fas fa-chevron-right"></i>
                     </button>
 
 
@@ -280,10 +280,11 @@
     <section>
         <div class="container container-about wb-py-8 wb-pb-revolution">
             <div class="row">
-                <div class="col-12 col-md-5">
-                    <h2 class="color-primary font-bold wb-h3 mb-4">Rejoins la <br> révolution e- <br> commerce</h2>
+                <div class="col-12 col-lg-5">
+                    <h2 class="color-primary font-bold wb-h3 mb-4 d-md-none d-lg-inline-block">Rejoins la <br> révolution e- <br> commerce</h2>
+                    <h2 class="color-primary font-bold wb-h3 mb-4 d-none d-md-inline-block d-lg-none">Rejoins la révolution <br> e-commerce</h2>
 
-                    <div class="col-12 col-md-9">
+                    <div class="col-12 col-lg-9">
                         <p class="fs-18 mb-4  " data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                             data-aos-delay="100">Pour moi, le e-commerce est une énorme opportunité à saisir pour la
                             jeunesse africaine. Les jeunes
@@ -301,12 +302,12 @@
 
 
                     <a href="{{ route('get_started') }}"
-                        class="btn px-4 py-md-2 btn-wb-primary font-mono-medium rounded-pill fs-18  mb-5 mb-md-0"
+                        class="btn px-4 py-lg-2 btn-wb-primary font-mono-medium rounded-pill fs-18  mb-5 mb-lg-0"
                         data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="400">Rejoindre ECOM ELITE</a>
 
                 </div>
 
-                <div class="col-12 col-md-7 mt-3 m-join-ecom position-relative">
+                <div class="col-12 col-lg-7 mt-3 m-join-ecom position-relative">
                     <img src="{{ asset('img/join-1.png') }}" alt="" class="img-join-1">
                     <img src="{{ asset('img/join2.png') }}" alt="" class="img-join-2">
 
@@ -916,7 +917,7 @@
     <section id="endHomepage">
         <div class="container container-join-me wb-py">
             <div class="row">
-                <div class="col-12 col-md-7 mb-5 mb-md-0">
+                <div class="col-12 col-lg-7 mb-5 mb-lg-0">
                     <h2 class="text-black wb-h1 d-inline d-md-none  mb-4 mb-md-0">Rejoins- <br> moi mainten <br> ant et
                         <br> écrivons <br> le reste
                         de <br> l'histoire <br> ensemble.
@@ -928,7 +929,7 @@
                 </div>
 
                 <div
-                    class="col-12 col-md-5 d-flex justify-content-center d-flex justify-content-md-end align-items-center flex-column">
+                    class="col-12 col-lg-5 d-flex justify-content-center d-flex justify-content-lg-end align-items-center flex-column">
                     <a href="{{ route('ressources') }}" class="text-decoration-none">
                         <div class="join-box mb-3">
                             <span><i class="fas fa-arrow-right rotate-icone fs-32"></i></span>

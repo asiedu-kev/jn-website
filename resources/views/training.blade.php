@@ -7,7 +7,7 @@
             <img src="{{ asset('icons/medium-black-circle.svg') }}" alt="" class="title-medium-circle">
             <img src="{{ asset('icons/small-black-circle.svg') }}" alt="" class="title-small-circle">
 
-            <div class="col-12 col-md-6 text-center">
+            <div class="col-12 col-sm-9 col-md-8 col-lg-8 col-xl-7 col-xxl-6 text-center">
                 <h1 class="wb-h2 wb-mb-5">La méthode simple en 3 étapes pour percer dans les business en
                     ligne</h1>
                 <div class="mt-4">
@@ -23,13 +23,13 @@
     <section>
         <div class="container-wb wb-py-8">
             <div class="row">
-                <div class="col-12 col-md-6 container-img-ressource-about mb-5 mb-md-0">
+                <div class="col-12 col-lg-6 container-img-ressource-about mb-5 mb-lg-0">
                     <img src="{{ asset('img/profile.png') }}" alt="img-started-about" class="img-started-about">
                 </div>
 
 
-                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-                    <div class="col-12 col-md-10 fs-22">
+                <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-sm-start justify-content-lg-center  align-items-center">
+                    <div class="col-12 col-lg-12 col-xl-10 fs-22">
                         <p class="fs-32 aos-init aos-animate mb-5" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                             data-aos-delay="100">Devenir financièrement indépendant avec les business en ligne,
                             c'est possible et j'en suis la preuve.</p>
@@ -49,15 +49,15 @@
     <section>
         <div class="container-fluid bg-black">
             <div class="container-wb py-5 ">
-                <div class="d-flex justify-content-center flex-column flex-md-row text-white">
-                    <div class="col-12 wb-col-md-5  p-2 p-md-5 ">
+                <div class="d-flex justify-content-center flex-column flex-lg-row text-white">
+                    <div class="col-12 col-lg-6 p-2 p-lg-5 ">
                         <p class="fs-24 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                             data-aos-delay="100">Je sais que beaucoup de jeunes (toi aussi peut être) souhaitent s'inspirer
                             de mon parcours pour s'autonomiser car je reçois chaque jour des centaines de messages à ce
                             sujet sur mes réseaux sociaux.</p>
                     </div>
 
-                    <div class="col-12 wb-col-md-5  p-2 p-md-5">
+                    <div class="col-12 col-lg-6  p-2 p-lg-5">
                         <p class="fs-24 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                             data-aos-delay="300">C'est pourquoi, en me basant sur ma propre expérience et celle de nombreux
                             entrepreneurs qui ont réussi sur le web, j'ai élaboré cette <strong
@@ -90,15 +90,15 @@
             <div class="container-fluid  bg-step-1 step-element ">
                 <div class="container-wb py-5">
                     <div class="row">
-                        <div class="col-12 col-md-2 mb-5 mb-md-0">
+                        <div class="col-12 col-lg-2 mb-5 mb-md-3 mb-lg-0">
                             <div><span class="step-circle font-bold">1</span></div>
                             <div class="mt-2 font-bold">
                                 <h3 class="fs-32 color-primary">Découverte</h3>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6  bg-step-1-text d-flex justify-content-center order-2 order-md-1 aos-init aos-animate pt-3"
+                        <div class="col-12 col-lg-6  bg-step-1-text d-flex justify-content-center order-2 order-lg-1 aos-init aos-animate pt-3"
                             data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100">
-                            <div class=" col-12 col-md-8">
+                            <div class=" col-12 col-lg-8">
                                 <p class=" fs-18">Avant de te lancer tu dois maîtriser ce que sont les business en
                                     ligne, les avantages, limites, et tout ce que tu dois savoir pour régulariser ton
                                     activité
@@ -110,7 +110,7 @@
                                 <a href="" class="color-primary font-bold fs-18">Je profite des Formations Gratuites</a>
                             </div>
                         </div>
-                        <div class=" bg-step-1-img col-12 mt-4 mt-md-0 mb-5 mb-md-0 col-md-4 d-flex justify-content-md-end align-items-md-center mb-3 order-1 order-md-2 aos-init aos-animate"
+                        <div class=" bg-step-1-img col-12 mt-4 mt-lg-0 mb-5 mb-lg-0 col-lg-4 d-flex justify-content-lg-end align-items-lg-start mb-3 order-1 order-lg-2 aos-init aos-animate"
                             data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">
                             <div class=" container-img-ressource-methods">
                                 <img src="{{ asset('img/hall.png') }}" alt="img-started-about" class="img-started-about">
@@ -127,15 +127,15 @@
             <div class="container-fluid bg-step-2 step-element ">
                 <div class="container-wb py-5">
                     <div class="row">
-                        <div class="col-12 col-md-2 mb-5 mb-md-0">
+                        <div class="col-12 col-lg-2 mb-5 mb-md-3 mb-lg-00">
                             <div><span class="step-circle font-bold">2</span></div>
                             <div class="mt-2 font-bold">
                                 <h3 class="fs-32 color-primary">Formation</h3>
                             </div>
                         </div>
-                        <div class="col-12 bg-step-2-text col-md-6 d-flex justify-content-center order-2 order-md-1 aos-init aos-animate pt-3"
+                        <div class="col-12 bg-step-2-text col-lg-6 d-flex justify-content-center order-2 order-lg-1 aos-init aos-animate pt-3"
                             data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100">
-                            <div class="col-12 col-md-8">
+                            <div class="col-12 col-lg-8">
                                 <p class=" fs-18">Maintenant que tu es dans le bain, c'est le moment de te lancer.
                                     Cela
                                     passe par la formation. Tu dois apprendre des compétences que tu vas utiliser pour
@@ -156,7 +156,7 @@
                                 <a href="" class="color-primary font-bold fs-16">Je rejoins NETCAMP</a>
                             </div>
                         </div>
-                        <div class="bg-step-2-img col-12 col-md-4  mb-5 mb-md-0 d-flex justify-content-md-end order-1 order-md-2 aos-init aos-animate"
+                        <div class="bg-step-2-img col-12 col-lg-4  mb-5 mb-lg-0 d-flex justify-content-lg-end order-1 order-lg-2 aos-init aos-animate"
                             data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">
                             <div class=" container-img-ressource-methods">
                                 <img src="{{ asset('img/hall.png') }}" alt="img-started-about" class="img-started-about">
@@ -174,15 +174,15 @@
             <div class="container-fluid bg-step-3  step-element ">
                 <div class="container-wb py-5">
                     <div class="row">
-                        <div class="col-12 col-md-2 mb-5 mb-md-0">
+                        <div class="col-12 col-lg-2 mb-5 mb-md-3 mb-lg-0">
                             <div><span class="step-circle font-bold">3</span></div>
                             <div class="mt-2 font-bold">
                                 <h3 class="fs-32 color-primary break-word">Accompagnement</h3>
                             </div>
                         </div>
-                        <div class="col-12 bg-step-3-text col-md-6 d-flex justify-content-center order-2 order-md-1 aos-init aos-animate pt-3"
+                        <div class="col-12 bg-step-3-text col-lg-6 d-flex justify-content-center order-2 order-lg-1 aos-init aos-animate pt-3"
                             data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100">
-                            <div class="col-sm-12 col-md-8">
+                            <div class="col-sm-12 col-lg-8">
 
                                 <p class=" fs-18"> Se former ne suffit pas toujours pour produire des résultats.
                                     Pour ma
@@ -200,7 +200,7 @@
                                 <a href="" class="color-primary font-bold fs-16">Je me fais accompagner</a>
                             </div>
                         </div>
-                        <div class="bg-step-3-img col-12 col-md-4 d-flex  mb-5 mb-md-0 justify-content-md-end order-1 order-md-2 aos-init aos-animate"
+                        <div class="bg-step-3-img col-12 col-lg-4 d-flex  mb-5 mb-lg-0 justify-content-lg-end order-1 order-lg-2 aos-init aos-animate"
                             data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">
                             <div class=" container-img-ressource-methods">
                                 <img src="{{ asset('img/hall.png') }}" alt="img-started-about" class="img-started-about">
@@ -221,17 +221,17 @@
     <section>
         <div class="container-wb wb-py-8 wb-pb-8 mt-5 position-relative" id="joinUs">
             <div class="row align-items-center">
-                <div class="col-md-6 col-sm-12 mb-5 mb-md-0">
+                <div class="col-lg-8 col-xl-6 col-sm-12 mb-5 mb-lg-0">
                     <h2 class="text-dark wb-h1  d-none d-md-inline">Prêt à nous rejoindre ?</h2>
                     <h2 class="text-dark wb-h1 d-inline d-md-none">Prêt à <br> nous <br> rejoindre <br> ?</h2>
 
-                    <div class="col-12 col-md-11 mt-4 ">
+                    <div class="col-12 col-lg-11 mt-4 ">
                         <p class="fs-32">Grimpe la première marche et commence à construire ton empire sur Internet
                             aujourd'hui</p>
 
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 mb-2 d-flex justify-content-center">
+                <div class="col-lg-4 col-xl-6 col-sm-12 mb-2 d-flex justify-content-center">
                     <a href="" class="text-decoration-none">
                         <div class="join-box mb-3">
                             <span><i class="fas fa-arrow-right rotate-icone fs-32"></i></span>
@@ -242,7 +242,12 @@
             </div>
         </div>
     </section>
-@endsection
+
+
+
+
+
+    @endsection
 
 <script>
     document.addEventListener("DOMContentLoaded", function(event) {
@@ -257,7 +262,7 @@
 
                 }
                 var home4Slider = function() {
-                    if (pageWidth >= 768) {
+                    if (pageWidth > 768) {
                         var sliderAnim = gsap.timeline({
                             scrollTrigger: {
                                 trigger: ".step-trigger",

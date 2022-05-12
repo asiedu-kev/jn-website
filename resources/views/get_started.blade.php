@@ -7,13 +7,13 @@
             <img src="{{ asset('icons/medium-black-circle.svg') }}" alt="" class="title-medium-circle">
             <img src="{{ asset('icons/small-black-circle.svg') }}" alt="" class="title-small-circle">
 
-            <div class="col-12 col-md-7 text-center">
+            <div class="col-12 col-sm-9 col-md-8 col-lg-7 col-xl-6 col-xxl-5 text-center">
                 <h1 class=" font-bold wb-h2 text-center">Tout ce dont tu as besoin pour réussir sur Internet</h1>
                 <div class="mt-4">
-                    <p class="font-mono-regular fs-24 text-center d-none d-md-inline">Trois ressources complètes pour <br> démarrer ton parcours dans
-                        les business <br> en ligne
+                    <p class="font-mono-regular fs-24 text-center d-none d-lg-inline">Trois ressources complètes pour  démarrer ton parcours dans
+                        les business en ligne
                     </p>
-                    <p class="font-mono-regular fs-24 text-center d-inline d-md-none">Trois ressources complètes pour  démarrer ton parcours dans
+                    <p class="font-mono-regular fs-24 text-center d-inline d-lg-none">Trois ressources complètes pour  démarrer ton parcours dans
                         les business  en ligne
                     </p>
                 </div>
@@ -99,17 +99,17 @@
         <div class="container-wb wb-py-6">
             <h2 class="color-primary font-bold wb-h0 mb-4">À propos</h2>
             <div class="row mt-5">
-                <div class="col-12 col-md-4 mb-2 pe-md-4">
+                <div class="col-12 col-lg-4 mb-2 pe-md-4">
                     <p class=" fs-18  " data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100">Construire un empire sur Internet et commencer à gagner de
                         l'argent est possible lorsque l'on suit scrupuleusement toutes les étapes qui mènent vers le succès.
                         Et la première étape, c'est de se former.</p>
                     <p class=" fs-24  " data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300">Malheureusement la plupart des formations accessibles en ligne ne
                         prennent pas en compte les réalités des africains.</p>
                 </div>
-                <div class="col-12 col-md-4 mb-2 pe-md-4">
+                <div class="col-12 col-lg-4 mb-2 pe-md-4">
                     <p class=" fs-18  " data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500">Je m'appelle Junior Natabou et j'ai généré près de 3 millions d'euros de chiffre d'affaires sur Internet. Depuis trois ans je collabore avec des experts du monde entier pour développer des ressources pour leur permettre aux jeunes africains de se lancer rapidement et efficacement sur Internet.</p>
                 </div>
-                <div class="col-12 col-md-4 mb-2 px-3 px-md-0 container-img-started-about">
+                <div class="col-12 col-lg-4 mb-2 px-3 px-md-0 container-img-started-about">
                     <img src="{{ asset('img/profile.png') }}" alt="img-started-about" class="img-started-about">
                 </div>
 
@@ -120,17 +120,17 @@
 
     <section class="overflow-hidden">
         <div class="container-fluid bg-wb-secondary wb-py-7">
-            <div class="container-wb">
+            <div class="container-wb wb-mw-md">
                 <div class="row">
-                    <div class="col-12 col-md-7">
+                    <div class="col-12 col-lg-7">
                         <h2 class="font-bold fs-32">Rejoins plus de 50 jeunes qui ont déjà profité des ressources pour
                             transformer leur vie.</h2>
                     </div>
                     <div class="col-12 col-md-5 d-flex justify-content-md-end">
 
-                        <button class="btn btn-wb-light d-none d-md-inline owlVideosPrev me-4"> <i class="fas fa-chevron-left"></i>
+                        <button class="btn btn-wb-light d-none d-lg-inline owlVideosPrev me-4"> <i class="fas fa-chevron-left"></i>
                         </button>
-                        <button class="btn btn-wb-light d-none d-md-inline owlVideosNext"> <i class="fas fa-chevron-right"></i>
+                        <button class="btn btn-wb-light d-none d-lg-inline owlVideosNext"> <i class="fas fa-chevron-right"></i>
                         </button>
 
 
@@ -243,12 +243,12 @@
             </div>
 
 
-            <div class="container d-md-none">
+            <div class="container d-lg-none">
                 <div class="row justify-content-center  mt-3">
-                        <button class="btn btn-wb-light  d-md-none owlVideosPrev me-4"> <i
+                        <button class="btn btn-wb-light  d-lg-none owlVideosPrev me-4"> <i
                                 class="fas fa-chevron-left"></i>
                         </button>
-                        <button class="btn btn-wb-light  d-md-none owlVideosNext"> <i class="fas fa-chevron-right"></i>
+                        <button class="btn btn-wb-light  d-lg-none owlVideosNext"> <i class="fas fa-chevron-right"></i>
                         </button>
 
 
@@ -263,12 +263,12 @@
     <section>
         <div class="container-wb wb-py wb-pb-8">
             <div class="row align-items-center">
-                <div class="col-12 col-md-7 mb-5 mb-md-0">
+                <div class="col-12 col-lg-7 mb-5 mb-lg-0">
                     <h2 class="text-dark font-bold wb-h1 ">C'est le moment de te lancer!</h2>
                     <p class="fs-32 d-none d-md-inline">Choisis la ressource adaptée <br> selon tes objectifs.</p>
                     <p class="fs-32 d-inline d-md-none  ">Choisis la ressource adaptée selon tes objectifs.</p>
                 </div>
-                <div class="col-12 col-md-5 d-flex justify-content-center  justify-content-md-end">
+                <div class="col-12 col-lg-5 d-flex justify-content-center  justify-content-lg-end">
                     <a href="" class="text-decoration-none">
                         <div class="join-box mb-3">
                             <span><i class="fas fa-arrow-up fs-32"></i></span>
