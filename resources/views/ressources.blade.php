@@ -459,31 +459,34 @@
     <section class="swiper-ressources" id="swiper-ressources">
         <div class="container-fluid bg-black h-step-container py-5 ">
             <div class="container-wb">
-                <div class="row d-flex flex-column flex-md-row">
-                    <div class="col-12 col-md-10 order-2 order-md-1">
+                <div class="row d-flex flex-column flex-lg-row">
+                    <div class="col-12 col-lg-10 order-2 order-lg-1">
                         <div class="swiper-container price-main">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="col-12">
                                         <div class="card card-swiper-price ">
                                             <div class="row">
-                                                <div class="col-md-6 d-flex justify-content-center p-price-x">
+                                                <div
+                                                    class="col-lg-4 col-xl-5 col-xxl-6 d-flex justify-content-center p-price-x">
                                                     <div class="card-swiper-price-header">
                                                         <img src="{{ asset('img/price1.png') }}" alt="">
                                                         <button
-                                                            class="btn bg-wb-primary w-100 text-white font-mono-medium py-2 fs-18 text-center mt-3">Commander</button>
+                                                            class="btn bg-wb-primary w-100 text-white rounded-0 font-mono-medium py-2 fs-18 text-center mt-3">Commander</button>
                                                     </div>
                                                 </div>
 
-                                                <div class="col-md-6 d-flex justify-content-center ps-md-5 mb-price-y">
+                                                <div
+                                                    class="col-lg-8 col-xl-7 col-xxl-6 d-flex justify-content-center ps-xl-5 mb-price-y">
                                                     <div>
 
-                                                        <h3 class="text-white fs-32">Consulting/coaching mindset</h3>
-                                                        <p class="mb-3 text-muted fs-24">87€ / 50.000 F.CFA</p>
+                                                        <h3 class="text-white fs-32 fs-p-32">Consulting/coaching mindset
+                                                        </h3>
+                                                        <p class="mb-3 text-muted fs-24 fs-p-24">87€ / 50.000 F.CFA</p>
 
                                                         <div class="my-4">
-                                                            <h5 class="fs-18 font-bold">Parfait si</h5>
-                                                            <p class=" fs-18">Vous souhaitez avoir une entrevue
+                                                            <h5 class="fs-18 fs-p-18 font-bold">Parfait si</h5>
+                                                            <p class=" fs-18 fs-p-18">Vous souhaitez avoir une entrevue
                                                                 pour me
                                                                 demander des conseils sur votre business en ligne, votre
                                                                 carrière,
@@ -493,8 +496,8 @@
 
                                                         <div class="mt-4">
 
-                                                            <h5 class="fs-18 font-bold">Vous avez droit à</h5>
-                                                            <ul class="fs-18 font-regular">
+                                                            <h5 class="fs-18 fs-p-18 font-bold">Vous avez droit à</h5>
+                                                            <ul class="fs-18 fs-p-18 font-regular">
                                                                 <li>Une entrevue enregistrée de 1 h où je réponds à toutes
                                                                     vos
                                                                     questions (valeur 759€)</li>
@@ -515,20 +518,20 @@
                                                             <div class="col-5">
                                                                 <div class="text-uppercase fs-12 text-muted mb-2">Type de
                                                                     coaching</div>
-                                                                <h6 class="fs-18">Individuel</h6>
+                                                                <h6 class="fs-18 fs-p-18">Individuel</h6>
 
                                                             </div>
 
                                                             <div class="col-4">
                                                                 <div class="text-uppercase fs-12 text-muted mb-2">Durée
                                                                 </div>
-                                                                <h6 class="fs-18">1 heure</h6>
+                                                                <h6 class="fs-18 fs-p-18">1 heure</h6>
 
                                                             </div>
                                                             <div class="col-3">
                                                                 <div class="text-uppercase fs-12 text-muted mb-2">Canal
                                                                 </div>
-                                                                <h6 class="fs-18">Zoom</h6>
+                                                                <h6 class="fs-18 fs-p-18">Zoom</h6>
 
                                                             </div>
                                                         </div>
@@ -544,26 +547,28 @@
                                     <div class="col-12">
                                         <div class="card card-swiper-price ">
                                             <div class="row">
-                                                <div class="col-md-6 d-flex justify-content-center p-price-x">
+                                                <div
+                                                    class="col-lg-4 col-xl-5 col-xxl-6 d-flex justify-content-center p-price-x">
                                                     <div class="card-swiper-price-header">
                                                         <img src="{{ asset('img/price2.png') }}" alt="">
                                                         <button
-                                                            class="btn bg-wb-primary w-100 text-white font-mono-medium py-2 fs-18 text-center mt-3">Commander</button>
+                                                            class="btn bg-wb-primary w-100 text-white rounded-0 font-mono-medium py-2 fs-18 text-center mt-3">Commander</button>
                                                     </div>
                                                 </div>
 
-                                                <div class="col-md-6 d-flex justify-content-center ps-md-5 mb-price-y">
+                                                <div
+                                                    class="col-lg-8 col-xl-7 col-xxl-6 d-flex justify-content-center ps-xl-5 mb-price-y">
                                                     <div>
 
-                                                        <h3 class="text-white fs-32">Consulting e-commerce</h3>
-                                                        <p class="mb-3 text-muted fs-24">147€ / 100.000 F.CFA</p>
+                                                        <h3 class="text-white fs-32 fs-p-32">Consulting e-commerce</h3>
+                                                        <p class="mb-3 text-muted fs-24 fs-p-24">147€ / 100.000 F.CFA</p>
 
                                                         <div class="my-4">
-                                                            <h5 class="fs-18 font-bold">Parfait si</h5>
-                                                            <p class=" fs-18">Vous avez débuté dans le
+                                                            <h5 class="fs-18 fs-p-18 font-bold">Parfait si</h5>
+                                                            <p class=" fs-18 fs-p-18">Vous avez débuté dans le
                                                                 e-commerce ou vous souhaitez y débuter.
                                                             </p>
-                                                            <p class=" fs-18">
+                                                            <p class=" fs-18 fs-p-18">
                                                                 Vous souhaitez une entrevue pour avoir mes conseils et
                                                                 produire plus rapidement des résultats.
                                                             </p>
@@ -571,8 +576,8 @@
 
                                                         <div class="mt-4">
 
-                                                            <h5 class="fs-18 font-bold">Vous avez droit à</h5>
-                                                            <ul class="fs-18 font-regular">
+                                                            <h5 class="fs-18 fs-p-18 font-bold">Vous avez droit à</h5>
+                                                            <ul class="fs-18  fs-p-18 font-regular">
                                                                 <li>Coaching individuel enregistré de 1 h où je réponds à
                                                                     toutes vos préoccupations (valeur 759€)</li>
                                                                 <li>Audit complet de votre site si vous en avez ( valeur
@@ -591,20 +596,20 @@
                                                             <div class="col-5">
                                                                 <div class="text-uppercase fs-12 text-muted mb-2">Type de
                                                                     coaching</div>
-                                                                <h6 class="fs-18">Individuel</h6>
+                                                                <h6 class="fs-18 fs-p-18">Individuel</h6>
 
                                                             </div>
 
                                                             <div class="col-4">
                                                                 <div class="text-uppercase fs-12 text-muted mb-2">Durée
                                                                 </div>
-                                                                <h6 class="fs-18">1 heure</h6>
+                                                                <h6 class="fs-18 fs-p-18">1 heure</h6>
 
                                                             </div>
                                                             <div class="col-3">
                                                                 <div class="text-uppercase fs-12 text-muted mb-2">Canal
                                                                 </div>
-                                                                <h6 class="fs-18">Zoom</h6>
+                                                                <h6 class="fs-18 fs-p-18">Zoom</h6>
 
                                                             </div>
                                                         </div>
@@ -620,35 +625,37 @@
                                     <div class="col-12">
                                         <div class="card card-swiper-price ">
                                             <div class="row">
-                                                <div class="col-md-6 d-flex justify-content-center p-price-x">
+                                                <div
+                                                    class="col-lg-4 col-xl-5 col-xxl-6 d-flex justify-content-center p-price-x">
                                                     <div class="card-swiper-price-header">
                                                         <img src="{{ asset('img/price3.png') }}" alt="">
                                                         <button
-                                                            class="btn bg-wb-primary w-100 text-white font-mono-medium py-2 fs-18 text-center mt-3">Commander</button>
+                                                            class="btn bg-wb-primary w-100 text-white rounded-0 font-mono-medium py-2 fs-18 text-center mt-3">Commander</button>
                                                     </div>
                                                 </div>
 
-                                                <div class="col-md-6 d-flex justify-content-center ps-md-5 mb-price-y">
+                                                <div
+                                                    class="col-lg-8 col-xl-7 col-xxl-6 d-flex justify-content-center ps-xl-5 mb-price-y">
                                                     <div>
 
-                                                        <h3 class="text-white fs-32">Coaching e-commerce</h3>
-                                                        <p class="mb-3 text-muted fs-24">1000€ / 650000 F.CFA</p>
+                                                        <h3 class="text-white fs-32 fs-p-32">Coaching e-commerce</h3>
+                                                        <p class="mb-3 text-muted fs-24 fs-p-24">1000€ / 650000 F.CFA</p>
 
                                                         <div class="my-4">
-                                                            <h5 class="fs-18 font-bold">Parfait si</h5>
-                                                            <p class=" fs-18">Vous faites du e-commerce ou vous
+                                                            <h5 class="fs-18 fs-p-18 font-bold">Parfait si</h5>
+                                                            <p class=" fs-18 fs-p-18">Vous faites du e-commerce ou vous
                                                                 souhaitez faire du e-commerce depuis l'Afrique
                                                             </p>
 
-                                                            <p class=" fs-18">Vous souhaitez un accompagnement
+                                                            <p class=" fs-18 fs-p-18">Vous souhaitez un accompagnement
                                                                 de longue durée pour avoir mes conseils et produire plus
                                                                 rapidement des résultats</p>
                                                         </div>
 
                                                         <div class="mt-4">
 
-                                                            <h5 class="fs-18 font-bold">Vous avez droit à</h5>
-                                                            <ul class="fs-18 font-regular">
+                                                            <h5 class="fs-18 fs-p-18 font-bold">Vous avez droit à</h5>
+                                                            <ul class="fs-18 fs-p-18 font-regular">
                                                                 <li>Coaching individuel de 1 mois où je vous aide à
                                                                     atteindre des objectifs significatifs (valeur 759€)</li>
                                                                 <li>Audit complet de votre site si vous en avez ( valeur
@@ -669,20 +676,20 @@
                                                             <div class="col-5">
                                                                 <div class="text-uppercase fs-12 text-muted mb-2">Type de
                                                                     coaching</div>
-                                                                <h6 class="fs-18">Individuel /groupé</h6>
+                                                                <h6 class="fs-18 fs-p-18">Individuel /groupé</h6>
 
                                                             </div>
 
                                                             <div class="col-3">
                                                                 <div class="text-uppercase fs-12 text-muted mb-2">Durée
                                                                 </div>
-                                                                <h6 class="fs-18"> 1 mois</h6>
+                                                                <h6 class="fs-18 fs-p-18"> 1 mois</h6>
 
                                                             </div>
                                                             <div class="col-4">
                                                                 <div class="text-uppercase fs-12 text-muted mb-2">Canal
                                                                 </div>
-                                                                <h6 class="fs-12">ZOOM / WhatsApp</h6>
+                                                                <h6 class="fs-12 fs-p-18">ZOOM / WhatsApp</h6>
 
                                                             </div>
                                                         </div>
@@ -699,7 +706,7 @@
                     </div>
 
                     <div
-                        class="col-12 col-md-2 d-flex flex-row  align-items-center justify-content-center  justify-content-md-start flex-md-column order-1 order-md-2 ">
+                        class="col-12 col-md-12  col-lg-2 d-flex flex-row  align-items-center justify-content-center  justify-content-lg-start flex-lg-column order-1 order-lg-2 ">
                         <div class="swiper-container price-thumbs">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -831,7 +838,6 @@
             watchOverflow: false,
             watchSlidesVisibility: false,
             watchSlidesProgress: false,
-            direction: 'vertical',
             breakpoints: {
                 0: {
                     direction: 'horizontal',

@@ -101,7 +101,7 @@ $(function () {
         var el = event.item.index;
         var list = event.item.count;
 
-        console.log(el)
+
 
         if (el >= 0) {
 
@@ -151,7 +151,7 @@ $(function () {
         $('#iframe-video').attr('src', '');
         var youtubelink = $(this).attr('data-yt');
 
-        $('#iframe-video').attr('src', youtubelink);
+        $('#iframe-video').attr('src', youtubelink + "?autoplay=1");
 
         $("#popup").css('height', '100vh');
     })
