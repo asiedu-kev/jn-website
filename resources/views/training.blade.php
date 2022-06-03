@@ -277,36 +277,36 @@
 
 
 
-                        sliderAnim.from(".bg-step-1, .bg-step-1-text, .bg-step-1-img", {
+                        sliderAnim.from(".bg-step-1", {
                             opacity: 1,
-                            ease: Power3.easeInOut,
+                            ease: Power4.easeOut,
                             duration: 10
-                        }).to(".bg-step-1, .bg-step-1-text, .bg-step-1-img", {
+                        }).to(".bg-step-1", {
                             opacity: 0,
-                            ease: Power3.easeInOut,
+                            ease: Power4.easeOut,
                             duration: 10
-                        }).from(".bg-step-2, .bg-step-2-text, .bg-step-2-img", {
+                        }).from(".bg-step-2", {
                             opacity: 0,
                             scale: 0,
-                            ease: Power3.easeInOut,
+                            ease: Power4.easeOut,
                             duration: 5
-                        }, "-=10").to(".bg-step-2, .bg-step-2-text, .bg-step-2-img", {
+                        }, "-=10").to(".bg-step-2", {
                             opacity: 1,
-                            ease: Power3.easeInOut,
+                            ease: Power4.easeOut,
                             duration: 10
-                        }).to(".bg-step-2, .bg-step-2-text, .bg-step-2-img", {
+                        }).to(".bg-step-2", {
                             opacity: 0,
-                            ease: Power3.easeInOut,
+                            ease: Power4.easeOut,
                             duration: 6
-                        }).from(".bg-step-3, .bg-step-3-text, .bg-step-3-img", {
+                        }).from(".bg-step-3", {
                             opacity: 0,
                             scale: 0,
-                            ease: Power3.easeInOut,
+                            ease: Power4.easeOut,
                             duration: 5
-                        }, "-=10").to(".bg-step-3, .bg-step-3-text, .bg-step-3-img", {
+                        }, "-=10").to(".bg-step-3", {
                             opacity: 1,
-                            ease: Power3.easeInOut,
-                            duration: 10
+                            ease: Power4.easeOut,
+                            duration: 5
                         })
 
 
